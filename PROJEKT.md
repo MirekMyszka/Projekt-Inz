@@ -73,7 +73,8 @@ Projekt-Inz/
 ├── wyniki/wykresy/      spy_5min_close.png, btcusdt_5min_close.png, nyc_taxi_30min.png
 └── docs/
     ├── data_pipeline.md         # pobieranie i czyszczenie danych
-    └── plan_metod.md            # anomalie w danych, dobór metod, plan eksperymentów
+    ├── plan_metod.md            # anomalie w danych, dobór metod, plan eksperymentów (szeroki)
+    └── plan_etap_1.md           # AKTUALNY etap: ustalenia z konsultacji, 3 scenariusze, 6 metod
 ```
 
 Zasady:
@@ -230,6 +231,10 @@ Uwagi (ważne przy ocenie metod):
 - [x] BTCUSDT: pobranie danych (2026-10-13), czyszczenie i kontrola jakości (p. 3.2)
 - [x] Przegląd anomalii w danych i plan doboru metod – [docs/plan_metod.md](docs/plan_metod.md)
 - [x] NYC Taxi (NAB): trzeci zbiór, z etykietami anomalii – pobranie, czyszczenie, weryfikacja
+- [x] Konsultacja 2026-10-13 – zawężony plan etapu 1: [docs/plan_etap_1.md](docs/plan_etap_1.md)
+- [x] Pilot etapu 1: sprawdzenie doboru metod na S1–S3 (40/54 par z AUC ≥ 0,90) – [docs/plan_etap_1.md](docs/plan_etap_1.md), rozdz. 8
+- [ ] **Etap 1, scenariusz S1 (biały szum)**: generator + 3 własne anomalie zbiorowe (w każdym szeregu wszystkie 3), ocena, 6 metod, eksperyment
+- [ ] Etap 1: scenariusze S2 (AR(1)) i S3 (biały szum + sinus), porównanie scenariuszy
 - [ ] **Generator szeregów syntetycznych** (AR/ARMA, trend, sezonowość, szum, GARCH-podobna zmienność) – `src/symulacje/`
 - [ ] **Wstrzykiwanie anomalii** z etykietami: punktowe, zmiana poziomu, zmiana wariancji, zaburzenie okresowości
       – sterowane parametry: amplituda, długość, poziom szumu

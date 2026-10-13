@@ -1,0 +1,32 @@
+
+=== S1, L = 50, 30 szeregów z anomaliami + 30 bez; próg: ten sam poziom fałszywych alarmów dla każdej metody (20% czystych szeregów ma ≥1 fałszywy alarm) ===
+metoda                             |      A poziom |   B zmienność |   C zależność | szeregi z fałsz. alarmem
+                                   |    wykr.  AUC |    wykr.  AUC |    wykr.  AUC |
+CUSUM (x, x², x·x₋₁)               |   93%  0.94 |  100%  0.98 |   47%  0.83 | 97%
+PELT                               |   93%  0.92 |   80%  0.93 |   33%  0.79 | 40%
+Matrix Profile (bez norm.)         |   70%  0.96 |  100%  1.00 |    7%  0.57 | 97%
+  MP z normalizacją (porówn.)      |    0%  0.52 |    0%  0.40 |    3%  0.53 | 13%
+cechy okien + kNN                  |   63%  0.98 |   97%  1.00 |   23%  0.96 | 67%
+Isolation Forest                   |    3%  0.95 |   97%  1.00 |   10%  0.97 | 57%
+LOF                                |   80%  0.99 |   93%  0.99 |   60%  0.97 | 67%
+
+=== S2, L = 50, 30 szeregów z anomaliami + 30 bez; próg: ten sam poziom fałszywych alarmów dla każdej metody (20% czystych szeregów ma ≥1 fałszywy alarm) ===
+metoda                             |        A szok |    B zmiana φ |   C równowaga | szeregi z fałsz. alarmem
+                                   |    wykr.  AUC |    wykr.  AUC |    wykr.  AUC |
+reszty AR + CUSUM                  |   70%  0.92 |   90%  0.98 |   83%  0.94 | 90%
+PELT (koszt AR)                    |   67%  0.45 |   97%  0.87 |   83%  0.77 | 93%
+Matrix Profile (z norm.)           |    0%  0.41 |   73%  0.99 |    3%  0.36 | 27%
+cechy okien + kNN                  |   77%  0.95 |   93%  0.98 |   87%  0.98 | 87%
+Isolation Forest                   |    0%  0.89 |   37%  0.98 |   40%  0.95 | 27%
+One-Class SVM                      |   27%  0.91 |   13%  0.93 |   37%  0.97 | 40%
+
+=== S3, L = 100, 30 szeregów z anomaliami + 30 bez; próg: ten sam poziom fałszywych alarmów dla każdej metody (20% czystych szeregów ma ≥1 fałszywy alarm) ===
+metoda                             |        A faza |   B amplituda |       C okres | szeregi z fałsz. alarmem
+                                   |    wykr.  AUC |    wykr.  AUC |    wykr.  AUC |
+STL + EWMA                         |  100%  1.00 |    7%  0.75 |  100%  1.00 | 100%
+PELT (reszty STL)                  |   97%  0.30 |   73%  0.41 |   93%  0.33 | 100%
+Matrix Profile (z norm., okno=P)   |  100%  0.90 |  100%  0.96 |  100%  0.97 | 100%
+  MP bez normalizacji (porówn.)    |  100%  0.91 |   97%  0.93 |  100%  0.97 | 100%
+cechy cykli + kNN                  |  100%  0.99 |   50%  0.93 |  100%  1.00 | 100%
+Isolation Forest                   |    3%  0.98 |    0%  0.94 |  100%  1.00 | 20%
+autoenkoder                        |  100%  0.90 |   23%  0.73 |  100%  1.00 | 100%

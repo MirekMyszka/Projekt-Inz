@@ -2,7 +2,7 @@
 
 **Wykrywanie anomalii w szeregach czasowych z wykorzystaniem metod statystycznych i uczenia maszynowego** – projekt inżynierski.
 
-Pełny opis projektu, stan prac i opis danych: [PROJEKT.md](PROJEKT.md). Szczegóły pobierania i czyszczenia danych: [docs/data_pipeline.md](docs/data_pipeline.md). Rodzaje anomalii w danych i plan doboru metod: [docs/plan_metod.md](docs/plan_metod.md).
+Pełny opis projektu, stan prac i opis danych: [PROJEKT.md](PROJEKT.md). Szczegóły pobierania i czyszczenia danych: [docs/data_pipeline.md](docs/data_pipeline.md). Rodzaje anomalii w danych i plan doboru metod: [docs/plan_metod.md](docs/plan_metod.md). **Aktualny etap:** [docs/plan_etap_1.md](docs/plan_etap_1.md).
 
 ## Struktura
 

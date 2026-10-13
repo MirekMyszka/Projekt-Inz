@@ -1,5 +1,8 @@
 # Plan działania: anomalie w danych i dobór metod detekcji
 
+> **Aktualny etap pracy:** [plan_etap_1.md](plan_etap_1.md) – ustalenia z konsultacji 2026-10-13
+> (3 scenariusze, w każdym 3 własne anomalie zbiorowe, 6 metod). Ten dokument to szersze tło i plan na dalsze etapy.
+
 > Dokument roboczy. Liczby i daty policzone na danych clean z 2026-10-13 skryptem
 > `python -m src.eksploracja.przeglad_anomalii` (można odtworzyć w każdej chwili).
 > Zwroty = 5-min log-zwroty między sąsiednimi świecami (bez luk, w SPY bez przejść przez noc).
