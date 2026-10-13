@@ -300,11 +300,17 @@ metod szybkich, a dla wolnych (Matrix Profile, LOF, OC-SVM) siatka zredukowana.
 **Wyniki:** wykresy skuteczności (F1, czułość, FPR) w funkcji amplitudy, długości anomalii, poziomu szumu
 **i rodzaju szeregu tła (T1–T6)** – osobno dla każdego typu anomalii. To bezpośrednio odpowiada na pytanie z tematu pracy.
 
-### 5.3 Dane rzeczywiste (brak pełnych etykiet) – część uzupełniająca
+### 5.3 Dane rzeczywiste – część uzupełniająca
 
 Zgodnie z tematem pracy weryfikacja opiera się **przede wszystkim na symulacjach**; dane rzeczywiste służą do
 pokazania, jak metody zachowują się w praktyce (temat: „w miarę dostępności”). Nie należy na nich budować głównych wniosków.
 
+
+**NYC Taxi (NAB) – dane rzeczywiste z etykietami.** 5 oznaczonych okien (maraton, Święto Dziękczynienia, Boże Narodzenie,
+Nowy Rok, śnieżyca) – to głównie **zaburzenia okresowości** (typ E) i krótkotrwałe zmiany poziomu (typ C).
+Tu liczymy te same metryki co w symulacjach (na poziomie zdarzeń: czy w oknie był alarm; fałszywe alarmy poza oknami),
+z dwoma zastrzeżeniami (szczegóły: `docs/data_pipeline.md`, rozdz. 3): artefakt zmiany czasu w oknie „maraton”
+oraz nieoznaczone 4–6 lipca 2014.
 
 Na SPY i BTC nie wiemy, gdzie są „wszystkie” anomalie. Dlatego:
 - **lista znanych zdarzeń z rozdziału 3** jako etykiety częściowe – miara: ile zdarzeń metoda wskazuje wśród
@@ -373,7 +379,7 @@ Pakiety do dopisania w `requirements.txt` (w miarę postępu):
 | zależność od właściwości szeregu i poziomu szumu | czynniki eksperymentu: szereg tła T1–T6, poziom szumu |
 | weryfikacja przede wszystkim symulacyjna, znane położenie i rodzaj anomalii | rozdz. 5.1 (+ dane półsyntetyczne) |
 | ocena skuteczności detekcji i częstości fałszywych alarmów | rozdz. 5.2 (czułość, precyzja, F1, FPR, alarmy na dzień, opóźnienie) |
-| w miarę dostępności – analiza rzeczywistych szeregów | rozdz. 3 (katalog anomalii SPY i BTCUSDT), rozdz. 5.3 – część uzupełniająca |
+| w miarę dostępności – analiza rzeczywistych szeregów | rozdz. 3 (katalog anomalii SPY i BTCUSDT), rozdz. 5.3 – NYC Taxi z etykietami NAB (ocena ilościowa) + SPY/BTC (ocena jakościowa) |
 
 Elementy **ponad** założenia (do ewentualnego ograniczenia, jeśli zabraknie czasu): typ B (kolektywne) i F (wolumen)
 jako osobne typy, metoda S4 (PELT), M3 (autoenkoder), dane półsyntetyczne.

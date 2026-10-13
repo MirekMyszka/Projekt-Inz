@@ -44,6 +44,21 @@ BTCUSDT = {
 }
 
 
+# --- NYC Taxi (Numenta Anomaly Benchmark) - dane rzeczywiste z OZNACZONYMI anomaliami ---
+NYC_TAXI = {
+    "nazwa": "NYC Taxi",
+    "repo": "numenta/NAB",
+    "commit": "ea702d75cc2258d9d7dd35ca8e5e2539d71f3140",  # przypięta wersja NAB (2024-12-03) - powtarzalność
+    "plik_nab": "realKnownCause/nyc_taxi.csv",
+    "surowe_dir": SUROWE / "nyc_taxi",
+    "surowe_wzorzec": "nyc_taxi_nab_pobrano_*.csv",
+    "etykiety_wzorzec": "nyc_taxi_etykiety_nab_pobrano_*.json",
+    "clean": CLEAN / "nyc_taxi" / "nyc_taxi_30min_2014_2015.parquet",
+    "freq": "30min",
+    "kolumna": "pasazerowie",
+}
+
+
 def najnowszy_plik(katalog: Path, wzorzec: str) -> Path:
     """Zwraca najnowszy (alfabetycznie = wg daty pobrania w nazwie) plik pasujący do wzorca."""
     pliki = sorted(katalog.glob(wzorzec))

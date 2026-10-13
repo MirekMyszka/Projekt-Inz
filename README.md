@@ -10,15 +10,15 @@ Pełny opis projektu, stan prac i opis danych: [PROJEKT.md](PROJEKT.md). Szczeg�
 Projekt-Inz/
 ├── src/                    # kod (uruchamiany jako moduły: python -m src.<pakiet>.<skrypt>)
 │   ├── config.py           # ścieżki i parametry zbiorów danych - jedno miejsce do zmian
-│   ├── pobieranie/         # spy_alpaca.py, btcusdt_binance.py
-│   ├── czyszczenie/        # spy.py, btcusdt.py, wspolne.py (oznaczanie luk)
+│   ├── pobieranie/         # spy_alpaca.py, btcusdt_binance.py, nyc_taxi_nab.py
+│   ├── czyszczenie/        # spy.py, btcusdt.py, nyc_taxi.py, wspolne.py (oznaczanie luk)
 │   ├── eksploracja/        # podglad.py (statystyki + wykresy), przeglad_anomalii.py
 │   ├── symulacje/          # [do zrobienia] szeregi syntetyczne + wstrzykiwanie anomalii
 │   ├── metody/             # [do zrobienia] metody detekcji anomalii
 │   └── ewaluacja/          # [do zrobienia] metryki i eksperymenty
 ├── dane/
-│   ├── surowe/{spy,btcusdt}/   # dane prosto ze źródła
-│   ├── clean/{spy,btcusdt}/    # dane po czyszczeniu + listy brakujących świec
+│   ├── surowe/{spy,btcusdt,nyc_taxi}/   # dane prosto ze źródła
+│   ├── clean/{spy,btcusdt,nyc_taxi}/    # dane po czyszczeniu + listy brakujących świec
 │   └── cache/                  # pliki pośrednie (poza Gitem)
 ├── wyniki/wykresy/
 └── docs/
@@ -46,7 +46,11 @@ python -m src.czyszczenie.spy
 python -m src.pobieranie.btcusdt_binance
 python -m src.czyszczenie.btcusdt
 
-# podgląd i wykresy obu zbiorów
+# NYC Taxi z etykietami anomalii (Numenta Anomaly Benchmark, bez klucza)
+python -m src.pobieranie.nyc_taxi_nab
+python -m src.czyszczenie.nyc_taxi
+
+# podgląd i wykresy wszystkich zbiorów
 python -m src.eksploracja.podglad
 ```
 

@@ -49,11 +49,13 @@ Projekt-Inz/
 │   ├── config.py                  # ścieżki i parametry zbiorów (zakresy dat, nazwy plików)
 │   ├── pobieranie/
 │   │   ├── spy_alpaca.py          # SPY 5-min z Alpaca (klucze z .env)
-│   │   └── btcusdt_binance.py     # BTCUSDT 5-min z archiwum Binance (bez klucza)
+│   │   ├── btcusdt_binance.py     # BTCUSDT 5-min z archiwum Binance (bez klucza)
+│   │   └── nyc_taxi_nab.py        # NYC Taxi + etykiety anomalii z NAB (GitHub)
 │   ├── czyszczenie/
 │   │   ├── wspolne.py             # oznaczanie luk względem oczekiwanej siatki czasu
 │   │   ├── spy.py                 # sesje wg kalendarza NYSE + luki + circuit breaker
-│   │   └── btcusdt.py             # siatka 24/7 + luki + zerowy wolumen
+│   │   ├── btcusdt.py             # siatka 24/7 + luki + zerowy wolumen
+│   │   └── nyc_taxi.py            # etykiety anomalii NAB + artefakt zmiany czasu
 │   ├── eksploracja/
 │   │   ├── podglad.py             # statystyki i wykresy cen
 │   │   └── przeglad_anomalii.py   # przegląd anomalii w danych (podstawa planu metod)
@@ -63,10 +65,12 @@ Projekt-Inz/
 ├── dane/
 │   ├── surowe/spy/      spy_5min_sip_2016_2026_pobrano_2026-10-13.parquet
 │   ├── surowe/btcusdt/  btcusdt_5min_binance_2017_2026_pobrano_<data>.parquet
+│   ├── surowe/nyc_taxi/ nyc_taxi_nab_pobrano_<data>.csv, nyc_taxi_etykiety_nab_pobrano_<data>.json
 │   ├── clean/spy/       spy_5min_session_2016_2026.parquet, spy_brakujace_swiece.csv
 │   ├── clean/btcusdt/   btcusdt_5min_2017_2026.parquet, btcusdt_brakujace_swiece.csv
+│   ├── clean/nyc_taxi/  nyc_taxi_30min_2014_2015.parquet
 │   └── cache/binance/   miesięczne ZIP-y z Binance (poza Gitem)
-├── wyniki/wykresy/      spy_5min_close.png, btcusdt_5min_close.png
+├── wyniki/wykresy/      spy_5min_close.png, btcusdt_5min_close.png, nyc_taxi_30min.png
 └── docs/
     ├── data_pipeline.md         # pobieranie i czyszczenie danych
     └── plan_metod.md            # anomalie w danych, dobór metod, plan eksperymentów
@@ -86,26 +90,30 @@ python -m src.pobieranie.spy_alpaca        # → dane/surowe/spy/
 python -m src.czyszczenie.spy              # → dane/clean/spy/
 python -m src.pobieranie.btcusdt_binance   # → dane/surowe/btcusdt/  (+ cache ZIP-ów)
 python -m src.czyszczenie.btcusdt          # → dane/clean/btcusdt/
+python -m src.pobieranie.nyc_taxi_nab      # → dane/surowe/nyc_taxi/
+python -m src.czyszczenie.nyc_taxi         # → dane/clean/nyc_taxi/
 python -m src.eksploracja.podglad          # → wyniki/wykresy/
 ```
 
 ## 3. Dane
 
-| | SPY | BTCUSDT |
-|---|---|---|
-| Rodzaj | ETF na S&P 500 (akcje USA) | kryptowaluta, para spot BTC/USDT |
-| Źródło | Alpaca Market Data API (`/v2/stocks/bars`, feed `sip`, `adjustment=all`) | Binance, archiwum data.binance.vision (spot, klines) |
-| Interwał | 5 min | 5 min |
-| Zakres | 2016-01-04 – 2026-09-30 | 2017-08-17 – 2026-09-30 |
-| Godziny | sesja NYSE 09:30–16:00 (America/New_York) | 24/7 (UTC) |
-| Świec na dzień | 78 (skrócona sesja: 42) | 288 |
-| Klucz API | tak (`.env`) | nie |
+| | SPY | BTCUSDT | NYC Taxi |
+|---|---|---|---|
+| Rodzaj | ETF na S&P 500 (akcje USA) | kryptowaluta, para spot BTC/USDT | liczba pasażerów taksówek w Nowym Jorku |
+| Źródło | Alpaca Market Data API (`/v2/stocks/bars`, feed `sip`, `adjustment=all`) | Binance, archiwum data.binance.vision (spot, klines) | Numenta Anomaly Benchmark (GitHub, licencja MIT) |
+| Interwał | 5 min | 5 min | 30 min |
+| Zakres | 2016-01-04 – 2026-09-30 | 2017-08-17 – 2026-09-30 | 2014-07-01 – 2015-01-31 |
+| Godziny | sesja NYSE 09:30–16:00 (America/New_York) | 24/7 (UTC) | 24/7 (czas lokalny NY, bez strefy) |
+| Punktów na dzień | 78 (skrócona sesja: 42) | 288 | 48 |
+| Klucz API | tak (`.env`) | nie | nie |
+| **Etykiety anomalii** | nie (tylko katalog zdarzeń) | nie (tylko katalog zdarzeń) | **tak – 5 okien NAB** |
 
 Wspólne kolumny: `o, h, l, c` – OHLC, `v` – wolumen (SPY: akcje, BTC: BTC), `n` – liczba transakcji, `vw` – VWAP.
 Indeks `t` = **początek** świecy. BTCUSDT ma dodatkowo `qv` – obrót w USDT.
 
-Dlaczego dwa zbiory: różnią się właściwościami (zmienność BTC kilkukrotnie większa, brak przerw nocnych i weekendowych,
-inny rozkład dobowy aktywności), co pozwala sprawdzić, jak metody detekcji zależą od właściwości szeregu.
+Dlaczego trzy zbiory: różnią się właściwościami (zmienność BTC kilkukrotnie większa niż SPY, brak przerw nocnych
+i weekendowych; NYC Taxi ma silną okresowość dobową i tygodniową), co pozwala sprawdzić, jak metody detekcji zależą
+od właściwości szeregu. Tylko NYC Taxi ma etykiety anomalii – pozwala liczyć skuteczność także na danych rzeczywistych.
 
 ### 3.1 SPY
 
@@ -169,7 +177,41 @@ Kontrola jakości (stan na 2026-10-13):
 - Log-zwroty 5-min (bez świec po luce): odch. std ≈ 0,00237 (ok. 1,9× SPY); skrajne ruchy w marcu 2020
   (−10,8% 12.03, +16,9% 13.03). Cena: ~4 300 USDT (08.2017) → ~83 600 USDT (09.2026), szczyt ~126 000 USDT (2025-10-06).
 
-### 3.3 Uwagi do dalszej analizy
+### 3.3 NYC Taxi (Numenta Anomaly Benchmark)
+
+Zbiór z **oznaczonymi anomaliami** – jedyny z trzech, na którym na danych rzeczywistych można policzyć czułość,
+precyzję i fałszywe alarmy. Silna okresowość dobowa i tygodniowa, więc dobrze testuje **zaburzenia okresowości**.
+
+- źródło: Numenta Anomaly Benchmark (NAB), `data/realKnownCause/nyc_taxi.csv` – liczba pasażerów taksówek w Nowym Jorku
+  w przedziałach 30 min (agregacja Numenta z danych NYC Taxi and Limousine Commission); licencja MIT,
+- wersja przypięta do commita `ea702d7` (2024-12-03) w `src/config.py` – wyniki są powtarzalne,
+- 10 320 punktów, 2014-07-01 00:00 – 2015-01-31 23:30, 48 na dobę, bez braków i duplikatów,
+- czas lokalny Nowego Jorku **bez strefy czasowej** (jak w NAB).
+
+Etykiety NAB (`labels/combined_windows.json`, `labels/combined_labels.json`) – 5 okien po 207 punktów (~4,3 doby),
+łącznie 10% danych; w każdym oknie jeden punkt anomalii:
+
+| Okno anomalii | Punkt NAB | Zdarzenie |
+|---|---|---|
+| 2014-10-30 15:30 – 2014-11-03 22:30 | 2014-11-01 19:00 | maraton nowojorski (2.11) |
+| 2014-11-25 12:00 – 2014-11-29 19:00 | 2014-11-27 15:30 | Święto Dziękczynienia |
+| 2014-12-23 11:30 – 2014-12-27 18:30 | 2014-12-25 15:00 | Boże Narodzenie |
+| 2014-12-29 21:30 – 2015-01-03 04:30 | 2015-01-01 01:00 | Nowy Rok |
+| 2015-01-24 20:30 – 2015-01-29 03:30 | 2015-01-27 00:00 | śnieżyca – zakaz ruchu (26–27.01, minimum: 8 pasażerów o 03:00) |
+
+Kolumny: `pasazerowie`, `anomalia_nab` (w oknie), `punkt_nab`, `zdarzenie`, `zmiana_czasu`, `luka_przed`, `dzien_niepelny`.
+
+Uwagi (ważne przy ocenie metod):
+- **Artefakt zmiany czasu**: 2014-11-02 01:00 i 01:30 mają 39 197 i 35 212 pasażerów – to **maksimum całego szeregu**,
+  ale nie prawdziwy ruch: godzina 1:00–2:00 wystąpiła tej nocy dwa razy i została zsumowana w tych samych przedziałach.
+  Leży w oknie „maraton”, więc metoda, która „wykrywa maraton”, może w rzeczywistości wykrywać ten artefakt.
+  Oznaczone kolumną `zmiana_czasu`, wartości bez zmian.
+- **Etykiety NAB są niepełne**: 4–6 lipca 2014 (Dzień Niepodległości) dzienny ruch wynosi 0,65–0,77 typowego dla danego
+  dnia tygodnia – tyle co Święto Dziękczynienia (0,69) – a nie jest oznaczony. Prawdopodobnie dlatego, że NAB nie
+  ocenia pierwszych 15% danych (okres „rozbiegowy”). Alarm metody 4 lipca to więc nie zawsze fałszywy alarm.
+- Okna NAB są szerokie (~4,3 doby) i umowne – lepsza ocena „na poziomie zdarzeń” niż punkt po punkcie.
+
+### 3.4 Uwagi do dalszej analizy
 
 1. **SPY – luki overnight**: zwrot między ostatnią świecą dnia a pierwszą następnego nie jest zwrotem 5-minutowym.
    Liczyć zwroty tylko wewnątrz dnia albo traktować overnight osobno.
@@ -187,6 +229,7 @@ Kontrola jakości (stan na 2026-10-13):
 - [x] BTCUSDT 5-min: skrypty pobierania i czyszczenia (przetestowane)
 - [x] BTCUSDT: pobranie danych (2026-10-13), czyszczenie i kontrola jakości (p. 3.2)
 - [x] Przegląd anomalii w danych i plan doboru metod – [docs/plan_metod.md](docs/plan_metod.md)
+- [x] NYC Taxi (NAB): trzeci zbiór, z etykietami anomalii – pobranie, czyszczenie, weryfikacja
 - [ ] **Generator szeregów syntetycznych** (AR/ARMA, trend, sezonowość, szum, GARCH-podobna zmienność) – `src/symulacje/`
 - [ ] **Wstrzykiwanie anomalii** z etykietami: punktowe, zmiana poziomu, zmiana wariancji, zaburzenie okresowości
       – sterowane parametry: amplituda, długość, poziom szumu
@@ -211,4 +254,5 @@ Kontrola jakości (stan na 2026-10-13):
   `download_data.py` wczytuje klucze z `.env` i zapisuje ścieżki względem katalogu skryptu.
 - 2026-10-13: reorganizacja folderów (`src/`, `dane/<zbiór>/`, `wyniki/`), wspólny `src/config.py`;
   dodano drugi zbiór: BTCUSDT 5-min z Binance (pobieranie + czyszczenie).
+- 2026-10-13: dodano trzeci zbiór: NYC Taxi z Numenta Anomaly Benchmark (z etykietami anomalii).
 

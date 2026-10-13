@@ -1,6 +1,7 @@
 # Pipeline danych
 
-Dokument opisuje, jak pobierane i czyszczone są oba zbiory danych rzeczywistych: **SPY** (Alpaca) i **BTCUSDT** (Binance).
+Dokument opisuje, jak pobierane i czyszczone są zbiory danych rzeczywistych: **SPY** (Alpaca), **BTCUSDT** (Binance)
+i **NYC Taxi** (Numenta Anomaly Benchmark – z etykietami anomalii).
 Wszystkie polecenia uruchamiamy z katalogu `Projekt-Inz`. Ścieżki i parametry są w `src/config.py`.
 
 ```
@@ -119,12 +120,36 @@ Weryfikacja danych z 2026-10-13 (niezależne przeliczenie):
 
 ---
 
-## 3. Podgląd – `python -m src.eksploracja.podglad [spy|btcusdt]`
+## 3. NYC Taxi – Numenta Anomaly Benchmark
 
-Dla każdego zbioru clean: kształt, zakres, pierwsze wiersze, statystyki opisowe i wykres ceny zamknięcia
-(`wyniki/wykresy/<zbiór>_5min_close.png`; BTC w skali logarytmicznej).
+### 3.1 Pobieranie – `python -m src.pobieranie.nyc_taxi_nab`
 
-## 4. Dalsze kroki
+- pliki z repozytorium `numenta/NAB` przez `raw.githubusercontent.com`, wersja przypięta do commita
+  `ea702d75cc2258d9d7dd35ca8e5e2539d71f3140` (zmiana w `src/config.py`); bez klucza API,
+- dane: `data/realKnownCause/nyc_taxi.csv` (kolumny `timestamp`, `value`) → `dane/surowe/nyc_taxi/nyc_taxi_nab_pobrano_<data>.csv`,
+- etykiety: z `labels/combined_windows.json` i `labels/combined_labels.json` wybierane są wpisy dla `realKnownCause/nyc_taxi.csv`
+  i zapisywane razem z informacją o źródle i commicie → `dane/surowe/nyc_taxi/nyc_taxi_etykiety_nab_pobrano_<data>.json`.
+
+### 3.2 Czyszczenie – `python -m src.czyszczenie.nyc_taxi`
+
+1. `timestamp` → indeks `t` (czas lokalny NY bez strefy), `value` → `pasazerowie`; kontrola duplikatów.
+2. Etykiety: `anomalia_nab` (punkt w oknie NAB), `punkt_nab` (punkt anomalii NAB), `zdarzenie` (nazwa zdarzenia dla okna).
+3. `zmiana_czasu` – przedziały 2014-11-02 01:00 i 01:30, w których zsumowano dwie godziny (zmiana czasu na zimowy).
+4. Kontrola siatki 30-min (`luka_przed`, `dzien_niepelny`) – w tej wersji danych brak luk.
+5. Wynik: `dane/clean/nyc_taxi/nyc_taxi_30min_2014_2015.parquet`.
+
+Weryfikacja danych z 2026-10-13: 10 320 punktów (215 dni po 48), bez braków i duplikatów; 5 okien NAB po 207 punktów
+(1 035 punktów = 10% danych). Maksimum szeregu (39 197) to artefakt zmiany czasu, minimum (8) to śnieżyca 2015-01-27 03:00.
+Etykiety NAB nie obejmują 4–6 lipca 2014 (ruch 0,65–0,77 normy), prawdopodobnie przez okres „rozbiegowy” NAB (pierwsze 15% danych).
+
+---
+
+## 4. Podgląd – `python -m src.eksploracja.podglad [spy|btcusdt|nyc_taxi]`
+
+Dla każdego zbioru clean: kształt, zakres, pierwsze wiersze, statystyki opisowe i wykres
+(`wyniki/wykresy/<zbiór>_5min_close.png`, BTC w skali logarytmicznej; `wyniki/wykresy/nyc_taxi_30min.png` z oknami anomalii NAB).
+
+## 5. Dalsze kroki
 
 - log-zwroty (dla SPY tylko wewnątrz sesji), usunięcie sezonowości dziennej,
 - wybór okresów do analizy rzeczywistej (np. marzec 2020),
