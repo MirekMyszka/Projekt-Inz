@@ -22,3 +22,6 @@ build/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Pliki pośrednie (np. miesięczne ZIP-y z Binance) - odtwarzalne skryptami
+dane/cache/

@@ -1,23 +1,56 @@
 # Projekt-Inz
 
+**Wykrywanie anomalii w szeregach czasowych z wykorzystaniem metod statystycznych i uczenia maszynowego** – projekt inżynierski.
+
+Pełny opis projektu, stan prac i opis danych: [PROJEKT.md](PROJEKT.md). Szczegóły pobierania i czyszczenia danych: [docs/data_pipeline.md](docs/data_pipeline.md). Rodzaje anomalii w danych i plan doboru metod: [docs/plan_metod.md](docs/plan_metod.md).
+
+## Struktura
+
+```
+Projekt-Inz/
+├── src/                    # kod (uruchamiany jako moduły: python -m src.<pakiet>.<skrypt>)
+│   ├── config.py           # ścieżki i parametry zbiorów danych - jedno miejsce do zmian
+│   ├── pobieranie/         # spy_alpaca.py, btcusdt_binance.py
+│   ├── czyszczenie/        # spy.py, btcusdt.py, wspolne.py (oznaczanie luk)
+│   ├── eksploracja/        # podglad.py (statystyki + wykresy), przeglad_anomalii.py
+│   ├── symulacje/          # [do zrobienia] szeregi syntetyczne + wstrzykiwanie anomalii
+│   ├── metody/             # [do zrobienia] metody detekcji anomalii
+│   └── ewaluacja/          # [do zrobienia] metryki i eksperymenty
+├── dane/
+│   ├── surowe/{spy,btcusdt}/   # dane prosto ze źródła
+│   ├── clean/{spy,btcusdt}/    # dane po czyszczeniu + listy brakujących świec
+│   └── cache/                  # pliki pośrednie (poza Gitem)
+├── wyniki/wykresy/
+└── docs/
+```
+
 ## Konfiguracja środowiska
 
-Skopiuj plik `.env.example` do `.env` i uzupełnij własne dane.
+```bash
+python -m venv ..\.venv
+..\.venv\Scripts\activate
+pip install -r requirements.txt
+copy .env.example .env      # i wpisać klucze Alpaca (potrzebne tylko do pobierania SPY)
+```
+
+Plik `.env` jest ignorowany przez Git – prawdziwe klucze nie trafiają na GitHub.
+
+## Uruchomienie (z katalogu `Projekt-Inz`)
 
 ```bash
-copy .env.example .env
+# SPY (Alpaca, wymaga kluczy w .env)
+python -m src.pobieranie.spy_alpaca
+python -m src.czyszczenie.spy
+
+# BTCUSDT (Binance, bez klucza)
+python -m src.pobieranie.btcusdt_binance
+python -m src.czyszczenie.btcusdt
+
+# podgląd i wykresy obu zbiorów
+python -m src.eksploracja.podglad
 ```
 
-W pliku `.env` umieszczaj tylko dane lokalne, np.:
-
-```env
-APCA_API_KEY_ID=your_api_key_id_here
-APCA_API_SECRET_KEY=your_api_secret_here
-```
-
-Prawdziwe dane nie powinny trafiać do GitHub. Plik `.env` jest ignorowany przez Git.
-
-## Klonowanie i praca z repo
+## Praca z repo
 
 ```bash
 git clone https://github.com/MirekMyszka/Projekt-Inz.git
