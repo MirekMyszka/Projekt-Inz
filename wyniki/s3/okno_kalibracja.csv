@@ -1,0 +1,22 @@
+metoda,prog,kara_pelt,czesc,w,A
+Matrix Profile z normalizacją,4.727816529402325,,okno,25,3.0
+Matrix Profile bez normalizacji,6.824138731678255,,okno,25,3.0
+Matrix Profile z normalizacją,4.117508751585308,,okno,50,3.0
+Matrix Profile bez normalizacji,9.75570563598575,,okno,50,3.0
+Matrix Profile z normalizacją,5.897942313698975,,okno,100,3.0
+Matrix Profile bez normalizacji,13.855734106145132,,okno,100,3.0
+autoenkoder,0.4116336589406532,,okno,25,3.0
+autoenkoder,0.3166177396092698,,okno,50,3.0
+autoenkoder,0.2761283361884742,,okno,100,3.0
+cechy cykli + kNN (5 cech),18.046889072309423,,okno,25,3.0
+cechy cykli + kNN (3 cechy),17.964332501506497,,okno,25,3.0
+Isolation Forest (5 cech),0.7532470848873053,,okno,25,3.0
+Isolation Forest (3 cechy),0.7662469300949434,,okno,25,3.0
+cechy cykli + kNN (5 cech),3.150095013230413,,okno,50,3.0
+cechy cykli + kNN (3 cechy),2.155507510430856,,okno,50,3.0
+Isolation Forest (5 cech),0.6845703207672508,,okno,50,3.0
+Isolation Forest (3 cechy),0.690828576232349,,okno,50,3.0
+cechy cykli + kNN (5 cech),3.315918585091211,,okno,100,3.0
+cechy cykli + kNN (3 cechy),2.3796346416907053,,okno,100,3.0
+Isolation Forest (5 cech),0.6711937689899409,,okno,100,3.0
+Isolation Forest (3 cechy),0.6925481217875513,,okno,100,3.0

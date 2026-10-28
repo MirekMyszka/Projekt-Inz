@@ -1,0 +1,601 @@
+czesc,w,phi_tla,metoda,ziarno,fa_epizody
+hybryda,50,0.7,reszty AR + CUSUM,2000000,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000000,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000000,0
+hybryda,50,0.7,reszty AR + CUSUM,2000001,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000001,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000001,0
+hybryda,50,0.7,reszty AR + CUSUM,2000002,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000002,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000002,0
+hybryda,50,0.7,reszty AR + CUSUM,2000003,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000003,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000003,0
+hybryda,50,0.7,reszty AR + CUSUM,2000004,1
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000004,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000004,1
+hybryda,50,0.7,reszty AR + CUSUM,2000005,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000005,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000005,0
+hybryda,50,0.7,reszty AR + CUSUM,2000006,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000006,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000006,0
+hybryda,50,0.7,reszty AR + CUSUM,2000007,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000007,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000007,0
+hybryda,50,0.7,reszty AR + CUSUM,2000008,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000008,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000008,0
+hybryda,50,0.7,reszty AR + CUSUM,2000009,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000009,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000009,0
+hybryda,50,0.7,reszty AR + CUSUM,2000010,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000010,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000010,0
+hybryda,50,0.7,reszty AR + CUSUM,2000011,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000011,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000011,0
+hybryda,50,0.7,reszty AR + CUSUM,2000012,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000012,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000012,0
+hybryda,50,0.7,reszty AR + CUSUM,2000013,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000013,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000013,0
+hybryda,50,0.7,reszty AR + CUSUM,2000014,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000014,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000014,0
+hybryda,50,0.7,reszty AR + CUSUM,2000015,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000015,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000015,0
+hybryda,50,0.7,reszty AR + CUSUM,2000016,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000016,1
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000016,0
+hybryda,50,0.7,reszty AR + CUSUM,2000017,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000017,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000017,0
+hybryda,50,0.7,reszty AR + CUSUM,2000018,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000018,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000018,0
+hybryda,50,0.7,reszty AR + CUSUM,2000019,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000019,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000019,0
+hybryda,50,0.7,reszty AR + CUSUM,2000020,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000020,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000020,0
+hybryda,50,0.7,reszty AR + CUSUM,2000021,1
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000021,1
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000021,0
+hybryda,50,0.7,reszty AR + CUSUM,2000022,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000022,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000022,0
+hybryda,50,0.7,reszty AR + CUSUM,2000023,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000023,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000023,0
+hybryda,50,0.7,reszty AR + CUSUM,2000024,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000024,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000024,0
+hybryda,50,0.7,reszty AR + CUSUM,2000025,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000025,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000025,0
+hybryda,50,0.7,reszty AR + CUSUM,2000026,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000026,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000026,0
+hybryda,50,0.7,reszty AR + CUSUM,2000027,1
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000027,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000027,1
+hybryda,50,0.7,reszty AR + CUSUM,2000028,2
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000028,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000028,1
+hybryda,50,0.7,reszty AR + CUSUM,2000029,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000029,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000029,0
+hybryda,50,0.7,reszty AR + CUSUM,2000030,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000030,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000030,0
+hybryda,50,0.7,reszty AR + CUSUM,2000031,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000031,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000031,0
+hybryda,50,0.7,reszty AR + CUSUM,2000032,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000032,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000032,0
+hybryda,50,0.7,reszty AR + CUSUM,2000033,2
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000033,1
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000033,2
+hybryda,50,0.7,reszty AR + CUSUM,2000034,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000034,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000034,0
+hybryda,50,0.7,reszty AR + CUSUM,2000035,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000035,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000035,0
+hybryda,50,0.7,reszty AR + CUSUM,2000036,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000036,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000036,0
+hybryda,50,0.7,reszty AR + CUSUM,2000037,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000037,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000037,0
+hybryda,50,0.7,reszty AR + CUSUM,2000038,1
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000038,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000038,1
+hybryda,50,0.7,reszty AR + CUSUM,2000039,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000039,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000039,0
+hybryda,50,0.7,reszty AR + CUSUM,2000040,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000040,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000040,0
+hybryda,50,0.7,reszty AR + CUSUM,2000041,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000041,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000041,0
+hybryda,50,0.7,reszty AR + CUSUM,2000042,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000042,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000042,0
+hybryda,50,0.7,reszty AR + CUSUM,2000043,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000043,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000043,0
+hybryda,50,0.7,reszty AR + CUSUM,2000044,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000044,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000044,0
+hybryda,50,0.7,reszty AR + CUSUM,2000045,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000045,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000045,0
+hybryda,50,0.7,reszty AR + CUSUM,2000046,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000046,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000046,0
+hybryda,50,0.7,reszty AR + CUSUM,2000047,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000047,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000047,0
+hybryda,50,0.7,reszty AR + CUSUM,2000048,1
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000048,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000048,1
+hybryda,50,0.7,reszty AR + CUSUM,2000049,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000049,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000049,0
+hybryda,50,0.7,reszty AR + CUSUM,2000050,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000050,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000050,0
+hybryda,50,0.7,reszty AR + CUSUM,2000051,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000051,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000051,0
+hybryda,50,0.7,reszty AR + CUSUM,2000052,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000052,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000052,0
+hybryda,50,0.7,reszty AR + CUSUM,2000053,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000053,1
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000053,0
+hybryda,50,0.7,reszty AR + CUSUM,2000054,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000054,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000054,0
+hybryda,50,0.7,reszty AR + CUSUM,2000055,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000055,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000055,0
+hybryda,50,0.7,reszty AR + CUSUM,2000056,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000056,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000056,0
+hybryda,50,0.7,reszty AR + CUSUM,2000057,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000057,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000057,0
+hybryda,50,0.7,reszty AR + CUSUM,2000058,1
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000058,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000058,1
+hybryda,50,0.7,reszty AR + CUSUM,2000059,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000059,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000059,0
+hybryda,50,0.7,reszty AR + CUSUM,2000060,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000060,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000060,0
+hybryda,50,0.7,reszty AR + CUSUM,2000061,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000061,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000061,0
+hybryda,50,0.7,reszty AR + CUSUM,2000062,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000062,2
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000062,1
+hybryda,50,0.7,reszty AR + CUSUM,2000063,1
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000063,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000063,1
+hybryda,50,0.7,reszty AR + CUSUM,2000064,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000064,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000064,0
+hybryda,50,0.7,reszty AR + CUSUM,2000065,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000065,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000065,0
+hybryda,50,0.7,reszty AR + CUSUM,2000066,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000066,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000066,0
+hybryda,50,0.7,reszty AR + CUSUM,2000067,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000067,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000067,0
+hybryda,50,0.7,reszty AR + CUSUM,2000068,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000068,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000068,0
+hybryda,50,0.7,reszty AR + CUSUM,2000069,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000069,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000069,0
+hybryda,50,0.7,reszty AR + CUSUM,2000070,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000070,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000070,0
+hybryda,50,0.7,reszty AR + CUSUM,2000071,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000071,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000071,0
+hybryda,50,0.7,reszty AR + CUSUM,2000072,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000072,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000072,0
+hybryda,50,0.7,reszty AR + CUSUM,2000073,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000073,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000073,0
+hybryda,50,0.7,reszty AR + CUSUM,2000074,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000074,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000074,0
+hybryda,50,0.7,reszty AR + CUSUM,2000075,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000075,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000075,0
+hybryda,50,0.7,reszty AR + CUSUM,2000076,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000076,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000076,0
+hybryda,50,0.7,reszty AR + CUSUM,2000077,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000077,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000077,0
+hybryda,50,0.7,reszty AR + CUSUM,2000078,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000078,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000078,0
+hybryda,50,0.7,reszty AR + CUSUM,2000079,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000079,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000079,0
+hybryda,50,0.7,reszty AR + CUSUM,2000080,1
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000080,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000080,1
+hybryda,50,0.7,reszty AR + CUSUM,2000081,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000081,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000081,0
+hybryda,50,0.7,reszty AR + CUSUM,2000082,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000082,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000082,0
+hybryda,50,0.7,reszty AR + CUSUM,2000083,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000083,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000083,0
+hybryda,50,0.7,reszty AR + CUSUM,2000084,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000084,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000084,0
+hybryda,50,0.7,reszty AR + CUSUM,2000085,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000085,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000085,0
+hybryda,50,0.7,reszty AR + CUSUM,2000086,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000086,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000086,0
+hybryda,50,0.7,reszty AR + CUSUM,2000087,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000087,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000087,0
+hybryda,50,0.7,reszty AR + CUSUM,2000088,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000088,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000088,0
+hybryda,50,0.7,reszty AR + CUSUM,2000089,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000089,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000089,0
+hybryda,50,0.7,reszty AR + CUSUM,2000090,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000090,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000090,0
+hybryda,50,0.7,reszty AR + CUSUM,2000091,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000091,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000091,0
+hybryda,50,0.7,reszty AR + CUSUM,2000092,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000092,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000092,0
+hybryda,50,0.7,reszty AR + CUSUM,2000093,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000093,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000093,0
+hybryda,50,0.7,reszty AR + CUSUM,2000094,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000094,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000094,0
+hybryda,50,0.7,reszty AR + CUSUM,2000095,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000095,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000095,0
+hybryda,50,0.7,reszty AR + CUSUM,2000096,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000096,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000096,0
+hybryda,50,0.7,reszty AR + CUSUM,2000097,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000097,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000097,0
+hybryda,50,0.7,reszty AR + CUSUM,2000098,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000098,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000098,0
+hybryda,50,0.7,reszty AR + CUSUM,2000099,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000099,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000099,0
+hybryda,50,0.7,reszty AR + CUSUM,2000100,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000100,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000100,0
+hybryda,50,0.7,reszty AR + CUSUM,2000101,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000101,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000101,0
+hybryda,50,0.7,reszty AR + CUSUM,2000102,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000102,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000102,0
+hybryda,50,0.7,reszty AR + CUSUM,2000103,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000103,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000103,0
+hybryda,50,0.7,reszty AR + CUSUM,2000104,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000104,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000104,0
+hybryda,50,0.7,reszty AR + CUSUM,2000105,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000105,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000105,0
+hybryda,50,0.7,reszty AR + CUSUM,2000106,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000106,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000106,0
+hybryda,50,0.7,reszty AR + CUSUM,2000107,1
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000107,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000107,1
+hybryda,50,0.7,reszty AR + CUSUM,2000108,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000108,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000108,0
+hybryda,50,0.7,reszty AR + CUSUM,2000109,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000109,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000109,0
+hybryda,50,0.7,reszty AR + CUSUM,2000110,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000110,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000110,0
+hybryda,50,0.7,reszty AR + CUSUM,2000111,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000111,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000111,0
+hybryda,50,0.7,reszty AR + CUSUM,2000112,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000112,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000112,0
+hybryda,50,0.7,reszty AR + CUSUM,2000113,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000113,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000113,0
+hybryda,50,0.7,reszty AR + CUSUM,2000114,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000114,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000114,0
+hybryda,50,0.7,reszty AR + CUSUM,2000115,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000115,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000115,0
+hybryda,50,0.7,reszty AR + CUSUM,2000116,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000116,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000116,0
+hybryda,50,0.7,reszty AR + CUSUM,2000117,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000117,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000117,0
+hybryda,50,0.7,reszty AR + CUSUM,2000118,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000118,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000118,0
+hybryda,50,0.7,reszty AR + CUSUM,2000119,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000119,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000119,0
+hybryda,50,0.7,reszty AR + CUSUM,2000120,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000120,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000120,0
+hybryda,50,0.7,reszty AR + CUSUM,2000121,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000121,1
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000121,0
+hybryda,50,0.7,reszty AR + CUSUM,2000122,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000122,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000122,0
+hybryda,50,0.7,reszty AR + CUSUM,2000123,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000123,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000123,0
+hybryda,50,0.7,reszty AR + CUSUM,2000124,1
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000124,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000124,1
+hybryda,50,0.7,reszty AR + CUSUM,2000125,1
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000125,1
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000125,0
+hybryda,50,0.7,reszty AR + CUSUM,2000126,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000126,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000126,0
+hybryda,50,0.7,reszty AR + CUSUM,2000127,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000127,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000127,0
+hybryda,50,0.7,reszty AR + CUSUM,2000128,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000128,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000128,0
+hybryda,50,0.7,reszty AR + CUSUM,2000129,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000129,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000129,0
+hybryda,50,0.7,reszty AR + CUSUM,2000130,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000130,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000130,0
+hybryda,50,0.7,reszty AR + CUSUM,2000131,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000131,1
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000131,0
+hybryda,50,0.7,reszty AR + CUSUM,2000132,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000132,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000132,0
+hybryda,50,0.7,reszty AR + CUSUM,2000133,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000133,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000133,0
+hybryda,50,0.7,reszty AR + CUSUM,2000134,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000134,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000134,0
+hybryda,50,0.7,reszty AR + CUSUM,2000135,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000135,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000135,0
+hybryda,50,0.7,reszty AR + CUSUM,2000136,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000136,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000136,0
+hybryda,50,0.7,reszty AR + CUSUM,2000137,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000137,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000137,0
+hybryda,50,0.7,reszty AR + CUSUM,2000138,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000138,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000138,0
+hybryda,50,0.7,reszty AR + CUSUM,2000139,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000139,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000139,0
+hybryda,50,0.7,reszty AR + CUSUM,2000140,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000140,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000140,0
+hybryda,50,0.7,reszty AR + CUSUM,2000141,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000141,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000141,0
+hybryda,50,0.7,reszty AR + CUSUM,2000142,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000142,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000142,0
+hybryda,50,0.7,reszty AR + CUSUM,2000143,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000143,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000143,0
+hybryda,50,0.7,reszty AR + CUSUM,2000144,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000144,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000144,0
+hybryda,50,0.7,reszty AR + CUSUM,2000145,1
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000145,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000145,1
+hybryda,50,0.7,reszty AR + CUSUM,2000146,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000146,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000146,0
+hybryda,50,0.7,reszty AR + CUSUM,2000147,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000147,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000147,0
+hybryda,50,0.7,reszty AR + CUSUM,2000148,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000148,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000148,0
+hybryda,50,0.7,reszty AR + CUSUM,2000149,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000149,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000149,0
+hybryda,50,0.7,reszty AR + CUSUM,2000150,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000150,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000150,0
+hybryda,50,0.7,reszty AR + CUSUM,2000151,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000151,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000151,0
+hybryda,50,0.7,reszty AR + CUSUM,2000152,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000152,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000152,0
+hybryda,50,0.7,reszty AR + CUSUM,2000153,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000153,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000153,0
+hybryda,50,0.7,reszty AR + CUSUM,2000154,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000154,1
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000154,0
+hybryda,50,0.7,reszty AR + CUSUM,2000155,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000155,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000155,0
+hybryda,50,0.7,reszty AR + CUSUM,2000156,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000156,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000156,0
+hybryda,50,0.7,reszty AR + CUSUM,2000157,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000157,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000157,0
+hybryda,50,0.7,reszty AR + CUSUM,2000158,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000158,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000158,0
+hybryda,50,0.7,reszty AR + CUSUM,2000159,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000159,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000159,0
+hybryda,50,0.7,reszty AR + CUSUM,2000160,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000160,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000160,0
+hybryda,50,0.7,reszty AR + CUSUM,2000161,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000161,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000161,0
+hybryda,50,0.7,reszty AR + CUSUM,2000162,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000162,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000162,0
+hybryda,50,0.7,reszty AR + CUSUM,2000163,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000163,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000163,0
+hybryda,50,0.7,reszty AR + CUSUM,2000164,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000164,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000164,0
+hybryda,50,0.7,reszty AR + CUSUM,2000165,1
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000165,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000165,0
+hybryda,50,0.7,reszty AR + CUSUM,2000166,1
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000166,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000166,1
+hybryda,50,0.7,reszty AR + CUSUM,2000167,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000167,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000167,0
+hybryda,50,0.7,reszty AR + CUSUM,2000168,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000168,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000168,0
+hybryda,50,0.7,reszty AR + CUSUM,2000169,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000169,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000169,0
+hybryda,50,0.7,reszty AR + CUSUM,2000170,1
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000170,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000170,1
+hybryda,50,0.7,reszty AR + CUSUM,2000171,1
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000171,1
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000171,1
+hybryda,50,0.7,reszty AR + CUSUM,2000172,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000172,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000172,0
+hybryda,50,0.7,reszty AR + CUSUM,2000173,1
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000173,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000173,1
+hybryda,50,0.7,reszty AR + CUSUM,2000174,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000174,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000174,0
+hybryda,50,0.7,reszty AR + CUSUM,2000175,1
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000175,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000175,1
+hybryda,50,0.7,reszty AR + CUSUM,2000176,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000176,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000176,0
+hybryda,50,0.7,reszty AR + CUSUM,2000177,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000177,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000177,0
+hybryda,50,0.7,reszty AR + CUSUM,2000178,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000178,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000178,0
+hybryda,50,0.7,reszty AR + CUSUM,2000179,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000179,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000179,0
+hybryda,50,0.7,reszty AR + CUSUM,2000180,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000180,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000180,0
+hybryda,50,0.7,reszty AR + CUSUM,2000181,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000181,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000181,0
+hybryda,50,0.7,reszty AR + CUSUM,2000182,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000182,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000182,0
+hybryda,50,0.7,reszty AR + CUSUM,2000183,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000183,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000183,0
+hybryda,50,0.7,reszty AR + CUSUM,2000184,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000184,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000184,0
+hybryda,50,0.7,reszty AR + CUSUM,2000185,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000185,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000185,0
+hybryda,50,0.7,reszty AR + CUSUM,2000186,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000186,1
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000186,1
+hybryda,50,0.7,reszty AR + CUSUM,2000187,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000187,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000187,0
+hybryda,50,0.7,reszty AR + CUSUM,2000188,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000188,1
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000188,0
+hybryda,50,0.7,reszty AR + CUSUM,2000189,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000189,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000189,0
+hybryda,50,0.7,reszty AR + CUSUM,2000190,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000190,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000190,0
+hybryda,50,0.7,reszty AR + CUSUM,2000191,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000191,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000191,0
+hybryda,50,0.7,reszty AR + CUSUM,2000192,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000192,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000192,0
+hybryda,50,0.7,reszty AR + CUSUM,2000193,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000193,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000193,0
+hybryda,50,0.7,reszty AR + CUSUM,2000194,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000194,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000194,0
+hybryda,50,0.7,reszty AR + CUSUM,2000195,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000195,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000195,0
+hybryda,50,0.7,reszty AR + CUSUM,2000196,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000196,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000196,0
+hybryda,50,0.7,reszty AR + CUSUM,2000197,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000197,0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000197,0
+hybryda,50,0.7,reszty AR + CUSUM,2000198,1
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000198,1
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000198,1
+hybryda,50,0.7,reszty AR + CUSUM,2000199,0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),2000199,1
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",2000199,0

@@ -1,0 +1,4 @@
+metoda,prog,kara_pelt,czesc,w,phi_tla
+reszty AR + CUSUM,1.6135213698847863,,hybryda,50,0.7
+CUSUM z S1 (bez modelu AR),1.5421942005936455,,hybryda,50,0.7
+"CUSUM mieszany (poziom na x, reszta na resztach AR)",1.639038303195322,,hybryda,50,0.7

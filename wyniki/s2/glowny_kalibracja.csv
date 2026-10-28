@@ -1,0 +1,14 @@
+metoda,prog,kara_pelt,czesc,w,phi_tla
+reszty AR + CUSUM,1.6135213698847863,,glowny,50,0.7
+PELT (koszt AR),0.0,18.0,glowny,50,0.7
+Matrix Profile (reszty AR),8.886079074831295,,glowny,50,0.7
+cechy okien + kNN (5 cech),3.534318655477129,,glowny,50,0.7
+cechy okien + kNN (3 cechy),2.950312387442142,,glowny,50,0.7
+Isolation Forest (5 cech),0.6764587973378545,,glowny,50,0.7
+Isolation Forest (3 cechy),0.693707370265942,,glowny,50,0.7
+One-Class SVM (5 cech),2.7584671128507887,,glowny,50,0.7
+One-Class SVM (3 cechy),2.4174723508869644,,glowny,50,0.7
+"Isolation Forest (5 cech, uczony na szeregach bez anomalii)",0.6633008078799684,,glowny,50,0.7
+"Isolation Forest (3 cechy, uczony na szeregach bez anomalii)",0.6868370039442409,,glowny,50,0.7
+"One-Class SVM (5 cech, uczony na szeregach bez anomalii)",7.282709802120927,,glowny,50,0.7
+"One-Class SVM (3 cechy, uczony na szeregach bez anomalii)",6.866400347524641,,glowny,50,0.7

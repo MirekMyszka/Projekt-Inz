@@ -1,0 +1,16 @@
+metoda,prog,kara_pelt,czesc,w,phi_tla,analiza
+CUSUM z S1 (bez modelu AR),1.5421942005936455,,dodatkowa,50,0.7,a_metody_S1_wprost
+Matrix Profile,8.735173475262206,,dodatkowa,50,0.7,a_metody_S1_wprost
+kNN z cechami S1 (bez modelu AR),5.01679730195399,,dodatkowa,50,0.7,a_metody_S1_wprost
+reszty AR + CUSUM,1.6135213698847863,,dodatkowa,50,0.7,b_wzrost_phi_0.95
+PELT (koszt AR),0.0,18.0,dodatkowa,50,0.7,b_wzrost_phi_0.95
+Matrix Profile (reszty AR),8.886079074831295,,dodatkowa,50,0.7,b_wzrost_phi_0.95
+cechy okien + kNN (5 cech),3.534318655477129,,dodatkowa,50,0.7,b_wzrost_phi_0.95
+cechy okien + kNN (3 cechy),2.950312387442142,,dodatkowa,50,0.7,b_wzrost_phi_0.95
+Isolation Forest (5 cech),0.6764587973378545,,dodatkowa,50,0.7,b_wzrost_phi_0.95
+Isolation Forest (3 cechy),0.693707370265942,,dodatkowa,50,0.7,b_wzrost_phi_0.95
+One-Class SVM (5 cech),2.7584671128507887,,dodatkowa,50,0.7,b_wzrost_phi_0.95
+One-Class SVM (3 cechy),2.4174723508869644,,dodatkowa,50,0.7,b_wzrost_phi_0.95
+One-Class SVM gamma=scale,0.6906897322570156,,dodatkowa,50,0.7,c_gamma_OCSVM
+"One-Class SVM gamma=0,01",2.7584671128507887,,dodatkowa,50,0.7,c_gamma_OCSVM
+"One-Class SVM gamma=0,002",0.8557853975321883,,dodatkowa,50,0.7,c_gamma_OCSVM

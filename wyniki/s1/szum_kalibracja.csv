@@ -1,0 +1,31 @@
+metoda,prog,kara_pelt,skale_cusum,czesc,w,sigma
+"CUSUM (poziom, zmienność, zależność)",1.5843656958192531,,"[7.351, 16.534, 16.25]",szum,50,0.5
+PELT,0.0,62.0,,szum,50,0.5
+Matrix Profile,4.442555576626092,,,szum,50,0.5
+Matrix Profile z normalizacją,7.860835484661208,,,szum,50,0.5
+"CUSUM (poziom, zmienność, zależność)",1.5843656958192531,,"[7.351, 16.534, 16.25]",szum,50,1.0
+PELT,0.0,62.0,,szum,50,1.0
+Matrix Profile,8.885111153252184,,,szum,50,1.0
+Matrix Profile z normalizacją,7.860835484661208,,,szum,50,1.0
+"CUSUM (poziom, zmienność, zależność)",1.5843656958192531,,"[7.351, 16.534, 16.25]",szum,50,2.0
+PELT,0.0,62.0,,szum,50,2.0
+Matrix Profile,17.77022230650437,,,szum,50,2.0
+Matrix Profile z normalizacją,7.860835484661208,,,szum,50,2.0
+cechy okien + kNN (5 cech),5.095880241257172,,,szum,50,0.5
+cechy okien + kNN (3 cechy),2.3891436746431665,,,szum,50,0.5
+Isolation Forest (5 cech),0.6708927632741392,,,szum,50,0.5
+Isolation Forest (3 cechy),0.6877919903816295,,,szum,50,0.5
+LOF (5 cech),2.7970718277883524,,,szum,50,0.5
+LOF (3 cechy),2.894159844141128,,,szum,50,0.5
+cechy okien + kNN (5 cech),5.09588024125717,,,szum,50,1.0
+cechy okien + kNN (3 cechy),2.389143674643175,,,szum,50,1.0
+Isolation Forest (5 cech),0.6708927632741392,,,szum,50,1.0
+Isolation Forest (3 cechy),0.6877919903816295,,,szum,50,1.0
+LOF (5 cech),2.7970718277883546,,,szum,50,1.0
+LOF (3 cechy),2.894159844141109,,,szum,50,1.0
+cechy okien + kNN (5 cech),5.095880241257169,,,szum,50,2.0
+cechy okien + kNN (3 cechy),2.3891436746431767,,,szum,50,2.0
+Isolation Forest (5 cech),0.6708927632741392,,,szum,50,2.0
+Isolation Forest (3 cechy),0.6877919903816295,,,szum,50,2.0
+LOF (5 cech),2.797071827788355,,,szum,50,2.0
+LOF (3 cechy),2.894159844141104,,,szum,50,2.0

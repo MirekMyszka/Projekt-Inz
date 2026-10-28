@@ -1,0 +1,22 @@
+metoda,prog,kara_pelt,skale_cusum,czesc,w,sigma
+Matrix Profile,5.401101384203338,,,okno,20,1.0
+Matrix Profile,8.885111153252184,,,okno,50,1.0
+Matrix Profile,12.972823399893226,,,okno,100,1.0
+cechy okien + kNN (5 cech),5.402834865288846,,,okno,20,1.0
+cechy okien + kNN (3 cechy),2.298661935321232,,,okno,20,1.0
+Isolation Forest (5 cech),0.678468085591095,,,okno,20,1.0
+Isolation Forest (3 cechy),0.6864227731495937,,,okno,20,1.0
+LOF (5 cech),2.6162290764112086,,,okno,20,1.0
+LOF (3 cechy),2.676013152641281,,,okno,20,1.0
+cechy okien + kNN (5 cech),5.09588024125717,,,okno,50,1.0
+cechy okien + kNN (3 cechy),2.389143674643175,,,okno,50,1.0
+Isolation Forest (5 cech),0.6708927632741392,,,okno,50,1.0
+Isolation Forest (3 cechy),0.6877919903816295,,,okno,50,1.0
+LOF (5 cech),2.7970718277883546,,,okno,50,1.0
+LOF (3 cechy),2.894159844141109,,,okno,50,1.0
+cechy okien + kNN (5 cech),4.248869905346872,,,okno,100,1.0
+cechy okien + kNN (3 cechy),2.5782744079974527,,,okno,100,1.0
+Isolation Forest (5 cech),0.6551706179689031,,,okno,100,1.0
+Isolation Forest (3 cechy),0.671514726421017,,,okno,100,1.0
+LOF (5 cech),2.787804554600588,,,okno,100,1.0
+LOF (3 cechy),3.4624698684516675,,,okno,100,1.0

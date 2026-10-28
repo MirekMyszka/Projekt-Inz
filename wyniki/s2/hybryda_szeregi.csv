@@ -1,0 +1,1201 @@
+czesc,w,phi_tla,metoda,grupa,ziarno,L,poziom,fa_epizody,precyzja,czulosc_pkt,f1
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400000,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400000,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400000,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400001,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400001,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400001,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400002,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400002,50,1,1,0.0,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400002,50,1,1,0.0,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400003,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400003,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400003,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400004,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400004,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400004,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400005,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400005,50,1,0,1.0,0.01818181818181818,0.03571428571428572
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400005,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400006,50,1,0,1.0,0.3,0.4615384615384615
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400006,50,1,0,1.0,0.01818181818181818,0.03571428571428572
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400006,50,1,0,1.0,0.3,0.4615384615384615
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400007,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400007,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400007,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400008,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400008,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400008,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400009,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400009,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400009,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400010,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400010,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400010,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400011,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400011,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400011,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400012,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400012,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400012,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400013,50,1,1,0.0,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400013,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400013,50,1,1,0.0,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400014,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400014,50,1,0,1.0,0.01818181818181818,0.03571428571428572
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400014,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400015,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400015,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400015,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400020,50,1,0,1.0,0.37272727272727274,0.543046357615894
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400020,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400020,50,1,0,1.0,0.37272727272727274,0.543046357615894
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400021,50,1,0,1.0,0.41818181818181815,0.5897435897435896
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400021,50,1,0,1.0,0.01818181818181818,0.03571428571428572
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400021,50,1,0,1.0,0.41818181818181815,0.5897435897435896
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400022,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400022,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400022,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400023,50,1,0,0.14313725490196078,0.6636363636363637,0.2354838709677419
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400023,50,1,0,1.0,0.03636363636363636,0.07017543859649122
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400023,50,1,0,0.14313725490196078,0.6636363636363637,0.2354838709677419
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400016,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400016,50,1,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400016,50,1,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400017,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400017,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400017,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400018,50,1,0,1.0,0.38181818181818183,0.5526315789473685
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400018,50,1,0,1.0,0.02727272727272727,0.053097345132743355
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400018,50,1,0,1.0,0.38181818181818183,0.5526315789473685
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400019,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400019,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400019,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400028,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400028,50,1,1,0.0,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400028,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400029,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400029,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400029,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400030,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400030,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400030,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400031,50,1,0,0.08727272727272728,0.21818181818181817,0.12467532467532469
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400031,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400031,50,1,0,0.08727272727272728,0.21818181818181817,0.12467532467532469
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400024,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400024,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400024,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400025,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400025,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400025,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400026,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400026,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400026,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400027,50,1,0,0.0,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400027,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400027,50,1,0,0.0,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400032,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400032,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400032,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400033,50,1,1,0.19473684210526315,0.33636363636363636,0.24666666666666665
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400033,50,1,0,1.0,0.03636363636363636,0.07017543859649122
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400033,50,1,1,0.19473684210526315,0.33636363636363636,0.24666666666666665
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400034,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400034,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400034,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400035,50,1,0,1.0,0.35454545454545455,0.5234899328859061
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400035,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400035,50,1,0,1.0,0.35454545454545455,0.5234899328859061
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400036,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400036,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400036,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400037,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400037,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400037,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400038,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400038,50,1,1,0.0,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400038,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400039,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400039,50,1,1,0.0,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400039,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400040,50,1,0,1.0,0.2909090909090909,0.45070422535211263
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400040,50,1,0,1.0,0.01818181818181818,0.03571428571428572
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400040,50,1,0,1.0,0.2909090909090909,0.45070422535211263
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400041,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400041,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400041,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400042,50,1,0,1.0,0.2545454545454545,0.4057971014492754
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400042,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400042,50,1,0,1.0,0.2545454545454545,0.4057971014492754
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400043,50,1,0,1.0,0.3090909090909091,0.4722222222222222
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400043,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400043,50,1,0,1.0,0.3090909090909091,0.4722222222222222
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400044,50,1,1,0.0,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400044,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400044,50,1,1,0.0,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400045,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400045,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400045,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400046,50,1,0,1.0,0.33636363636363636,0.5034013605442177
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400046,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400046,50,1,0,1.0,0.33636363636363636,0.5034013605442177
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400047,50,1,0,1.0,0.15454545454545454,0.26771653543307083
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400047,50,1,0,1.0,0.03636363636363636,0.07017543859649122
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400047,50,1,0,1.0,0.15454545454545454,0.26771653543307083
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400048,50,1,0,1.0,0.34545454545454546,0.5135135135135135
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400048,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400048,50,1,0,1.0,0.34545454545454546,0.5135135135135135
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400049,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400049,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400049,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400050,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400050,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400050,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400051,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400051,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400051,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400052,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400052,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400052,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400053,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400053,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400053,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400054,50,1,0,1.0,0.15454545454545454,0.26771653543307083
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400054,50,1,0,1.0,0.00909090909090909,0.018018018018018018
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400054,50,1,0,1.0,0.15454545454545454,0.26771653543307083
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400055,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400055,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400055,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400056,50,1,0,1.0,0.35454545454545455,0.5234899328859061
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400056,50,1,0,1.0,0.02727272727272727,0.053097345132743355
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400056,50,1,0,1.0,0.35454545454545455,0.5234899328859061
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400057,50,1,1,0.0,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400057,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400057,50,1,1,0.0,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400058,50,1,0,1.0,0.4090909090909091,0.5806451612903226
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400058,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400058,50,1,0,1.0,0.4090909090909091,0.5806451612903226
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400059,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400059,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400059,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400060,50,1,0,1.0,0.3090909090909091,0.4722222222222222
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400060,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400060,50,1,0,1.0,0.3090909090909091,0.4722222222222222
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400061,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400061,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400061,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400062,50,1,0,1.0,0.2818181818181818,0.4397163120567376
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400062,50,1,0,1.0,0.01818181818181818,0.03571428571428572
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400062,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400063,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400063,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400063,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400068,50,1,0,1.0,0.2,0.33333333333333337
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400068,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400068,50,1,0,1.0,0.2,0.33333333333333337
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400069,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400069,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400069,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400070,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400070,50,1,0,1.0,0.00909090909090909,0.018018018018018018
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400070,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400071,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400071,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400071,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400064,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400064,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400064,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400065,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400065,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400065,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400066,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400066,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400066,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400067,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400067,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400067,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400072,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400072,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400072,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400073,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400073,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400073,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400074,50,1,0,1.0,0.2727272727272727,0.42857142857142855
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400074,50,1,0,1.0,0.07272727272727272,0.13559322033898305
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400074,50,1,0,1.0,0.2727272727272727,0.42857142857142855
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400075,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400075,50,1,1,0.0,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400075,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400076,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400076,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400076,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400077,50,1,0,1.0,0.4090909090909091,0.5806451612903226
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400077,50,1,0,1.0,0.01818181818181818,0.03571428571428572
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400077,50,1,0,1.0,0.4090909090909091,0.5806451612903226
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400078,50,1,0,1.0,0.4090909090909091,0.5806451612903226
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400078,50,1,0,1.0,0.02727272727272727,0.053097345132743355
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400078,50,1,0,1.0,0.4090909090909091,0.5806451612903226
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400079,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400079,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400079,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400080,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400080,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400080,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400081,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400081,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400081,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400082,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400082,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400082,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400083,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400083,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400083,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400084,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400084,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400084,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400085,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400085,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400085,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400086,50,1,1,0.0,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400086,50,1,1,0.0,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400086,50,1,1,0.0,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400087,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400087,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400087,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400088,50,1,0,1.0,0.42727272727272725,0.5987261146496815
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400088,50,1,0,1.0,0.03636363636363636,0.07017543859649122
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400088,50,1,0,1.0,0.42727272727272725,0.5987261146496815
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400089,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400089,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400089,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400090,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400090,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400090,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400091,50,1,0,1.0,0.43636363636363634,0.6075949367088608
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400091,50,1,1,0.0,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400091,50,1,0,1.0,0.43636363636363634,0.6075949367088608
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400096,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400096,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400096,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400097,50,1,0,1.0,0.19090909090909092,0.3206106870229008
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400097,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400097,50,1,0,1.0,0.19090909090909092,0.3206106870229008
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400098,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400098,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400098,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400099,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400099,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400099,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400092,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400092,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400092,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400093,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400093,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400093,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400094,50,1,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400094,50,1,0,1.0,0.36363636363636365,0.5333333333333333
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400094,50,1,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5400095,50,1,0,1.0,0.2727272727272727,0.42857142857142855
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5400095,50,1,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5400095,50,1,0,1.0,0.2727272727272727,0.42857142857142855
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500000,50,2,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500000,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500000,50,2,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500001,50,2,0,1.0,0.2636363636363636,0.41726618705035967
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500001,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500001,50,2,0,1.0,0.2636363636363636,0.41726618705035967
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500002,50,2,0,1.0,0.8181818181818182,0.9
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500002,50,2,0,1.0,0.37272727272727274,0.543046357615894
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500002,50,2,0,1.0,0.7909090909090909,0.883248730964467
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500003,50,2,0,1.0,0.41818181818181815,0.5897435897435896
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500003,50,2,0,0.746031746031746,0.42727272727272725,0.5433526011560693
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500003,50,2,0,1.0,0.41818181818181815,0.5897435897435896
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500004,50,2,0,1.0,0.38181818181818183,0.5526315789473685
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500004,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500004,50,2,0,1.0,0.38181818181818183,0.5526315789473685
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500005,50,2,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500005,50,2,1,0.0,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500005,50,2,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500006,50,2,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500006,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500006,50,2,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500007,50,2,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500007,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500007,50,2,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500008,50,2,0,1.0,0.39090909090909093,0.5620915032679739
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500008,50,2,0,1.0,0.00909090909090909,0.018018018018018018
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500008,50,2,0,1.0,0.39090909090909093,0.5620915032679739
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500009,50,2,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500009,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500009,50,2,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500010,50,2,0,1.0,0.22727272727272727,0.37037037037037035
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500010,50,2,0,1.0,0.045454545454545456,0.08695652173913045
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500010,50,2,0,1.0,0.22727272727272727,0.37037037037037035
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500011,50,2,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500011,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500011,50,2,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500012,50,2,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500012,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500012,50,2,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500013,50,2,0,1.0,0.23636363636363636,0.3823529411764706
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500013,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500013,50,2,0,1.0,0.23636363636363636,0.3823529411764706
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500014,50,2,0,1.0,0.39090909090909093,0.5620915032679739
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500014,50,2,0,1.0,0.03636363636363636,0.07017543859649122
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500014,50,2,0,1.0,0.39090909090909093,0.5620915032679739
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500015,50,2,1,0.8785046728971962,0.8545454545454545,0.8663594470046083
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500015,50,2,0,1.0,0.5181818181818182,0.6826347305389222
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500015,50,2,1,0.7796610169491526,0.41818181818181815,0.5443786982248521
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500016,50,2,0,1.0,0.3,0.4615384615384615
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500016,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500016,50,2,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500017,50,2,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500017,50,2,1,0.0,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500017,50,2,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500018,50,2,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500018,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500018,50,2,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500019,50,2,0,1.0,0.2,0.33333333333333337
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500019,50,2,0,1.0,0.01818181818181818,0.03571428571428572
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500019,50,2,0,1.0,0.2,0.33333333333333337
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500020,50,2,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500020,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500020,50,2,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500021,50,2,0,0.45263157894736844,0.39090909090909093,0.41951219512195126
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500021,50,2,0,1.0,0.01818181818181818,0.03571428571428572
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500021,50,2,0,0.45263157894736844,0.39090909090909093,0.41951219512195126
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500022,50,2,1,0.0,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500022,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500022,50,2,1,0.0,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500023,50,2,0,1.0,0.44545454545454544,0.6163522012578617
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500023,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500023,50,2,0,1.0,0.44545454545454544,0.6163522012578617
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500024,50,2,0,1.0,0.41818181818181815,0.5897435897435896
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500024,50,2,0,1.0,0.02727272727272727,0.053097345132743355
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500024,50,2,0,1.0,0.41818181818181815,0.5897435897435896
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500025,50,2,0,1.0,0.39090909090909093,0.5620915032679739
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500025,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500025,50,2,0,1.0,0.39090909090909093,0.5620915032679739
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500026,50,2,0,0.7028985507246377,0.8818181818181818,0.782258064516129
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500026,50,2,0,0.6329113924050633,0.45454545454545453,0.5291005291005291
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500026,50,2,0,0.708029197080292,0.8818181818181818,0.785425101214575
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500027,50,2,0,0.9302325581395349,0.7272727272727273,0.8163265306122448
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500027,50,2,0,0.759493670886076,0.5454545454545454,0.6349206349206349
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500027,50,2,0,0.8376068376068376,0.8909090909090909,0.8634361233480177
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500028,50,2,0,1.0,0.2727272727272727,0.42857142857142855
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500028,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500028,50,2,0,1.0,0.2727272727272727,0.42857142857142855
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500029,50,2,0,1.0,0.33636363636363636,0.5034013605442177
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500029,50,2,0,1.0,0.02727272727272727,0.053097345132743355
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500029,50,2,0,1.0,0.33636363636363636,0.5034013605442177
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500030,50,2,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500030,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500030,50,2,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500031,50,2,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500031,50,2,0,1.0,0.02727272727272727,0.053097345132743355
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500031,50,2,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500032,50,2,0,1.0,0.12727272727272726,0.22580645161290322
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500032,50,2,0,1.0,0.00909090909090909,0.018018018018018018
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500032,50,2,0,1.0,0.12727272727272726,0.22580645161290322
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500033,50,2,0,1.0,0.39090909090909093,0.5620915032679739
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500033,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500033,50,2,0,1.0,0.39090909090909093,0.5620915032679739
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500034,50,2,0,1.0,0.22727272727272727,0.37037037037037035
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500034,50,2,0,1.0,0.045454545454545456,0.08695652173913045
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500034,50,2,0,1.0,0.22727272727272727,0.37037037037037035
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500035,50,2,0,1.0,0.42727272727272725,0.5987261146496815
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500035,50,2,0,1.0,0.01818181818181818,0.03571428571428572
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500035,50,2,0,1.0,0.42727272727272725,0.5987261146496815
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500036,50,2,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500036,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500036,50,2,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500037,50,2,0,1.0,0.33636363636363636,0.5034013605442177
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500037,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500037,50,2,0,1.0,0.33636363636363636,0.5034013605442177
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500038,50,2,1,0.23923444976076555,0.45454545454545453,0.31347962382445144
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500038,50,2,2,0.05232558139534884,0.08181818181818182,0.06382978723404255
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500038,50,2,1,0.23809523809523808,0.45454545454545453,0.31249999999999994
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500039,50,2,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500039,50,2,0,1.0,0.03636363636363636,0.07017543859649122
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500039,50,2,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500040,50,2,0,1.0,0.02727272727272727,0.053097345132743355
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500040,50,2,0,1.0,0.01818181818181818,0.03571428571428572
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500040,50,2,0,1.0,0.02727272727272727,0.053097345132743355
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500041,50,2,0,1.0,0.4090909090909091,0.5806451612903226
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500041,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500041,50,2,0,1.0,0.4090909090909091,0.5806451612903226
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500042,50,2,0,1.0,0.3090909090909091,0.4722222222222222
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500042,50,2,0,1.0,0.01818181818181818,0.03571428571428572
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500042,50,2,0,1.0,0.3090909090909091,0.4722222222222222
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500043,50,2,0,1.0,0.37272727272727274,0.543046357615894
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500043,50,2,0,1.0,0.00909090909090909,0.018018018018018018
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500043,50,2,0,1.0,0.37272727272727274,0.543046357615894
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500044,50,2,0,1.0,0.35454545454545455,0.5234899328859061
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500044,50,2,0,1.0,0.02727272727272727,0.053097345132743355
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500044,50,2,0,1.0,0.35454545454545455,0.5234899328859061
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500045,50,2,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500045,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500045,50,2,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500046,50,2,0,1.0,0.38181818181818183,0.5526315789473685
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500046,50,2,0,1.0,0.045454545454545456,0.08695652173913045
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500046,50,2,0,1.0,0.38181818181818183,0.5526315789473685
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500047,50,2,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500047,50,2,0,1.0,0.01818181818181818,0.03571428571428572
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500047,50,2,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500048,50,2,0,1.0,0.39090909090909093,0.5620915032679739
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500048,50,2,0,1.0,0.4727272727272727,0.6419753086419753
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500048,50,2,0,1.0,0.8454545454545455,0.916256157635468
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500049,50,2,1,0.6,0.10909090909090909,0.1846153846153846
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500049,50,2,1,0.4,0.01818181818181818,0.034782608695652174
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500049,50,2,1,0.6,0.10909090909090909,0.1846153846153846
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500050,50,2,0,1.0,0.35454545454545455,0.5234899328859061
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500050,50,2,1,0.5,0.00909090909090909,0.01785714285714286
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500050,50,2,0,1.0,0.35454545454545455,0.5234899328859061
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500051,50,2,1,0.22685185185185186,0.8909090909090909,0.36162361623616235
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500051,50,2,0,0.8253968253968254,0.4727272727272727,0.6011560693641618
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500051,50,2,1,0.22950819672131148,0.8909090909090909,0.3649906890130354
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500052,50,2,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500052,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500052,50,2,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500053,50,2,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500053,50,2,0,1.0,0.03636363636363636,0.07017543859649122
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500053,50,2,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500054,50,2,0,1.0,0.4,0.5714285714285715
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500054,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500054,50,2,0,1.0,0.4,0.5714285714285715
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500055,50,2,0,1.0,0.36363636363636365,0.5333333333333333
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500055,50,2,1,0.0,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500055,50,2,0,1.0,0.36363636363636365,0.5333333333333333
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500056,50,2,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500056,50,2,0,1.0,0.01818181818181818,0.03571428571428572
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500056,50,2,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500057,50,2,0,1.0,0.42727272727272725,0.5987261146496815
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500057,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500057,50,2,0,1.0,0.42727272727272725,0.5987261146496815
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500058,50,2,0,1.0,0.24545454545454545,0.39416058394160586
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500058,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500058,50,2,0,1.0,0.24545454545454545,0.39416058394160586
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500059,50,2,0,1.0,0.43636363636363634,0.6075949367088608
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500059,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500059,50,2,0,1.0,0.43636363636363634,0.6075949367088608
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500064,50,2,0,1.0,0.3,0.4615384615384615
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500064,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500064,50,2,0,1.0,0.3,0.4615384615384615
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500065,50,2,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500065,50,2,0,1.0,0.02727272727272727,0.053097345132743355
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500065,50,2,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500066,50,2,0,1.0,0.3181818181818182,0.4827586206896552
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500066,50,2,1,0.0,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500066,50,2,0,1.0,0.3181818181818182,0.4827586206896552
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500067,50,2,0,1.0,0.36363636363636365,0.5333333333333333
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500067,50,2,0,1.0,0.00909090909090909,0.018018018018018018
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500067,50,2,0,1.0,0.36363636363636365,0.5333333333333333
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500060,50,2,0,1.0,0.17272727272727273,0.2945736434108527
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500060,50,2,0,1.0,0.03636363636363636,0.07017543859649122
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500060,50,2,0,1.0,0.17272727272727273,0.2945736434108527
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500061,50,2,0,1.0,0.37272727272727274,0.543046357615894
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500061,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500061,50,2,0,1.0,0.37272727272727274,0.543046357615894
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500062,50,2,0,1.0,0.36363636363636365,0.5333333333333333
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500062,50,2,1,0.3219178082191781,0.42727272727272725,0.36718750000000006
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500062,50,2,1,0.3219178082191781,0.42727272727272725,0.36718750000000006
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500063,50,2,1,0.20958083832335328,0.3181818181818182,0.25270758122743686
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500063,50,2,0,1.0,0.02727272727272727,0.053097345132743355
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500063,50,2,1,0.20958083832335328,0.3181818181818182,0.25270758122743686
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500068,50,2,0,1.0,0.36363636363636365,0.5333333333333333
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500068,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500068,50,2,0,1.0,0.36363636363636365,0.5333333333333333
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500069,50,2,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500069,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500069,50,2,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500070,50,2,0,1.0,0.3181818181818182,0.4827586206896552
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500070,50,2,1,0.0,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500070,50,2,1,0.33653846153846156,0.3181818181818182,0.32710280373831774
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500071,50,2,0,1.0,0.38181818181818183,0.5526315789473685
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500071,50,2,0,1.0,0.05454545454545454,0.10344827586206896
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500071,50,2,0,1.0,0.38181818181818183,0.5526315789473685
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500072,50,2,0,1.0,0.44545454545454544,0.6163522012578617
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500072,50,2,0,1.0,0.07272727272727272,0.13559322033898305
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500072,50,2,0,1.0,0.44545454545454544,0.6163522012578617
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500073,50,2,0,0.5666666666666667,0.3090909090909091,0.39999999999999997
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500073,50,2,0,0.46078431372549017,0.42727272727272725,0.44339622641509435
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500073,50,2,0,0.46078431372549017,0.42727272727272725,0.44339622641509435
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500074,50,2,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500074,50,2,0,1.0,0.01818181818181818,0.03571428571428572
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500074,50,2,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500075,50,2,0,1.0,0.7090909090909091,0.8297872340425533
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500075,50,2,0,1.0,0.43636363636363634,0.6075949367088608
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500075,50,2,0,1.0,0.7636363636363637,0.865979381443299
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500076,50,2,0,1.0,0.9090909090909091,0.9523809523809523
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500076,50,2,0,1.0,0.4727272727272727,0.6419753086419753
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500076,50,2,0,1.0,0.9090909090909091,0.9523809523809523
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500077,50,2,0,1.0,0.42727272727272725,0.5987261146496815
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500077,50,2,0,1.0,0.1,0.18181818181818182
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500077,50,2,0,1.0,0.42727272727272725,0.5987261146496815
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500078,50,2,0,1.0,0.43636363636363634,0.6075949367088608
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500078,50,2,0,1.0,0.01818181818181818,0.03571428571428572
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500078,50,2,0,1.0,0.43636363636363634,0.6075949367088608
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500079,50,2,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500079,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500079,50,2,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500084,50,2,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500084,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500084,50,2,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500085,50,2,0,1.0,0.6909090909090909,0.8172043010752689
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500085,50,2,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500085,50,2,0,1.0,0.7545454545454545,0.8601036269430052
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500086,50,2,1,0.4444444444444444,0.43636363636363634,0.4403669724770642
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500086,50,2,0,1.0,0.05454545454545454,0.10344827586206896
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500086,50,2,1,0.4444444444444444,0.43636363636363634,0.4403669724770642
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500087,50,2,0,1.0,0.44545454545454544,0.6163522012578617
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500087,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500087,50,2,0,1.0,0.44545454545454544,0.6163522012578617
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500080,50,2,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500080,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500080,50,2,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500081,50,2,0,0.7981651376146789,0.7909090909090909,0.7945205479452055
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500081,50,2,0,0.5050505050505051,0.45454545454545453,0.4784688995215311
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500081,50,2,0,0.5506329113924051,0.7909090909090909,0.6492537313432837
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500082,50,2,0,1.0,0.42727272727272725,0.5987261146496815
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500082,50,2,0,1.0,0.02727272727272727,0.053097345132743355
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500082,50,2,0,1.0,0.42727272727272725,0.5987261146496815
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500083,50,2,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500083,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500083,50,2,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500092,50,2,0,1.0,0.7636363636363637,0.865979381443299
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500092,50,2,0,1.0,0.4727272727272727,0.6419753086419753
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500092,50,2,0,1.0,0.7636363636363637,0.865979381443299
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500093,50,2,0,1.0,0.38181818181818183,0.5526315789473685
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500093,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500093,50,2,0,1.0,0.38181818181818183,0.5526315789473685
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500094,50,2,0,1.0,0.38181818181818183,0.5526315789473685
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500094,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500094,50,2,0,1.0,0.38181818181818183,0.5526315789473685
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500095,50,2,1,0.24875621890547264,0.45454545454545453,0.3215434083601286
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500095,50,2,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500095,50,2,1,0.25125628140703515,0.45454545454545453,0.32362459546925565
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500088,50,2,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500088,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500088,50,2,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500089,50,2,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500089,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500089,50,2,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500090,50,2,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500090,50,2,0,1.0,0.03636363636363636,0.07017543859649122
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500090,50,2,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500091,50,2,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500091,50,2,0,1.0,0.01818181818181818,0.03571428571428572
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500091,50,2,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500096,50,2,0,,0.0,0.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500096,50,2,0,,0.0,0.0
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500096,50,2,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500097,50,2,0,1.0,0.6636363636363637,0.7978142076502733
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500097,50,2,0,1.0,0.41818181818181815,0.5897435897435896
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500097,50,2,0,1.0,0.6727272727272727,0.8043478260869564
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500098,50,2,1,0.7,0.38181818181818183,0.49411764705882355
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500098,50,2,0,1.0,0.01818181818181818,0.03571428571428572
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500098,50,2,1,0.7,0.38181818181818183,0.49411764705882355
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5500099,50,2,0,1.0,0.3181818181818182,0.4827586206896552
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5500099,50,2,0,1.0,0.03636363636363636,0.07017543859649122
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5500099,50,2,0,1.0,0.3181818181818182,0.4827586206896552
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600000,50,3,0,0.6470588235294118,0.9,0.752851711026616
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600000,50,3,0,0.49074074074074076,0.4818181818181818,0.4862385321100917
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600000,50,3,0,0.6428571428571429,0.9,0.75
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600001,50,3,0,1.0,0.8818181818181818,0.9371980676328503
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600001,50,3,0,1.0,0.4727272727272727,0.6419753086419753
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600001,50,3,0,1.0,0.8818181818181818,0.9371980676328503
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600002,50,3,0,1.0,0.9090909090909091,0.9523809523809523
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600002,50,3,0,0.90625,0.5272727272727272,0.6666666666666665
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600002,50,3,0,0.9433962264150944,0.9090909090909091,0.9259259259259259
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600003,50,3,0,1.0,0.7545454545454545,0.8601036269430052
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600003,50,3,0,0.8970588235294118,0.5545454545454546,0.6853932584269663
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600003,50,3,0,0.9222222222222223,0.7545454545454545,0.83
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600004,50,3,0,1.0,0.37272727272727274,0.543046357615894
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600004,50,3,0,1.0,0.02727272727272727,0.053097345132743355
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600004,50,3,0,1.0,0.37272727272727274,0.543046357615894
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600005,50,3,0,1.0,0.9545454545454546,0.9767441860465117
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600005,50,3,0,1.0,0.5545454545454546,0.7134502923976608
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600005,50,3,0,1.0,0.9545454545454546,0.9767441860465117
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600006,50,3,0,1.0,0.7909090909090909,0.883248730964467
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600006,50,3,0,1.0,0.4818181818181818,0.6503067484662576
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600006,50,3,0,1.0,0.7727272727272727,0.8717948717948718
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600007,50,3,0,0.9587628865979382,0.8454545454545455,0.8985507246376813
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600007,50,3,0,0.5463917525773195,0.4818181818181818,0.5120772946859904
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600007,50,3,0,0.6788321167883211,0.8454545454545455,0.7530364372469636
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600008,50,3,0,1.0,0.7,0.8235294117647058
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600008,50,3,0,1.0,0.42727272727272725,0.5987261146496815
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600008,50,3,0,1.0,0.7,0.8235294117647058
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600009,50,3,0,1.0,0.8090909090909091,0.8944723618090452
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600009,50,3,0,1.0,0.5272727272727272,0.6904761904761904
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600009,50,3,0,1.0,0.8181818181818182,0.9
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600010,50,3,0,1.0,0.8090909090909091,0.8944723618090452
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600010,50,3,0,1.0,0.4727272727272727,0.6419753086419753
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600010,50,3,0,1.0,0.8090909090909091,0.8944723618090452
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600011,50,3,0,1.0,0.8272727272727273,0.9054726368159205
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600011,50,3,0,1.0,0.4727272727272727,0.6419753086419753
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600011,50,3,0,1.0,0.8363636363636363,0.9108910891089108
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600012,50,3,0,0.9583333333333334,0.8363636363636363,0.8932038834951457
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600012,50,3,0,0.3563218390804598,0.5636363636363636,0.43661971830985913
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600012,50,3,0,0.45098039215686275,0.8363636363636363,0.5859872611464968
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600013,50,3,0,0.9523809523809523,0.9090909090909091,0.9302325581395349
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600013,50,3,0,1.0,0.5454545454545454,0.7058823529411764
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600013,50,3,0,0.9519230769230769,0.9,0.925233644859813
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600014,50,3,0,1.0,0.8272727272727273,0.9054726368159205
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600014,50,3,0,1.0,0.42727272727272725,0.5987261146496815
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600014,50,3,0,1.0,0.8363636363636363,0.9108910891089108
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600015,50,3,0,1.0,0.8090909090909091,0.8944723618090452
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600015,50,3,0,1.0,0.4727272727272727,0.6419753086419753
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600015,50,3,0,1.0,0.8181818181818182,0.9
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600016,50,3,0,1.0,0.8727272727272727,0.9320388349514563
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600016,50,3,0,1.0,0.4727272727272727,0.6419753086419753
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600016,50,3,0,1.0,0.8727272727272727,0.9320388349514563
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600017,50,3,0,1.0,0.9090909090909091,0.9523809523809523
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600017,50,3,0,1.0,0.05454545454545454,0.10344827586206896
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600017,50,3,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600018,50,3,0,1.0,0.9272727272727272,0.9622641509433962
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600018,50,3,0,1.0,0.4909090909090909,0.6585365853658536
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600018,50,3,0,1.0,0.9272727272727272,0.9622641509433962
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600019,50,3,0,0.8214285714285714,0.8363636363636363,0.8288288288288289
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600019,50,3,1,0.348993288590604,0.4727272727272727,0.4015444015444016
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600019,50,3,1,0.48677248677248675,0.8363636363636363,0.6153846153846154
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600020,50,3,0,1.0,0.7727272727272727,0.8717948717948718
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600020,50,3,0,1.0,0.4727272727272727,0.6419753086419753
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600020,50,3,0,1.0,0.7636363636363637,0.865979381443299
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600021,50,3,0,1.0,0.9,0.9473684210526316
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600021,50,3,0,1.0,0.7545454545454545,0.8601036269430052
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600021,50,3,0,1.0,0.9,0.9473684210526316
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600022,50,3,0,1.0,0.9090909090909091,0.9523809523809523
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600022,50,3,0,0.4098360655737705,0.45454545454545453,0.43103448275862066
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600022,50,3,0,0.5813953488372093,0.9090909090909091,0.7092198581560284
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600023,50,3,0,1.0,0.7909090909090909,0.883248730964467
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600023,50,3,0,1.0,0.5545454545454546,0.7134502923976608
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600023,50,3,0,1.0,0.7818181818181819,0.8775510204081634
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600024,50,3,0,1.0,0.7454545454545455,0.8541666666666666
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600024,50,3,1,0.9821428571428571,0.5,0.6626506024096385
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600024,50,3,0,1.0,0.7454545454545455,0.8541666666666666
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600025,50,3,0,0.7878787878787878,0.7090909090909091,0.7464114832535885
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600025,50,3,0,0.7866666666666666,0.5363636363636364,0.6378378378378379
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600025,50,3,0,0.8333333333333334,0.7272727272727273,0.7766990291262137
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600026,50,3,0,1.0,0.8454545454545455,0.916256157635468
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600026,50,3,0,1.0,0.4090909090909091,0.5806451612903226
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600026,50,3,0,1.0,0.8363636363636363,0.9108910891089108
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600027,50,3,0,1.0,0.6454545454545455,0.7845303867403315
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600027,50,3,0,1.0,0.41818181818181815,0.5897435897435896
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600027,50,3,0,1.0,0.6727272727272727,0.8043478260869564
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600028,50,3,0,1.0,0.9636363636363636,0.9814814814814815
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600028,50,3,0,0.9491525423728814,0.509090909090909,0.6627218934911243
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600028,50,3,0,0.9719626168224299,0.9454545454545454,0.9585253456221198
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600029,50,3,0,1.0,0.43636363636363634,0.6075949367088608
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600029,50,3,0,1.0,0.00909090909090909,0.018018018018018018
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600029,50,3,0,1.0,0.43636363636363634,0.6075949367088608
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600030,50,3,0,1.0,0.8272727272727273,0.9054726368159205
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600030,50,3,0,1.0,0.5272727272727272,0.6904761904761904
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600030,50,3,0,1.0,0.8090909090909091,0.8944723618090452
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600031,50,3,0,1.0,0.8727272727272727,0.9320388349514563
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600031,50,3,0,1.0,0.43636363636363634,0.6075949367088608
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600031,50,3,0,1.0,0.8545454545454545,0.9215686274509803
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600032,50,3,0,1.0,0.6181818181818182,0.7640449438202247
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600032,50,3,1,0.9827586206896551,0.5181818181818182,0.6785714285714285
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600032,50,3,0,1.0,0.6181818181818182,0.7640449438202247
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600033,50,3,1,0.7155172413793104,0.7545454545454545,0.7345132743362832
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600033,50,3,1,0.9615384615384616,0.45454545454545453,0.617283950617284
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600033,50,3,1,0.7155172413793104,0.7545454545454545,0.7345132743362832
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600034,50,3,0,1.0,0.9,0.9473684210526316
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600034,50,3,0,0.7123287671232876,0.4727272727272727,0.5683060109289617
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600034,50,3,0,0.825,0.9,0.8608695652173912
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600035,50,3,0,1.0,0.8,0.888888888888889
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600035,50,3,0,1.0,0.4818181818181818,0.6503067484662576
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600035,50,3,0,1.0,0.8,0.888888888888889
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600036,50,3,0,1.0,0.8545454545454545,0.9215686274509803
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600036,50,3,0,1.0,0.4909090909090909,0.6585365853658536
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600036,50,3,0,1.0,0.8545454545454545,0.9215686274509803
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600037,50,3,0,0.970873786407767,0.9090909090909091,0.9389671361502346
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600037,50,3,1,0.9649122807017544,0.5,0.658682634730539
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600037,50,3,0,0.970873786407767,0.9090909090909091,0.9389671361502346
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600038,50,3,0,1.0,0.8545454545454545,0.9215686274509803
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600038,50,3,1,0.9821428571428571,0.5,0.6626506024096385
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600038,50,3,0,1.0,0.8636363636363636,0.9268292682926829
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600039,50,3,1,0.9479166666666666,0.8272727272727273,0.883495145631068
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600039,50,3,2,0.5078125,0.5909090909090909,0.546218487394958
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600039,50,3,1,0.9468085106382979,0.8090909090909091,0.8725490196078431
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600044,50,3,0,1.0,0.9090909090909091,0.9523809523809523
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600044,50,3,0,0.6057692307692307,0.5727272727272728,0.5887850467289718
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600044,50,3,0,0.7050359712230215,0.8909090909090909,0.7871485943775101
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600045,50,3,0,1.0,0.6545454545454545,0.7912087912087912
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600045,50,3,0,1.0,0.5,0.6666666666666666
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600045,50,3,0,1.0,0.6545454545454545,0.7912087912087912
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600046,50,3,0,1.0,0.9090909090909091,0.9523809523809523
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600046,50,3,0,1.0,0.5636363636363636,0.7209302325581396
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600046,50,3,0,1.0,0.9,0.9473684210526316
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600047,50,3,1,0.970873786407767,0.9090909090909091,0.9389671361502346
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600047,50,3,1,0.96875,0.5636363636363636,0.7126436781609196
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600047,50,3,1,0.970873786407767,0.9090909090909091,0.9389671361502346
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600040,50,3,0,1.0,0.8545454545454545,0.9215686274509803
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600040,50,3,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600040,50,3,0,1.0,0.8545454545454545,0.9215686274509803
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600041,50,3,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600041,50,3,0,1.0,0.4909090909090909,0.6585365853658536
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600041,50,3,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600042,50,3,0,1.0,0.43636363636363634,0.6075949367088608
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600042,50,3,0,1.0,0.38181818181818183,0.5526315789473685
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600042,50,3,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600043,50,3,0,1.0,0.8363636363636363,0.9108910891089108
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600043,50,3,0,1.0,0.6272727272727273,0.770949720670391
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600043,50,3,0,1.0,0.8363636363636363,0.9108910891089108
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600048,50,3,0,1.0,0.8818181818181818,0.9371980676328503
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600048,50,3,0,1.0,0.5818181818181818,0.735632183908046
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600048,50,3,0,1.0,0.8818181818181818,0.9371980676328503
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600049,50,3,0,1.0,0.8818181818181818,0.9371980676328503
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600049,50,3,0,1.0,0.43636363636363634,0.6075949367088608
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600049,50,3,0,1.0,0.8818181818181818,0.9371980676328503
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600050,50,3,0,1.0,0.9181818181818182,0.957345971563981
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600050,50,3,0,1.0,0.5363636363636364,0.6982248520710059
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600050,50,3,0,1.0,0.9181818181818182,0.957345971563981
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600051,50,3,0,0.38434163701067614,0.9818181818181818,0.5524296675191817
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600051,50,3,0,1.0,0.4636363636363636,0.6335403726708074
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600051,50,3,0,0.3821428571428571,0.9727272727272728,0.5487179487179488
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600052,50,3,0,1.0,0.9090909090909091,0.9523809523809523
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600052,50,3,0,1.0,0.4636363636363636,0.6335403726708074
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600052,50,3,0,1.0,0.9090909090909091,0.9523809523809523
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600053,50,3,0,1.0,0.6636363636363637,0.7978142076502733
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600053,50,3,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600053,50,3,0,1.0,0.6636363636363637,0.7978142076502733
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600054,50,3,0,1.0,0.8545454545454545,0.9215686274509803
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600054,50,3,0,1.0,0.4909090909090909,0.6585365853658536
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600054,50,3,0,1.0,0.8545454545454545,0.9215686274509803
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600055,50,3,0,1.0,0.7454545454545455,0.8541666666666666
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600055,50,3,0,1.0,0.6090909090909091,0.7570621468926554
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600055,50,3,0,1.0,0.7909090909090909,0.883248730964467
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600060,50,3,0,1.0,0.8909090909090909,0.9423076923076923
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600060,50,3,0,1.0,0.4636363636363636,0.6335403726708074
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600060,50,3,0,1.0,0.8909090909090909,0.9423076923076923
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600061,50,3,0,1.0,0.8727272727272727,0.9320388349514563
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600061,50,3,0,1.0,0.4727272727272727,0.6419753086419753
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600061,50,3,0,1.0,0.8636363636363636,0.9268292682926829
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600062,50,3,0,1.0,0.44545454545454544,0.6163522012578617
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600062,50,3,0,0.6292134831460674,0.509090909090909,0.5628140703517588
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600062,50,3,0,0.7461538461538462,0.8818181818181818,0.8083333333333333
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600063,50,3,0,1.0,0.7818181818181819,0.8775510204081634
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600063,50,3,0,1.0,0.5454545454545454,0.7058823529411764
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600063,50,3,0,1.0,0.7909090909090909,0.883248730964467
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600056,50,3,0,1.0,0.9090909090909091,0.9523809523809523
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600056,50,3,0,1.0,0.6454545454545455,0.7845303867403315
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600056,50,3,0,1.0,0.9090909090909091,0.9523809523809523
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600057,50,3,0,1.0,0.9,0.9473684210526316
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600057,50,3,0,1.0,0.5181818181818182,0.6826347305389222
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600057,50,3,0,1.0,0.9,0.9473684210526316
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600058,50,3,0,0.7619047619047619,0.7272727272727273,0.7441860465116279
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600058,50,3,0,0.6753246753246753,0.4727272727272727,0.5561497326203209
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600058,50,3,0,0.7641509433962265,0.7363636363636363,0.7500000000000001
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600059,50,3,0,1.0,0.9,0.9473684210526316
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600059,50,3,0,1.0,0.4636363636363636,0.6335403726708074
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600059,50,3,0,1.0,0.9,0.9473684210526316
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600064,50,3,0,1.0,0.9272727272727272,0.9622641509433962
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600064,50,3,0,1.0,0.4909090909090909,0.6585365853658536
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600064,50,3,0,1.0,0.9272727272727272,0.9622641509433962
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600065,50,3,0,0.9203539823008849,0.9454545454545454,0.9327354260089686
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600065,50,3,0,1.0,0.4909090909090909,0.6585365853658536
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600065,50,3,0,0.9203539823008849,0.9454545454545454,0.9327354260089686
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600066,50,3,0,1.0,0.7727272727272727,0.8717948717948718
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600066,50,3,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600066,50,3,0,1.0,0.7545454545454545,0.8601036269430052
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600067,50,3,0,1.0,0.8181818181818182,0.9
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600067,50,3,1,0.9841269841269841,0.5636363636363636,0.7167630057803468
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600067,50,3,0,1.0,0.8181818181818182,0.9
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600068,50,3,0,1.0,0.8454545454545455,0.916256157635468
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600068,50,3,0,1.0,0.4909090909090909,0.6585365853658536
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600068,50,3,0,1.0,0.8454545454545455,0.916256157635468
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600069,50,3,0,0.9807692307692307,0.9272727272727272,0.9532710280373831
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600069,50,3,1,0.30939226519337015,0.509090909090909,0.3848797250859106
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600069,50,3,1,0.44933920704845814,0.9272727272727272,0.6053412462908012
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600070,50,3,0,1.0,0.8272727272727273,0.9054726368159205
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600070,50,3,1,0.9811320754716981,0.4727272727272727,0.638036809815951
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600070,50,3,0,1.0,0.8272727272727273,0.9054726368159205
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600071,50,3,0,1.0,0.8727272727272727,0.9320388349514563
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600071,50,3,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600071,50,3,0,1.0,0.8090909090909091,0.8944723618090452
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600072,50,3,1,0.21447721179624665,0.7272727272727273,0.33126293995859213
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600072,50,3,0,1.0,0.5,0.6666666666666666
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600072,50,3,1,0.21447721179624665,0.7272727272727273,0.33126293995859213
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600073,50,3,0,1.0,0.8454545454545455,0.916256157635468
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600073,50,3,0,1.0,0.4818181818181818,0.6503067484662576
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600073,50,3,0,1.0,0.8454545454545455,0.916256157635468
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600074,50,3,0,1.0,0.6909090909090909,0.8172043010752689
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600074,50,3,0,1.0,0.41818181818181815,0.5897435897435896
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600074,50,3,0,1.0,0.4090909090909091,0.5806451612903226
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600075,50,3,0,1.0,0.9090909090909091,0.9523809523809523
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600075,50,3,0,1.0,0.4636363636363636,0.6335403726708074
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600075,50,3,0,1.0,0.8909090909090909,0.9423076923076923
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600076,50,3,0,0.7058823529411765,0.6545454545454545,0.679245283018868
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600076,50,3,0,0.632183908045977,0.5,0.5583756345177665
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600076,50,3,0,0.6923076923076923,0.6545454545454545,0.6728971962616823
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600077,50,3,0,1.0,0.8818181818181818,0.9371980676328503
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600077,50,3,0,1.0,0.4636363636363636,0.6335403726708074
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600077,50,3,0,1.0,0.8818181818181818,0.9371980676328503
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600078,50,3,0,1.0,0.8545454545454545,0.9215686274509803
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600078,50,3,0,1.0,0.00909090909090909,0.018018018018018018
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600078,50,3,0,1.0,0.4090909090909091,0.5806451612903226
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600079,50,3,0,0.9387755102040817,0.8363636363636363,0.8846153846153846
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600079,50,3,0,0.9310344827586207,0.4909090909090909,0.6428571428571428
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600079,50,3,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600080,50,3,0,1.0,0.6818181818181818,0.8108108108108109
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600080,50,3,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600080,50,3,0,1.0,0.6909090909090909,0.8172043010752689
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600081,50,3,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600081,50,3,0,1.0,0.13636363636363635,0.24000000000000002
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600081,50,3,0,1.0,0.45454545454545453,0.625
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600082,50,3,1,0.7903225806451613,0.44545454545454544,0.569767441860465
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600082,50,3,0,1.0,0.4727272727272727,0.6419753086419753
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600082,50,3,1,0.7936507936507936,0.45454545454545453,0.5780346820809248
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600083,50,3,1,0.24688279301745636,0.9,0.3874755381604697
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600083,50,3,0,1.0,0.5545454545454546,0.7134502923976608
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600083,50,3,1,0.245,0.8909090909090909,0.3843137254901961
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600084,50,3,0,1.0,0.9272727272727272,0.9622641509433962
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600084,50,3,0,1.0,0.7090909090909091,0.8297872340425533
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600084,50,3,0,1.0,0.9272727272727272,0.9622641509433962
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600085,50,3,0,1.0,0.9,0.9473684210526316
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600085,50,3,0,1.0,0.509090909090909,0.6746987951807228
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600085,50,3,0,1.0,0.9,0.9473684210526316
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600086,50,3,0,1.0,0.9,0.9473684210526316
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600086,50,3,0,1.0,0.4909090909090909,0.6585365853658536
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600086,50,3,0,1.0,0.8545454545454545,0.9215686274509803
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600087,50,3,0,1.0,0.9090909090909091,0.9523809523809523
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600087,50,3,0,0.5978260869565217,0.5,0.5445544554455446
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600087,50,3,0,0.7299270072992701,0.9090909090909091,0.8097165991902834
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600088,50,3,0,1.0,0.8181818181818182,0.9
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600088,50,3,0,1.0,0.4727272727272727,0.6419753086419753
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600088,50,3,0,1.0,0.8363636363636363,0.9108910891089108
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600089,50,3,0,1.0,0.9090909090909091,0.9523809523809523
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600089,50,3,0,1.0,0.43636363636363634,0.6075949367088608
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600089,50,3,0,1.0,0.8818181818181818,0.9371980676328503
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600090,50,3,0,1.0,0.8,0.888888888888889
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600090,50,3,0,1.0,0.4818181818181818,0.6503067484662576
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600090,50,3,0,1.0,0.8181818181818182,0.9
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600091,50,3,0,1.0,0.9090909090909091,0.9523809523809523
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600091,50,3,0,1.0,0.4727272727272727,0.6419753086419753
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600091,50,3,0,1.0,0.9090909090909091,0.9523809523809523
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600092,50,3,0,1.0,0.8909090909090909,0.9423076923076923
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600092,50,3,0,1.0,0.5363636363636364,0.6982248520710059
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600092,50,3,0,1.0,0.9181818181818182,0.957345971563981
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600093,50,3,0,1.0,0.00909090909090909,0.018018018018018018
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600093,50,3,0,1.0,0.41818181818181815,0.5897435897435896
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600093,50,3,0,,0.0,0.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600094,50,3,0,1.0,0.8272727272727273,0.9054726368159205
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600094,50,3,0,1.0,0.44545454545454544,0.6163522012578617
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600094,50,3,0,1.0,0.8,0.888888888888889
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600095,50,3,0,0.5617977528089888,0.9090909090909091,0.6944444444444445
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600095,50,3,0,0.5096774193548387,0.7181818181818181,0.5962264150943396
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600095,50,3,0,0.5681818181818182,0.9090909090909091,0.6993006993006994
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600096,50,3,0,1.0,0.9,0.9473684210526316
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600096,50,3,0,0.7619047619047619,0.5818181818181818,0.6597938144329897
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600096,50,3,0,0.8319327731092437,0.9,0.8646288209606987
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600097,50,3,0,1.0,0.9090909090909091,0.9523809523809523
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600097,50,3,0,1.0,0.5272727272727272,0.6904761904761904
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600097,50,3,0,1.0,0.9090909090909091,0.9523809523809523
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600098,50,3,0,1.0,0.8454545454545455,0.916256157635468
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600098,50,3,0,1.0,0.5181818181818182,0.6826347305389222
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600098,50,3,0,1.0,0.8545454545454545,0.9215686274509803
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5600099,50,3,0,1.0,0.7727272727272727,0.8717948717948718
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5600099,50,3,0,1.0,0.4636363636363636,0.6335403726708074
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5600099,50,3,0,1.0,0.7636363636363637,0.865979381443299
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700000,50,4,0,0.6535947712418301,0.9090909090909091,0.7604562737642586
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700000,50,4,0,0.6041666666666666,0.5272727272727272,0.5631067961165047
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700000,50,4,0,0.5210526315789473,0.9,0.66
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700001,50,4,0,1.0,0.8181818181818182,0.9
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700001,50,4,0,1.0,0.6545454545454545,0.7912087912087912
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700001,50,4,0,1.0,0.8181818181818182,0.9
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700002,50,4,0,1.0,0.9272727272727272,0.9622641509433962
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700002,50,4,0,1.0,0.5363636363636364,0.6982248520710059
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700002,50,4,0,1.0,0.9272727272727272,0.9622641509433962
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700003,50,4,1,0.8110236220472441,0.9363636363636364,0.869198312236287
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700003,50,4,0,1.0,0.7,0.8235294117647058
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700003,50,4,1,0.8125,0.9454545454545454,0.8739495798319329
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700004,50,4,1,0.9009009009009009,0.9090909090909091,0.9049773755656109
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700004,50,4,0,1.0,0.6,0.7499999999999999
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700004,50,4,1,0.9009009009009009,0.9090909090909091,0.9049773755656109
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700005,50,4,0,1.0,0.7545454545454545,0.8601036269430052
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700005,50,4,0,0.8072289156626506,0.6090909090909091,0.694300518134715
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700005,50,4,0,0.8415841584158416,0.7727272727272727,0.8056872037914691
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700006,50,4,0,1.0,1.0,1.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700006,50,4,0,1.0,0.5909090909090909,0.7428571428571429
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700006,50,4,0,1.0,0.990909090909091,0.995433789954338
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700007,50,4,0,1.0,0.9636363636363636,0.9814814814814815
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700007,50,4,0,1.0,0.4818181818181818,0.6503067484662576
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700007,50,4,0,1.0,0.9636363636363636,0.9814814814814815
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700008,50,4,0,1.0,0.9545454545454546,0.9767441860465117
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700008,50,4,0,1.0,0.4636363636363636,0.6335403726708074
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700008,50,4,0,1.0,0.9545454545454546,0.9767441860465117
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700009,50,4,1,0.7205882352941176,0.8909090909090909,0.7967479674796749
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700009,50,4,0,1.0,0.6454545454545455,0.7845303867403315
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700009,50,4,1,0.7205882352941176,0.8909090909090909,0.7967479674796749
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700010,50,4,1,0.26288659793814434,0.9272727272727272,0.40963855421686746
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700010,50,4,0,1.0,0.5636363636363636,0.7209302325581396
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700010,50,4,0,0.9444444444444444,0.9272727272727272,0.9357798165137615
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700011,50,4,0,1.0,0.8818181818181818,0.9371980676328503
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700011,50,4,0,1.0,0.5545454545454546,0.7134502923976608
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700011,50,4,0,1.0,0.9181818181818182,0.957345971563981
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700016,50,4,0,1.0,0.9272727272727272,0.9622641509433962
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700016,50,4,0,1.0,0.6454545454545455,0.7845303867403315
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700016,50,4,0,1.0,0.9272727272727272,0.9622641509433962
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700017,50,4,0,0.746268656716418,0.9090909090909091,0.819672131147541
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700017,50,4,0,0.7480314960629921,0.8636363636363636,0.8016877637130801
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700017,50,4,0,0.7730496453900709,0.990909090909091,0.8685258964143426
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700018,50,4,0,1.0,0.7727272727272727,0.8717948717948718
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700018,50,4,0,1.0,0.5181818181818182,0.6826347305389222
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700018,50,4,0,1.0,0.7727272727272727,0.8717948717948718
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700019,50,4,0,1.0,1.0,1.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700019,50,4,0,1.0,0.7272727272727273,0.8421052631578948
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700019,50,4,0,1.0,1.0,1.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700012,50,4,0,1.0,0.8545454545454545,0.9215686274509803
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700012,50,4,0,1.0,0.7181818181818181,0.8359788359788359
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700012,50,4,0,1.0,0.8545454545454545,0.9215686274509803
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700013,50,4,0,0.7375886524822695,0.9454545454545454,0.8286852589641434
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700013,50,4,0,0.6186440677966102,0.6636363636363637,0.6403508771929824
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700013,50,4,0,0.6959459459459459,0.9363636363636364,0.7984496124031008
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700014,50,4,0,1.0,0.9181818181818182,0.957345971563981
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700014,50,4,0,1.0,0.5272727272727272,0.6904761904761904
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700014,50,4,0,1.0,0.9090909090909091,0.9523809523809523
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700015,50,4,0,1.0,0.9272727272727272,0.9622641509433962
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700015,50,4,0,1.0,0.7181818181818181,0.8359788359788359
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700015,50,4,0,1.0,0.9272727272727272,0.9622641509433962
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700020,50,4,0,0.8461538461538461,0.9,0.8722466960352422
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700020,50,4,0,0.5660377358490566,0.5454545454545454,0.5555555555555556
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700020,50,4,0,0.6827586206896552,0.9,0.776470588235294
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700021,50,4,0,1.0,0.9272727272727272,0.9622641509433962
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700021,50,4,0,1.0,0.6909090909090909,0.8172043010752689
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700021,50,4,0,1.0,0.9272727272727272,0.9622641509433962
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700022,50,4,0,1.0,0.8818181818181818,0.9371980676328503
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700022,50,4,0,0.9175257731958762,0.8090909090909091,0.8599033816425121
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700022,50,4,0,0.9223300970873787,0.8636363636363636,0.892018779342723
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700023,50,4,0,1.0,0.8909090909090909,0.9423076923076923
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700023,50,4,1,0.864406779661017,0.4636363636363636,0.6035502958579881
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700023,50,4,0,0.9423076923076923,0.8909090909090909,0.9158878504672897
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700024,50,4,0,1.0,0.9545454545454546,0.9767441860465117
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700024,50,4,0,1.0,0.5636363636363636,0.7209302325581396
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700024,50,4,0,1.0,0.9545454545454546,0.9767441860465117
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700025,50,4,0,1.0,0.8636363636363636,0.9268292682926829
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700025,50,4,0,1.0,0.4909090909090909,0.6585365853658536
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700025,50,4,0,1.0,0.8636363636363636,0.9268292682926829
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700026,50,4,0,1.0,0.9090909090909091,0.9523809523809523
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700026,50,4,0,1.0,0.7090909090909091,0.8297872340425533
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700026,50,4,0,1.0,0.9090909090909091,0.9523809523809523
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700027,50,4,0,1.0,0.9363636363636364,0.9671361502347418
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700027,50,4,0,1.0,0.5454545454545454,0.7058823529411764
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700027,50,4,0,1.0,0.9636363636363636,0.9814814814814815
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700028,50,4,0,1.0,0.9636363636363636,0.9814814814814815
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700028,50,4,0,1.0,0.6545454545454545,0.7912087912087912
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700028,50,4,0,1.0,0.9636363636363636,0.9814814814814815
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700029,50,4,0,1.0,0.7818181818181819,0.8775510204081634
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700029,50,4,0,1.0,0.5,0.6666666666666666
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700029,50,4,0,1.0,0.7727272727272727,0.8717948717948718
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700030,50,4,0,0.8292682926829268,0.9272727272727272,0.8755364806866953
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700030,50,4,0,0.7294117647058823,0.5636363636363636,0.6358974358974359
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700030,50,4,0,0.816,0.9272727272727272,0.8680851063829788
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700031,50,4,0,1.0,0.9545454545454546,0.9767441860465117
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700031,50,4,0,1.0,0.5545454545454546,0.7134502923976608
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700031,50,4,0,1.0,0.9636363636363636,0.9814814814814815
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700032,50,4,0,0.918918918918919,0.9272727272727272,0.9230769230769231
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700032,50,4,0,0.59,0.5363636363636364,0.5619047619047618
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700032,50,4,0,0.6710526315789473,0.9272727272727272,0.7786259541984732
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700033,50,4,0,0.9454545454545454,0.9454545454545454,0.9454545454545454
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700033,50,4,0,1.0,0.6545454545454545,0.7912087912087912
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700033,50,4,0,1.0,0.9454545454545454,0.9719626168224299
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700034,50,4,0,0.7633587786259542,0.9090909090909091,0.8298755186721992
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700034,50,4,0,0.7040816326530612,0.6272727272727273,0.6634615384615385
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700034,50,4,0,0.7751937984496124,0.9090909090909091,0.8368200836820083
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700035,50,4,0,0.9819819819819819,0.990909090909091,0.9864253393665158
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700035,50,4,0,1.0,0.8090909090909091,0.8944723618090452
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700035,50,4,0,0.9819819819819819,0.990909090909091,0.9864253393665158
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700036,50,4,0,1.0,0.8909090909090909,0.9423076923076923
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700036,50,4,0,1.0,0.5,0.6666666666666666
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700036,50,4,0,1.0,0.9181818181818182,0.957345971563981
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700037,50,4,0,1.0,0.8909090909090909,0.9423076923076923
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700037,50,4,0,0.8735632183908046,0.6909090909090909,0.7715736040609137
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700037,50,4,0,0.8990825688073395,0.8909090909090909,0.8949771689497716
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700038,50,4,0,1.0,0.8,0.888888888888889
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700038,50,4,0,1.0,0.7727272727272727,0.8717948717948718
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700038,50,4,0,1.0,0.7909090909090909,0.883248730964467
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700039,50,4,0,1.0,0.9363636363636364,0.9671361502347418
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700039,50,4,0,1.0,0.7454545454545455,0.8541666666666666
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700039,50,4,0,1.0,0.9363636363636364,0.9671361502347418
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700040,50,4,0,1.0,0.990909090909091,0.995433789954338
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700040,50,4,0,1.0,0.5545454545454546,0.7134502923976608
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700040,50,4,0,1.0,0.9818181818181818,0.9908256880733944
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700041,50,4,0,1.0,0.9272727272727272,0.9622641509433962
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700041,50,4,0,1.0,0.509090909090909,0.6746987951807228
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700041,50,4,0,1.0,0.9181818181818182,0.957345971563981
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700042,50,4,0,1.0,0.9181818181818182,0.957345971563981
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700042,50,4,0,0.5496688741721855,0.7545454545454545,0.6360153256704981
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700042,50,4,0,0.5976331360946746,0.9181818181818182,0.7240143369175629
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700043,50,4,0,1.0,0.8545454545454545,0.9215686274509803
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700043,50,4,0,1.0,0.509090909090909,0.6746987951807228
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700043,50,4,0,1.0,0.8272727272727273,0.9054726368159205
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700044,50,4,0,1.0,0.8181818181818182,0.9
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700044,50,4,1,0.9538461538461539,0.5636363636363636,0.7085714285714286
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700044,50,4,0,1.0,0.8181818181818182,0.9
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700045,50,4,0,1.0,0.8636363636363636,0.9268292682926829
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700045,50,4,0,1.0,0.5636363636363636,0.7209302325581396
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700045,50,4,0,1.0,0.8636363636363636,0.9268292682926829
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700046,50,4,0,1.0,0.9272727272727272,0.9622641509433962
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700046,50,4,0,1.0,0.5545454545454546,0.7134502923976608
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700046,50,4,0,1.0,0.9272727272727272,0.9622641509433962
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700047,50,4,0,1.0,0.9636363636363636,0.9814814814814815
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700047,50,4,1,0.9764705882352941,0.7545454545454545,0.8512820512820513
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700047,50,4,0,1.0,0.9454545454545454,0.9719626168224299
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700048,50,4,0,1.0,0.8909090909090909,0.9423076923076923
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700048,50,4,0,1.0,0.7090909090909091,0.8297872340425533
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700048,50,4,0,1.0,0.8909090909090909,0.9423076923076923
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700049,50,4,0,1.0,0.9,0.9473684210526316
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700049,50,4,0,1.0,0.8454545454545455,0.916256157635468
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700049,50,4,0,1.0,0.9,0.9473684210526316
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700050,50,4,1,0.3745173745173745,0.8818181818181818,0.5257452574525745
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700050,50,4,0,1.0,0.7636363636363637,0.865979381443299
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700050,50,4,1,0.3769230769230769,0.8909090909090909,0.5297297297297298
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700051,50,4,0,1.0,0.9272727272727272,0.9622641509433962
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700051,50,4,0,1.0,0.5727272727272728,0.7283236994219653
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700051,50,4,0,1.0,0.9272727272727272,0.9622641509433962
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700056,50,4,0,1.0,0.8818181818181818,0.9371980676328503
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700056,50,4,0,1.0,0.5363636363636364,0.6982248520710059
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700056,50,4,0,1.0,0.9272727272727272,0.9622641509433962
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700057,50,4,0,0.9803921568627451,0.9090909090909091,0.9433962264150944
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700057,50,4,0,0.9782608695652174,0.8181818181818182,0.8910891089108911
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700057,50,4,0,0.9803921568627451,0.9090909090909091,0.9433962264150944
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700058,50,4,0,1.0,0.9818181818181818,0.9908256880733944
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700058,50,4,0,0.6862745098039216,0.6363636363636364,0.660377358490566
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700058,50,4,0,0.7714285714285715,0.9818181818181818,0.864
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700059,50,4,0,1.0,0.9363636363636364,0.9671361502347418
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700059,50,4,0,0.9705882352941176,0.6,0.7415730337078651
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700059,50,4,0,0.9809523809523809,0.9363636363636364,0.958139534883721
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700052,50,4,0,1.0,0.9181818181818182,0.957345971563981
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700052,50,4,0,0.9855072463768116,0.6181818181818182,0.7597765363128492
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700052,50,4,0,0.9900990099009901,0.9090909090909091,0.947867298578199
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700053,50,4,0,1.0,0.8818181818181818,0.9371980676328503
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700053,50,4,0,1.0,0.5272727272727272,0.6904761904761904
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700053,50,4,0,1.0,0.8818181818181818,0.9371980676328503
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700054,50,4,0,1.0,0.9636363636363636,0.9814814814814815
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700054,50,4,0,1.0,0.5727272727272728,0.7283236994219653
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700054,50,4,0,1.0,0.9636363636363636,0.9814814814814815
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700055,50,4,0,1.0,0.8272727272727273,0.9054726368159205
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700055,50,4,0,1.0,0.6,0.7499999999999999
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700055,50,4,0,1.0,0.8272727272727273,0.9054726368159205
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700060,50,4,0,0.9016393442622951,1.0,0.9482758620689655
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700060,50,4,0,0.7631578947368421,0.5272727272727272,0.6236559139784946
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700060,50,4,0,0.8582677165354331,0.990909090909091,0.9198312236286921
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700061,50,4,0,1.0,0.8818181818181818,0.9371980676328503
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700061,50,4,0,1.0,0.6363636363636364,0.7777777777777778
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700061,50,4,0,1.0,0.8727272727272727,0.9320388349514563
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700062,50,4,0,0.816793893129771,0.9727272727272728,0.8879668049792532
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700062,50,4,0,1.0,0.6181818181818182,0.7640449438202247
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700062,50,4,0,0.816793893129771,0.9727272727272728,0.8879668049792532
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700063,50,4,0,1.0,0.9181818181818182,0.957345971563981
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700063,50,4,0,1.0,0.7727272727272727,0.8717948717948718
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700063,50,4,0,1.0,0.9454545454545454,0.9719626168224299
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700064,50,4,0,1.0,1.0,1.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700064,50,4,0,1.0,0.6090909090909091,0.7570621468926554
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700064,50,4,0,1.0,1.0,1.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700065,50,4,0,1.0,0.8454545454545455,0.916256157635468
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700065,50,4,0,1.0,0.41818181818181815,0.5897435897435896
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700065,50,4,0,1.0,0.8090909090909091,0.8944723618090452
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700066,50,4,0,1.0,0.9,0.9473684210526316
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700066,50,4,0,0.9024390243902439,0.6727272727272727,0.7708333333333333
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700066,50,4,0,0.9252336448598131,0.9,0.9124423963133641
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700067,50,4,0,1.0,0.8545454545454545,0.9215686274509803
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700067,50,4,0,1.0,0.5272727272727272,0.6904761904761904
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700067,50,4,0,1.0,0.8545454545454545,0.9215686274509803
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700068,50,4,0,1.0,0.8818181818181818,0.9371980676328503
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700068,50,4,0,1.0,0.7090909090909091,0.8297872340425533
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700068,50,4,0,1.0,0.8818181818181818,0.9371980676328503
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700069,50,4,0,1.0,0.9454545454545454,0.9719626168224299
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700069,50,4,0,1.0,0.4727272727272727,0.6419753086419753
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700069,50,4,0,1.0,0.9454545454545454,0.9719626168224299
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700070,50,4,0,1.0,0.8727272727272727,0.9320388349514563
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700070,50,4,0,1.0,0.4727272727272727,0.6419753086419753
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700070,50,4,0,1.0,0.8636363636363636,0.9268292682926829
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700071,50,4,0,1.0,0.9272727272727272,0.9622641509433962
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700071,50,4,0,1.0,0.6818181818181818,0.8108108108108109
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700071,50,4,0,1.0,0.9272727272727272,0.9622641509433962
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700072,50,4,0,1.0,0.9454545454545454,0.9719626168224299
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700072,50,4,0,0.9454545454545454,0.4727272727272727,0.6303030303030303
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700072,50,4,0,0.9719626168224299,0.9454545454545454,0.9585253456221198
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700073,50,4,1,0.4748858447488584,0.9454545454545454,0.6322188449848024
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700073,50,4,0,1.0,0.6,0.7499999999999999
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700073,50,4,1,0.4748858447488584,0.9454545454545454,0.6322188449848024
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700074,50,4,0,1.0,0.8909090909090909,0.9423076923076923
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700074,50,4,0,0.6285714285714286,0.6,0.613953488372093
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700074,50,4,0,0.717391304347826,0.9,0.7983870967741935
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700075,50,4,0,1.0,1.0,1.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700075,50,4,0,1.0,0.6818181818181818,0.8108108108108109
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700075,50,4,0,1.0,1.0,1.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700076,50,4,0,1.0,0.8727272727272727,0.9320388349514563
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700076,50,4,0,1.0,0.5363636363636364,0.6982248520710059
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700076,50,4,0,1.0,0.8727272727272727,0.9320388349514563
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700077,50,4,1,0.27816901408450706,0.7181818181818181,0.4010152284263959
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700077,50,4,0,0.6666666666666666,0.5636363636363636,0.6108374384236454
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700077,50,4,1,0.2507936507936508,0.7181818181818181,0.37176470588235294
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700078,50,4,0,1.0,0.9181818181818182,0.957345971563981
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700078,50,4,0,1.0,0.5818181818181818,0.735632183908046
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700078,50,4,0,1.0,0.9181818181818182,0.957345971563981
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700079,50,4,0,1.0,1.0,1.0
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700079,50,4,0,1.0,0.5181818181818182,0.6826347305389222
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700079,50,4,0,1.0,1.0,1.0
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700080,50,4,0,1.0,0.9090909090909091,0.9523809523809523
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700080,50,4,0,1.0,0.5181818181818182,0.6826347305389222
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700080,50,4,0,1.0,0.9090909090909091,0.9523809523809523
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700081,50,4,0,1.0,0.8,0.888888888888889
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700081,50,4,0,0.58,0.5272727272727272,0.5523809523809523
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700081,50,4,0,0.676923076923077,0.8,0.7333333333333334
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700082,50,4,0,0.918918918918919,0.9272727272727272,0.9230769230769231
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700082,50,4,0,0.8666666666666667,0.7090909090909091,0.7800000000000001
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700082,50,4,0,0.8947368421052632,0.9272727272727272,0.9107142857142856
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700083,50,4,0,1.0,0.9090909090909091,0.9523809523809523
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700083,50,4,0,1.0,0.6363636363636364,0.7777777777777778
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700083,50,4,0,1.0,0.9090909090909091,0.9523809523809523
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700084,50,4,0,1.0,0.9272727272727272,0.9622641509433962
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700084,50,4,0,1.0,0.5454545454545454,0.7058823529411764
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700084,50,4,0,1.0,0.9272727272727272,0.9622641509433962
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700085,50,4,0,1.0,0.9090909090909091,0.9523809523809523
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700085,50,4,0,1.0,0.5727272727272728,0.7283236994219653
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700085,50,4,0,1.0,0.9,0.9473684210526316
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700086,50,4,0,1.0,0.9454545454545454,0.9719626168224299
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700086,50,4,0,0.544,0.6181818181818182,0.5787234042553191
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700086,50,4,0,1.0,0.9545454545454546,0.9767441860465117
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700087,50,4,0,1.0,0.8454545454545455,0.916256157635468
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700087,50,4,0,1.0,0.7363636363636363,0.8481675392670157
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700087,50,4,0,1.0,0.9,0.9473684210526316
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700088,50,4,0,1.0,0.9363636363636364,0.9671361502347418
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700088,50,4,0,1.0,0.6,0.7499999999999999
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700088,50,4,0,1.0,0.9363636363636364,0.9671361502347418
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700089,50,4,0,1.0,0.9,0.9473684210526316
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700089,50,4,0,1.0,0.6181818181818182,0.7640449438202247
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700089,50,4,0,1.0,0.9,0.9473684210526316
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700090,50,4,0,0.859504132231405,0.9454545454545454,0.9004329004329004
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700090,50,4,1,0.7582417582417582,0.6272727272727273,0.6865671641791045
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700090,50,4,0,0.8524590163934426,0.9454545454545454,0.8965517241379309
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700091,50,4,0,1.0,0.9363636363636364,0.9671361502347418
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700091,50,4,1,0.9710144927536232,0.6090909090909091,0.7486033519553071
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700091,50,4,0,1.0,0.9272727272727272,0.9622641509433962
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700092,50,4,0,1.0,0.7909090909090909,0.883248730964467
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700092,50,4,0,1.0,0.6636363636363637,0.7978142076502733
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700092,50,4,0,1.0,0.7909090909090909,0.883248730964467
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700093,50,4,0,1.0,0.9545454545454546,0.9767441860465117
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700093,50,4,0,0.7631578947368421,0.5272727272727272,0.6236559139784946
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700093,50,4,0,0.8536585365853658,0.9545454545454546,0.9012875536480687
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700094,50,4,0,1.0,0.9090909090909091,0.9523809523809523
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700094,50,4,0,1.0,0.7545454545454545,0.8601036269430052
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700094,50,4,0,1.0,0.9090909090909091,0.9523809523809523
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700095,50,4,0,1.0,0.8909090909090909,0.9423076923076923
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700095,50,4,0,1.0,0.8909090909090909,0.9423076923076923
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700095,50,4,0,1.0,0.8909090909090909,0.9423076923076923
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700096,50,4,0,1.0,0.8272727272727273,0.9054726368159205
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700096,50,4,0,1.0,0.4818181818181818,0.6503067484662576
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700096,50,4,0,1.0,0.8181818181818182,0.9
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700097,50,4,0,1.0,0.990909090909091,0.995433789954338
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700097,50,4,0,1.0,0.4818181818181818,0.6503067484662576
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700097,50,4,0,1.0,0.990909090909091,0.995433789954338
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700098,50,4,0,1.0,0.9181818181818182,0.957345971563981
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700098,50,4,0,0.8625,0.6272727272727273,0.7263157894736844
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700098,50,4,0,0.9009009009009009,0.9090909090909091,0.9049773755656109
+hybryda,50,0.7,reszty AR + CUSUM,statystyczne,5700099,50,4,0,0.3081570996978852,0.9272727272727272,0.4625850340136055
+hybryda,50,0.7,CUSUM z S1 (bez modelu AR),statystyczne,5700099,50,4,0,1.0,0.4727272727272727,0.6419753086419753
+hybryda,50,0.7,"CUSUM mieszany (poziom na x, reszta na resztach AR)",statystyczne,5700099,50,4,0,0.30606060606060603,0.9181818181818182,0.45909090909090905

@@ -1,0 +1,13 @@
+metoda,prog,kara_pelt,czesc,w,A
+PELT (reszty STL),0.0,13.0,glowny,50,3.0
+Matrix Profile z normalizacją,4.117508751585308,,glowny,50,3.0
+autoenkoder,0.3166177396092698,,glowny,50,3.0
+Matrix Profile bez normalizacji,9.75570563598575,,glowny,50,3.0
+STL + EWMA,0.7185932953451005,,glowny,50,3.0
+cechy cykli + kNN (5 cech),3.150095013230413,,glowny,50,3.0
+cechy cykli + kNN (3 cechy),2.155507510430856,,glowny,50,3.0
+Isolation Forest (5 cech),0.6845703207672508,,glowny,50,3.0
+Isolation Forest (3 cechy),0.690828576232349,,glowny,50,3.0
+"Isolation Forest (5 cech, uczony na szeregach bez anomalii)",0.6791446281898821,,glowny,50,3.0
+"Isolation Forest (3 cechy, uczony na szeregach bez anomalii)",0.686935693554481,,glowny,50,3.0
+autoenkoder (uczony na szeregach bez anomalii),0.3116705728337566,,glowny,50,3.0

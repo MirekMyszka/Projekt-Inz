@@ -1,1 +1,1 @@
-"""[do zrobienia] Metryki skuteczności detekcji i pętla eksperymentów."""
+"""Ocena metod: metryki, kalibracja progów, eksperymenty symulacyjne i wykresy wyników."""

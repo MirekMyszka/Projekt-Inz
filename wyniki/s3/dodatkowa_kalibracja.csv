@@ -1,0 +1,19 @@
+metoda,prog,kara_pelt,czesc,w,A,analiza
+"STL + EWMA [STL, okno sezonowości 7 cykli]",1.2294178103593991,,dodatkowa,50,3.0,a_model_cyklu
+STL + EWMA,0.7185932953451005,,dodatkowa,50,3.0,a_model_cyklu
+STL + EWMA [model: sinus dopasowany globalnie],0.6749525074821636,,dodatkowa,50,3.0,a_model_cyklu
+"PELT (reszty STL) [STL, okno sezonowości 7 cykli]",0.0,47.0,dodatkowa,50,3.0,a_model_cyklu
+PELT (reszty STL),0.0,13.0,dodatkowa,50,3.0,a_model_cyklu
+PELT (reszty STL) [model: sinus dopasowany globalnie],0.0,14.0,dodatkowa,50,3.0,a_model_cyklu
+STL + EWMA,0.7185932953451005,,dodatkowa,50,3.0,b_odwrotny_kierunek
+PELT (reszty STL),0.0,13.0,dodatkowa,50,3.0,b_odwrotny_kierunek
+Matrix Profile z normalizacją,4.117508751585308,,dodatkowa,50,3.0,b_odwrotny_kierunek
+autoenkoder,0.3166177396092698,,dodatkowa,50,3.0,b_odwrotny_kierunek
+Matrix Profile bez normalizacji,9.75570563598575,,dodatkowa,50,3.0,b_odwrotny_kierunek
+autoenkoder (bez odrzucania okien),0.3084753659942906,,dodatkowa,50,3.0,c_autoenkoder
+autoenkoder (odrzucanie 10% okien),0.3166177396092698,,dodatkowa,50,3.0,c_autoenkoder
+cechy cykli + kNN (5 cech),3.150095013230413,,dodatkowa,50,3.0,b_odwrotny_kierunek
+cechy cykli + kNN (3 cechy),2.155507510430856,,dodatkowa,50,3.0,b_odwrotny_kierunek
+Isolation Forest (5 cech),0.6845703207672508,,dodatkowa,50,3.0,b_odwrotny_kierunek
+Isolation Forest (3 cechy),0.690828576232349,,dodatkowa,50,3.0,b_odwrotny_kierunek
+autoenkoder (uczony na szeregach bez anomalii),0.3116705728337566,,dodatkowa,50,3.0,c_autoenkoder

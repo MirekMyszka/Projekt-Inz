@@ -1,0 +1,15 @@
+metoda,prog,kara_pelt,skale_cusum,czesc,w,sigma
+"CUSUM (poziom, zmienność, zależność)",1.5843656958192531,,"[7.351, 16.534, 16.25]",glowny,50,1.0
+PELT,0.0,62.0,,glowny,50,1.0
+Matrix Profile,8.885111153252184,,,glowny,50,1.0
+Matrix Profile z normalizacją,7.860835484661208,,,glowny,50,1.0
+cechy okien + kNN (5 cech),5.09588024125717,,,glowny,50,1.0
+cechy okien + kNN (3 cechy),2.389143674643175,,,glowny,50,1.0
+Isolation Forest (5 cech),0.6708927632741392,,,glowny,50,1.0
+Isolation Forest (3 cechy),0.6877919903816295,,,glowny,50,1.0
+LOF (5 cech),2.7970718277883546,,,glowny,50,1.0
+LOF (3 cechy),2.894159844141109,,,glowny,50,1.0
+"Isolation Forest (5 cech, uczony na szeregach bez anomalii)",0.65525390708612,,,glowny,50,1.0
+"Isolation Forest (3 cechy, uczony na szeregach bez anomalii)",0.6788211977058841,,,glowny,50,1.0
+"LOF (5 cech, uczony na szeregach bez anomalii)",2.0302452822147163,,,glowny,50,1.0
+"LOF (3 cechy, uczony na szeregach bez anomalii)",2.3036053582577702,,,glowny,50,1.0

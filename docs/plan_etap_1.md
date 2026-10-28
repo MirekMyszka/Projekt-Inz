@@ -1,5 +1,10 @@
 # Etap 1 – symulacje: 3 scenariusze, w każdym 3 własne anomalie zbiorowe, 6 metod
 
+> **Stan 2026-10-26:** scenariusze S1 (biały szum), S2 (AR(1)) i S3 (szum + sinus) zrealizowane – kroki 1–5, 7 i 8
+> z rozdz. 5. Wyniki i wnioski: [wyniki_s1.md](wyniki_s1.md), [wyniki_s2.md](wyniki_s2.md), [wyniki_s3.md](wyniki_s3.md);
+> skróty w rozdz. 9–11 poniżej.
+> Szczegółowy opis działania każdej metody: [metody.md](metody.md).
+
 > Ustalenia z konsultacji z promotorką **2026-10-13** + plan pracy na najbliższy etap.
 > Ten dokument ma **pierwszeństwo** przed szerszym planem w [plan_metod.md](plan_metod.md) – tamten zostaje
 > jako tło i plan na dalsze etapy (więcej szeregów, typów anomalii, dane rzeczywiste).
@@ -178,14 +183,15 @@ Najpierw **jeden scenariusz – S1 (biały szum)** (ustalone na konsultacji): na
 
 | # | Krok | Wynik | Gdzie |
 |---|---|---|---|
-| 1 | Generator S1 + wstawianie anomalii S1-A, S1-B, S1-C (3 w każdym szeregu) z etykietami | funkcje + wykres kontrolny: szereg z trzema zaznaczonymi anomaliami | `src/symulacje/generator.py`, `src/symulacje/anomalie.py` |
-| 2 | Moduł oceny: metryki, dobór progu | funkcje + testy na prostych przykładach | `src/ewaluacja/metryki.py` |
-| 3 | Pierwsza metoda (cechy okien + kNN – najprostsza i najbardziej interpretowalna) i pełny łańcuch: generuj → wstaw → wykryj → oceń | pierwszy wynik liczbowy | `src/metody/` |
-| 4 | Pozostałe 5 metod dla S1 (zestaw z rozdz. 4.2) | 6 metod we wspólnym interfejsie | `src/metody/` |
-| 5 | Eksperyment S1: intensywność × L × 6 metod × 100 szeregów (każdy z 3 anomaliami) + szeregi bez anomalii | tabela wyników + wykresy | `src/ewaluacja/eksperyment.py`, `wyniki/` |
+| 1 ✅ | Generator S1 + wstawianie anomalii S1-A, S1-B, S1-C (3 w każdym szeregu) z etykietami | funkcje + wykres kontrolny: szereg z trzema zaznaczonymi anomaliami | `src/symulacje/generator.py`, `src/symulacje/anomalie.py` |
+| 2 ✅ | Moduł oceny: metryki, dobór progu | funkcje + testy na prostych przykładach | `src/ewaluacja/metryki.py` |
+| 3 ✅ | Pierwsza metoda (cechy okien + kNN – najprostsza i najbardziej interpretowalna) i pełny łańcuch: generuj → wstaw → wykryj → oceń | pierwszy wynik liczbowy | `src/metody/` |
+| 4 ✅ | Pozostałe 5 metod dla S1 (zestaw z rozdz. 4.2) | 6 metod we wspólnym interfejsie | `src/metody/` |
+| 5 ✅ | Eksperyment S1: intensywność × L × 6 metod × 100 szeregów (każdy z 3 anomaliami) + szeregi bez anomalii | tabela wyników + wykresy | `src/ewaluacja/eksperyment.py`, `wyniki/` |
 | 6 | **Konsultacja** – pokazać wyniki S1, potwierdzić kierunek | – | – |
-| 7 | S2 (AR(1)) – generator, anomalie S2-A/B/C, metody z rozdz. 4.4, eksperyment | wyniki S2 | jw. |
-| 8 | S3 (sinus) – generator, anomalie okresowości S3-A/B/C, metody z rozdz. 4.5, eksperyment | wyniki S3 | jw. |
+| 7 ✅ | S2 (AR(1)) – generator, anomalie S2-A/B/C, metody z rozdz. 4.4, eksperyment | wyniki S2 | jw. |
+| 8 ✅ | S3 (sinus) – generator, anomalie okresowości S3-A/B/C, metody z rozdz. 4.5, eksperyment | wyniki S3 | jw. |
+| 8a | **Dopracowanie S1–S3** (ustalone 2026-10-26: najpierw wszystkie trzy scenariusze „idealnie”, potem porównanie) | poprawione wyniki S1–S3 | jw. |
 | 9 | Porównanie scenariuszy: jak zależność w szeregu zmienia skuteczność metod | wnioski do pracy | `wyniki/` |
 | 10 | (dalej) dane rzeczywiste: NYC Taxi (z etykietami), SPY, BTC; ewentualnie więcej scenariuszy | – | – |
 
@@ -199,6 +205,9 @@ Najpierw **jeden scenariusz – S1 (biały szum)** (ustalone na konsultacji): na
 - **PR-AUC** – ocena niezależna od progu.
 - **Próg** ustalany jednakowo dla wszystkich metod: kwantyl wyniku na szeregach bez anomalii, tak żeby odsetek
   fałszywych alarmów był z góry ustalony (np. 1%). Dzięki temu porównanie metod jest uczciwe.
+  *Realizacja:* fałszywy alarm w 10% szeregów bez anomalii (kwantyl 90% maksimów wyniku na 200 szeregach),
+  sprawdzany na 200 nowych szeregach w każdej konfiguracji i dodatkowo na 1 000 szeregach dla części głównej
+  każdego scenariusza (`src/ewaluacja/walidacja_progow.py`).
 - **Powtórzenia:** 100 szeregów na każdą kombinację parametrów, wynik = średnia ± przedział ufności.
 
 Główne wykresy wyników (odpowiadają tematowi pracy):
@@ -272,3 +281,112 @@ S3: faza +π/2, amplituda ×0,5, okres ×0,5, L = 100. Implementacje uproszczone
 | S3 – długość anomalii | L w **cyklach**: L ∈ {1, 2, 4}·P = {50, 100, 200} (fragment krótszy niż cykl nie ma sensu dla anomalii okresowości) |
 | S3 – autoenkoder | uczyć na szeregu bez anomalii (albo z odrzuceniem najgorzej odtwarzanych okien) i nie normalizować amplitudy okien |
 | Ocena (krok 2) | (1) AUC jako miara niezależna od progu; (2) próg ustalany na szeregach bez anomalii tak, żeby **każda metoda miała ten sam odsetek fałszywych alarmów**; (3) strefa tolerancji po końcu anomalii (alarm tuż po anomalii to nie fałszywy alarm); (4) fałszywe alarmy liczone jako osobne epizody |
+
+## 9. Stan realizacji – S1 zrealizowany (2026-10-26)
+
+Pełne wyniki, wykresy i wnioski: **[wyniki_s1.md](wyniki_s1.md)**. Skrót:
+
+- 1 200 szeregów (3 600 anomalii na metodę) + części dodatkowe: długość okna, poziom szumu, analiza cech;
+  próg każdej metody: fałszywy alarm w 10% szeregów bez anomalii (walidacja: 8,5–13%).
+- **Trudność anomalii:** zmiana zmienności (wykrywana średnio w 72–91%) < zmiana poziomu (26–76%) < pojawienie się
+  zależności (2–39%).
+- **Najlepsza metoda ogólnie – CUSUM** (A 76%, B 84%, C 39%; AUC 0,88–0,92); do zmiany zmienności – Matrix Profile
+  (91%); Matrix Profile z normalizacją nie widzi żadnej anomalii S1 (hipoteza potwierdzona).
+- **Isolation Forest** – wysokie AUC, ale niskie wykrywanie przez maskowanie długich anomalii.
+- **Dobór cech ważniejszy niż algorytm:** kNN na 3 cechach dopasowanych do anomalii wykrywa silną zależność w 99%,
+  na 5 cechach – w 51%.
+
+Zmiany względem rozdz. 4 (szczegóły i uzasadnienie: wyniki_s1.md, rozdz. 7):
+- **CUSUM** – karty zmienności i zależności liczone na **różnicach** sąsiednich punktów (zamiast x² i x_t·x_{t−1},
+  które „przeciekały” od zmiany poziomu) oraz lokalizacja alarmu od początku zmiany do szczytu karty;
+- **PELT** – własna, szybka implementacja (wynik identyczny z biblioteką `ruptures`), koszt normalny na (x, x·x₋₁).
+
+Następny krok: **konsultacja** (krok 6) – pokazać wyniki S1; potem S2 z rekomendacjami z wyniki_s1.md, rozdz. 8.
+
+## 10. Stan realizacji – S2 zrealizowany (2026-10-26)
+
+Pełne wyniki, wykresy i wnioski: **[wyniki_s2.md](wyniki_s2.md)**; opis metod: **[metody.md](metody.md)**. Skrót:
+
+- 1 200 szeregów AR(1), φ = 0,7 (3 600 anomalii na metodę) + części: długość okna, **siła zależności tła φ ∈ {0,3; 0,7; 0,9}**,
+  analizy dodatkowe (a)–(d); fałszywe alarmy na walidacji 7–12%.
+- **Najlepsza metoda ogólnie – reszty AR + CUSUM** (zmiana φ 66%, przesunięcie równowagi 45%; F1 0,52);
+  szok najlepiej wykrywa kNN (42%).
+- **Właściwości szeregu mają ogromny wpływ:** to samo przesunięcie równowagi (2σ_x) CUSUM wykrywa w 100% / 90% / 23%
+  przy φ tła = 0,3 / 0,7 / 0,9.
+- **Model AR pomaga wykrywać zmiany zależności, ale osłabia sygnał zmian poziomu i szoku** (w resztach zostaje (1 − φ)·Δ).
+- Isolation Forest – maskowanie także między anomaliami; One-Class SVM – nasycenie wyniku jądra RBF;
+  Matrix Profile – ślepy na wzrost zależności (AUC 0,03).
+
+Zmiany względem rozdz. 4 (szczegóły: wyniki_s2.md, rozdz. 7): poziomy intensywności uzupełnione do 4 (φ' jako słabnięcie
+zależności, wzrost φ osobno); One-Class SVM z γ = 0,01 (nasycenie przy domyślnym γ); własny koszt AR w PELT;
+uniwersalny silnik eksperymentu `src/ewaluacja/eksperyment.py`.
+
+Następny krok: **S3 (szum + sinus)** z rekomendacjami z wyniki_s2.md, rozdz. 8; potem porównanie S1–S3 (krok 9).
+
+## 11. Stan realizacji – S3 zrealizowany (2026-10-26)
+
+Pełne wyniki, wykresy i wnioski: **[wyniki_s3.md](wyniki_s3.md)**; opis metod (w tym nowych: STL + EWMA, autoenkoder):
+**[metody.md](metody.md)**. Skrót:
+
+- 1 200 szeregów szum + sinus (A = 3, P = 50; 3 600 anomalii na metodę), L = 1 / 2 / 4 cykle + części: długość okna,
+  **siła cyklu względem szumu A ∈ {1, 3, 5}**, analizy dodatkowe (a)–(c); fałszywe alarmy na walidacji 6,5–16,5%
+  (kNN 19,5% – głównie zmienność próby: na 1 000 dodatkowych szeregach 13,7%).
+- **Najlepsza metoda – cechy cykli + kNN** (faza 93%, amplituda 86%, okres 96%; F1 0,79). Najtrudniejsze –
+  słabnięcie cyklu.
+- **Przesunięcie fazy jest niewidoczne lokalnie** – Matrix Profile i autoenkoder widzą tylko skoki na brzegach;
+  całą anomalię widzą metody odnoszące szereg do jednego cyklu (reszty STL, faza względem czasu globalnego).
+- **Matrix Profile z normalizacją**: osłabienie cyklu 87% (hipoteza z planu obalona), wzmocnienie 1% (AUC 0,05–0,09) –
+  trzeci raz ślepota na fragmenty „gładsze”.
+- **Model cyklu nie może wchłaniać anomalii:** STL z domyślnym oknem sezonowości (7 cykli) – PELT 50–59%, z oknem
+  dłuższym niż szereg – 92–99%.
+- **Właściwości szeregu:** przy słabym cyklu (A = 1) najlepsze są metody na resztach STL, kNN spada do 0%.
+
+Zmiany względem rozdz. 4 (szczegóły: wyniki_s3.md, rozdz. 7): 4 poziomy intensywności (słabnięcie cyklu i przyspieszenie
+w części głównej, odwrotne kierunki osobno); losowa faza początkowa; STL z oknem sezonowości 121 cykli; autoenkoder
+z gardłem 2; Matrix Profile bez normalizacji porównawczo.
+
+Następny krok (ustalony 2026-10-26): **dopracowanie wszystkich trzech scenariuszy** (krok 8a), a dopiero potem
+porównanie S1–S3 (krok 9).
+
+## 12. Dopracowanie S1–S3 (2026-10-27, krok 8a)
+
+Przegląd całego projektu (kod, procedura oceny, dokumentacja) wykazał trzy poprawki metod; wszystkie trzy scenariusze
+przeliczono ponownie z tymi samymi ziarnami (metody, których poprawki nie dotyczą, dały wyniki identyczne co do bitu):
+
+1. **Odporna skala szumu** – mediana wariancji okien po 50 punktów zamiast 1,4826·MAD (długie anomalie zawyżały MAD;
+   karta zależności CUSUM dryfowała, metody na resztach były zaniżone) – CUSUM, reszty AR, STL, autoenkoder.
+2. **PELT** – odcinek porównywany z tłem (najdłuższe odcinki), wynik tylko dla odcinków istotnie innych od tła (z > 3),
+   kara ustalana bisekcją na 10% fałszywych alarmów – precyzja 0,56–0,73 → 0,83–0,93 we wszystkich scenariuszach.
+3. **Karta EWMA (S3)** – minimum kart w przód i w tył zamiast średniej (lokalizacja alarmu, fałszywe alarmy w szeregach
+   z anomaliami 0,46 → 0,14).
+
+Dodatkowo: niezależne sprawdzenie progów na 1 000 nowych szeregach bez anomalii dla części głównej każdego scenariusza
+(`src/ewaluacja/walidacja_progow.py`, `wyniki/walidacja_progow.md`). Opis zmian z wynikami przed / po: wyniki_s1.md,
+wyniki_s2.md, wyniki_s3.md (rozdz. 7); opis metod – metody.md. Wnioski jakościowe wszystkich scenariuszy bez zmian.
+
+Następny krok: konsultacja (raport z S1), potem porównanie S1–S3 (krok 9).
+
+## 13. Konsultacja 2026-10-27 – uwagi do raportu z S1 i ich realizacja
+
+Odpowiedzi na pytania z raportu (rozdz. 9.5 raportu z S1):
+
+| Pytanie z raportu | Ustalenie | Realizacja |
+|---|---|---|
+| 1. Sposób oceny (próg na 10% fałszywych alarmów, strefa ± 25, odsetek wykrytych + AUC) | bez zastrzeżeń | bez zmian |
+| 2. Zakres S1 (4 poziomy, L ∈ {20, 50, 100}, 100 szeregów na kombinację) | dobrze, bez zmian | bez zmian |
+| 3. Zestaw cech (3 vs 5) | w **każdym** scenariuszu liczyć **osobno 3 cechy i 5 cech** – w innych scenariuszach 5 cech może działać lepiej | kNN, Isolation Forest, LOF / One-Class SVM w obu wariantach we wszystkich częściach S1–S3; S1, S2: 3 cechy = po jednej na rodzaj anomalii, 5 cech = te 3 + 2 cechy pomocnicze z planu ([metody.md](metody.md), rozdz. 0.3) |
+| 4. Isolation Forest – uczenie na tym samym szeregu czy na szeregach bez anomalii | w każdym scenariuszu dodać wariant **uczony na szeregach bez anomalii** („wedle sztuki”) | obie metody ML każdego scenariusza (S1: IF, LOF; S2: IF, One-Class SVM; S3: IF, autoenkoder) także uczone na 20 osobnych szeregach bez anomalii – standardowy sposób użycia metod wykrywania nowości ([metody.md](metody.md), rozdz. 0.8) |
+| 5. Plan S2 i S3 | dobry, zaakceptowany | zrealizowany |
+| 6. Forma wyników | jak w raporcie, ale odsetek wykrytych według poziomu intensywności **osobno dla każdej długości L** (średnia po L nie ma sensu) | tabele poziom × rodzaj dla każdego L w dokumentach, raportach i `wyniki/s*/podsumowanie.md`; wykresy intensywności – wiersz = długość L |
+
+Raporty: osobny raport PDF dla każdego scenariusza (S1 poprawiony – bez sekcji pytań; S2, S3 w tym samym układzie).
+Nowe warianty policzono na tych samych szeregach co wersje główne (pozostałe metody bez zmian; warianty 5-cechowe S1
+dały wyniki identyczne co do bitu z wcześniejszymi). Najważniejsze skutki:
+- **zestaw cech**: w S1 lepsze 3 cechy (kNN: zależność 11% → 42%), w S2 – 5 cech (kNN: zmiana φ 48% → 60%), w S3 – bez
+  różnicy dla kNN; zestawu nie da się ustalić raz dla wszystkich szeregów;
+- **uczenie na szeregach bez anomalii** usuwa większość maskowania Isolation Forest (S3: faza 31% → 76%), w S2 jest
+  warunkiem działania One-Class SVM (zmiana φ 17% → 60%), a autoenkoderowi w S3 nie pomaga (amplituda 62% → 46%);
+- **kNN na 3 cechach** w S1 jest porównywalny z CUSUM (77 / 87 / 42% wobec 76 / 84 / 39%).
+Szczegóły: wyniki_s1.md, wyniki_s2.md, wyniki_s3.md (rozdz. 2, 3 i 7).
+
+Następny krok: porównanie S1–S3 (krok 9).

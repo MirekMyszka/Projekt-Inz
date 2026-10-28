@@ -1,7 +1,7 @@
 # Projekt inżynierski – podsumowanie
 
 > Plik-ściągawka: co robimy, co już jest, jak to uruchomić i co dalej.
-> Ostatnia weryfikacja stanu repozytorium: **2026-10-13**.
+> Ostatnia weryfikacja stanu repozytorium: **2026-10-26**.
 
 ## 1. Temat i cel
 
@@ -59,9 +59,26 @@ Projekt-Inz/
 │   ├── eksploracja/
 │   │   ├── podglad.py             # statystyki i wykresy cen
 │   │   └── przeglad_anomalii.py   # przegląd anomalii w danych (podstawa planu metod)
-│   ├── symulacje/                 # [do zrobienia]
-│   ├── metody/                    # [do zrobienia]
-│   └── ewaluacja/                 # [do zrobienia]
+│   ├── symulacje/
+│   │   ├── generator.py           # szeregi tła (S1: biały szum; S2: AR(1) o parametrach zmiennych w czasie; S3: szum + sinus)
+│   │   ├── anomalie.py            # anomalie S1-A/B/C, S2-A/B/C i S3-A/B/C, rozmieszczenie, szeregi testowe z etykietami
+│   │   └── pilot_etap1.py         # prototyp z 2026-10-13 (zostaje dla porównania)
+│   ├── metody/
+│   │   ├── baza.py                # wspólny interfejs Detektor, okna, cechy, model AR(1), reszty STL, cechy cykli
+│   │   ├── statystyczne.py        # CUSUM, reszty AR + CUSUM, STL + EWMA, PELT (koszt normalny i AR; własna implementacja)
+│   │   ├── fragmenty.py           # Matrix Profile (też na resztach AR), cechy okien / cykli + kNN
+│   │   └── ml.py                  # Isolation Forest, LOF, One-Class SVM, autoenkoder
+│   └── ewaluacja/
+│       ├── metryki.py             # epizody alarmów, strefa tolerancji, kalibracja progu, AUC/AP
+│       ├── eksperyment.py         # uniwersalny silnik eksperymentu (S2, S3)
+│       ├── eksperyment_s1.py      # eksperyment S1 (4 części)
+│       ├── eksperyment_s2.py      # eksperyment S2 (5 części)
+│       ├── eksperyment_s3.py      # eksperyment S3 (4 części)
+│       ├── wykresy_s1.py          # wykresy + wyniki/s1/podsumowanie.md
+│       ├── wykresy_s2.py          # wykresy + wyniki/s2/podsumowanie.md
+│       ├── wykresy_s3.py          # wykresy + wyniki/s3/podsumowanie.md
+│       ├── walidacja_progow.py    # sprawdzenie progów S1–S3 na 1 000 nowych szeregach bez anomalii
+│       └── warianty_metod.py      # nazwy i styl wariantów metod (5 / 3 cechy, uczony na szeregach bez anomalii)
 ├── dane/
 │   ├── surowe/spy/      spy_5min_sip_2016_2026_pobrano_2026-10-13.parquet
 │   ├── surowe/btcusdt/  btcusdt_5min_binance_2017_2026_pobrano_<data>.parquet
@@ -70,11 +87,19 @@ Projekt-Inz/
 │   ├── clean/btcusdt/   btcusdt_5min_2017_2026.parquet, btcusdt_brakujace_swiece.csv
 │   ├── clean/nyc_taxi/  nyc_taxi_30min_2014_2015.parquet
 │   └── cache/binance/   miesięczne ZIP-y z Binance (poza Gitem)
-├── wyniki/wykresy/      spy_5min_close.png, btcusdt_5min_close.png, nyc_taxi_30min.png
+├── wyniki/s1/, s2/, s3/ wyniki eksperymentów S1–S3 (CSV) + podsumowanie.md
+├── wyniki/walidacja_progow.csv, .md  sprawdzenie progów S1–S3 na 1 000 nowych szeregach
+├── wyniki/wykresy/      wykresy danych + s1_*.png, s2_*.png, s3_*.png
+├── tests/               test_s1.py, test_s2.py, test_s3.py, test_wspolne.py – generatory, ocena, metody (pytest)
 └── docs/
     ├── data_pipeline.md         # pobieranie i czyszczenie danych
     ├── plan_metod.md            # anomalie w danych, dobór metod, plan eksperymentów (szeroki)
-    └── plan_etap_1.md           # AKTUALNY etap: ustalenia z konsultacji, 3 scenariusze, 6 metod
+    ├── plan_etap_1.md           # AKTUALNY etap: ustalenia z konsultacji, 3 scenariusze, 6 metod
+    ├── wyniki_s1.md             # wyniki i wnioski scenariusza S1 (biały szum)
+    ├── wyniki_s2.md             # wyniki i wnioski scenariusza S2 (AR(1))
+    ├── wyniki_s3.md             # wyniki i wnioski scenariusza S3 (szum + sinus)
+    ├── metody.md                # szczegółowy opis działania każdej metody
+    └── plan_realizacji_projektu.pdf  # plan dla prowadzących (2026-10-20)
 ```
 
 Zasady:
@@ -94,6 +119,14 @@ python -m src.czyszczenie.btcusdt          # → dane/clean/btcusdt/
 python -m src.pobieranie.nyc_taxi_nab      # → dane/surowe/nyc_taxi/
 python -m src.czyszczenie.nyc_taxi         # → dane/clean/nyc_taxi/
 python -m src.eksploracja.podglad          # → wyniki/wykresy/
+python -m src.ewaluacja.eksperyment_s1     # → wyniki/s1/  (ok. 1 h; --szybko = ok. 6 min)
+python -m src.ewaluacja.wykresy_s1         # → wyniki/wykresy/s1_*.png, wyniki/s1/podsumowanie.md
+python -m src.ewaluacja.eksperyment_s2     # → wyniki/s2/  (ok. 35 min; --szybko = ok. 4 min)
+python -m src.ewaluacja.wykresy_s2         # → wyniki/wykresy/s2_*.png, wyniki/s2/podsumowanie.md
+python -m src.ewaluacja.eksperyment_s3     # → wyniki/s3/  (ok. 4 h; części osobno: glowny, okno, tlo, dodatkowa)
+python -m src.ewaluacja.wykresy_s3         # → wyniki/wykresy/s3_*.png, wyniki/s3/podsumowanie.md
+python -m src.ewaluacja.walidacja_progow   # → wyniki/walidacja_progow.md  (ok. 1,5 h)
+python -m pytest tests -q                  # testy
 ```
 
 ## 3. Dane
@@ -233,13 +266,22 @@ Uwagi (ważne przy ocenie metod):
 - [x] NYC Taxi (NAB): trzeci zbiór, z etykietami anomalii – pobranie, czyszczenie, weryfikacja
 - [x] Konsultacja 2026-10-13 – zawężony plan etapu 1: [docs/plan_etap_1.md](docs/plan_etap_1.md)
 - [x] Pilot etapu 1: sprawdzenie doboru metod na S1–S3 (40/54 par z AUC ≥ 0,90) – [docs/plan_etap_1.md](docs/plan_etap_1.md), rozdz. 8
-- [ ] **Etap 1, scenariusz S1 (biały szum)**: generator + 3 własne anomalie zbiorowe (w każdym szeregu wszystkie 3), ocena, 6 metod, eksperyment
-- [ ] Etap 1: scenariusze S2 (AR(1)) i S3 (biały szum + sinus), porównanie scenariuszy
-- [ ] **Generator szeregów syntetycznych** (AR/ARMA, trend, sezonowość, szum, GARCH-podobna zmienność) – `src/symulacje/`
-- [ ] **Wstrzykiwanie anomalii** z etykietami: punktowe, zmiana poziomu, zmiana wariancji, zaburzenie okresowości
-      – sterowane parametry: amplituda, długość, poziom szumu
-- [ ] Implementacja metod (statystyczne → fragmentowe → ML) we wspólnym interfejsie `fit / score / predict` – `src/metody/`
-- [ ] Moduł ewaluacji (metryki z p. 1) i pętla eksperymentów – `src/ewaluacja/`
+- [x] **Etap 1, scenariusz S1 (biały szum)**: generator + 3 anomalie zbiorowe, moduł oceny, 6 metod, eksperyment
+      (1 200 szeregów + części: okno, szum, analiza dodatkowa), wykresy, wnioski – [docs/wyniki_s1.md](docs/wyniki_s1.md)
+- [x] **Etap 1, scenariusz S2 (AR(1))**: generator + 3 anomalie (szok, zmiana φ, przesunięcie równowagi), 6 metod,
+      eksperyment (1 200 szeregów + okno, siła zależności tła, analizy dodatkowe), wnioski – [docs/wyniki_s2.md](docs/wyniki_s2.md)
+- [x] Szczegółowy opis działania każdej metody – [docs/metody.md](docs/metody.md)
+- [x] **Etap 1, scenariusz S3 (biały szum + sinus)**: generator + 3 anomalie okresowości (faza, amplituda, okres), 6 metod
+      (+ Matrix Profile bez normalizacji porównawczo), eksperyment (1 200 szeregów + okno, siła cyklu, analizy dodatkowe),
+      wnioski – [docs/wyniki_s3.md](docs/wyniki_s3.md); opis nowych metod w [docs/metody.md](docs/metody.md)
+- [x] Generator szeregów i wstawianie anomalii z etykietami – `src/symulacje/`
+- [x] Wspólny interfejs metod (6 metod na scenariusz) – `src/metody/`
+- [x] Moduł oceny i silnik eksperymentów – `src/ewaluacja/`
+- [x] Etap 1: dopracowanie S1–S3 – odporna skala szumu, PELT względem tła, dwustronna karta EWMA; wszystkie scenariusze
+      przeliczone, progi sprawdzone na 1 000 nowych szeregach – [docs/plan_etap_1.md](docs/plan_etap_1.md), rozdz. 12
+- [x] Konsultacja 2026-10-27 (raport z S1): w każdym scenariuszu warianty 3 i 5 cech, metody ML uczone także na szeregach
+      bez anomalii, wyniki według poziomu osobno dla każdego L; raporty PDF z S1, S2 i S3 – [docs/plan_etap_1.md](docs/plan_etap_1.md), rozdz. 13
+- [ ] Etap 1: porównanie scenariuszy S1–S3
 - [ ] Analiza rzeczywista: SPY i BTCUSDT (zwroty, wolumen)
 - [ ] Wyniki, wykresy, opis w pracy
 
@@ -249,8 +291,8 @@ Uwagi (ważne przy ocenie metod):
   Każdy plik mieści się w limicie GitHuba (100 MB na plik), ale repo rośnie z każdą nową wersją danych –
   przy kolejnych aktualizacjach rozważyć Git LFS albo trzymanie danych poza repo.
 - `luka_przed` nie widzi braków na końcu sesji (SPY 2019-08-12 15:35–15:55) – te są w `dzien_niepelny` i w CSV.
-- Brakuje w `requirements.txt` pakietów do dalszych etapów: `numpy`, `scipy`, `statsmodels`, `scikit-learn`
-  (+ ewentualnie `stumpy` do matrix profile).
+- `requirements.txt` zawiera już pakiety do symulacji i metod (numpy, scipy, scikit-learn, statsmodels, stumpy,
+  ruptures) oraz pytest i tabulate.
 
 ### Historia porządków
 
@@ -260,4 +302,16 @@ Uwagi (ważne przy ocenie metod):
 - 2026-10-13: reorganizacja folderów (`src/`, `dane/<zbiór>/`, `wyniki/`), wspólny `src/config.py`;
   dodano drugi zbiór: BTCUSDT 5-min z Binance (pobieranie + czyszczenie).
 - 2026-10-13: dodano trzeci zbiór: NYC Taxi z Numenta Anomaly Benchmark (z etykietami anomalii).
-
+- 2026-10-26: scenariusz S1 (biały szum) – generator, anomalie, 6 metod, moduł oceny, testy, eksperyment, wnioski.
+- 2026-10-26: scenariusz S2 (AR(1)) – generator, anomalie, 6 metod, uniwersalny silnik eksperymentu, testy, wnioski;
+  dokument z opisem metod (docs/metody.md).
+- 2026-10-26: scenariusz S3 (szum + sinus) – generator, anomalie okresowości, 6 metod (STL + EWMA, PELT na resztach STL,
+  Matrix Profile, cechy cykli + kNN, Isolation Forest, autoenkoder), testy, wnioski; metody.md uzupełniony o S3.
+- 2026-10-27: przegląd i dopracowanie S1–S3 – odporna skala szumu (mediana wariancji okien zamiast MAD), PELT względem
+  tła z karą na 10% fałszywych alarmów, karta EWMA jako minimum kart w przód i w tył; ponowne przeliczenie wszystkich
+  scenariuszy, sprawdzenie progów na 1 000 nowych szeregach (`walidacja_progow.py`), testy wspólne (`test_wspolne.py`);
+  dokumentacja wyników i metod zaktualizowana (rozdz. 7 każdego wyniki_s*.md: wyniki przed / po).
+- 2026-10-27: uwagi z konsultacji – zestawy 3 i 5 cech (`KOLUMNY_3`, parametr `cechy`), warianty ML uczone na 20 osobnych
+  szeregach bez anomalii (`nauka="czyste"`, `ucz()`; silniki eksperymentu generują szeregi uczące z ziaren 9 500 000 + i),
+  przeliczenie metod na cechach we wszystkich częściach S1–S3, tabele i wykresy według poziomu osobno dla każdego L
+  (`src/ewaluacja/warianty_metod.py`, wykresy `s*_uczenie.png`), testy wariantów (`test_wspolne.py`).

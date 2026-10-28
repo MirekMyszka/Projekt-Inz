@@ -1,1 +1,1 @@
-"""[do zrobienia] Generator szeregów syntetycznych i wstrzykiwanie anomalii z etykietami."""
+"""Generatory szeregów syntetycznych i wstawianie anomalii z etykietami (scenariusze S1–S3)."""

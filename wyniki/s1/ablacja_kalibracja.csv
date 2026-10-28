@@ -1,0 +1,6 @@
+metoda,prog,kara_pelt,skale_cusum,czesc,w,sigma
+"CUSUM (poziom, zmienność, zależność)",1.5843656958192531,,"[7.351, 16.534, 16.25]",ablacja,50,1.0
+CUSUM: tylko karta zależności,1.317798083529996,,"[7.351, 16.534, 16.25]",ablacja,50,1.0
+cechy okien + kNN (5 cech),5.09588024125717,,,ablacja,50,1.0
+"kNN: średnia, odch. std, autokorelacja",2.389143674643175,,,ablacja,50,1.0
+kNN: tylko autokorelacja,1.2991772534969388,,,ablacja,50,1.0

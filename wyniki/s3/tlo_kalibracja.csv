@@ -1,0 +1,28 @@
+metoda,prog,kara_pelt,czesc,w,A
+STL + EWMA,0.7185932953451072,,tlo,50,1.0
+PELT (reszty STL),0.0,13.0,tlo,50,1.0
+Matrix Profile z normalizacją,7.425813172827029,,tlo,50,1.0
+autoenkoder,1.1781832609036191,,tlo,50,1.0
+Matrix Profile bez normalizacji,9.434459874924816,,tlo,50,1.0
+STL + EWMA,0.7185932953451005,,tlo,50,3.0
+PELT (reszty STL),0.0,13.0,tlo,50,3.0
+Matrix Profile z normalizacją,4.117508751585308,,tlo,50,3.0
+autoenkoder,0.3166177396092698,,tlo,50,3.0
+Matrix Profile bez normalizacji,9.75570563598575,,tlo,50,3.0
+STL + EWMA,0.7185932953450935,,tlo,50,5.0
+PELT (reszty STL),0.0,13.0,tlo,50,5.0
+Matrix Profile z normalizacją,2.651647667928832,,tlo,50,5.0
+autoenkoder,0.1311287648525629,,tlo,50,5.0
+Matrix Profile bez normalizacji,9.920777753036852,,tlo,50,5.0
+cechy cykli + kNN (5 cech),15.352088396572668,,tlo,50,1.0
+cechy cykli + kNN (3 cechy),15.161015008611102,,tlo,50,1.0
+Isolation Forest (5 cech),0.7502576528593222,,tlo,50,1.0
+Isolation Forest (3 cechy),0.7745772886933451,,tlo,50,1.0
+cechy cykli + kNN (5 cech),3.150095013230413,,tlo,50,3.0
+cechy cykli + kNN (3 cechy),2.155507510430856,,tlo,50,3.0
+Isolation Forest (5 cech),0.6845703207672508,,tlo,50,3.0
+Isolation Forest (3 cechy),0.690828576232349,,tlo,50,3.0
+cechy cykli + kNN (5 cech),3.114111729490353,,tlo,50,5.0
+cechy cykli + kNN (3 cechy),2.125608420590492,,tlo,50,5.0
+Isolation Forest (5 cech),0.680983446953379,,tlo,50,5.0
+Isolation Forest (3 cechy),0.6869735751783747,,tlo,50,5.0

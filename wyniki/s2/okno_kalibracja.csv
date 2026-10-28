@@ -1,0 +1,22 @@
+metoda,prog,kara_pelt,czesc,w,phi_tla
+Matrix Profile (reszty AR),5.371289069618224,,okno,20,0.7
+Matrix Profile (reszty AR),8.886079074831295,,okno,50,0.7
+Matrix Profile (reszty AR),12.97291782507578,,okno,100,0.7
+cechy okien + kNN (5 cech),3.3736977196578035,,okno,20,0.7
+cechy okien + kNN (3 cechy),2.8537016996893905,,okno,20,0.7
+Isolation Forest (5 cech),0.6730872634443142,,okno,20,0.7
+Isolation Forest (3 cechy),0.7099965688456467,,okno,20,0.7
+One-Class SVM (5 cech),3.0073825264089056,,okno,20,0.7
+One-Class SVM (3 cechy),2.894805320007737,,okno,20,0.7
+cechy okien + kNN (5 cech),3.534318655477129,,okno,50,0.7
+cechy okien + kNN (3 cechy),2.950312387442142,,okno,50,0.7
+Isolation Forest (5 cech),0.6764587973378545,,okno,50,0.7
+Isolation Forest (3 cechy),0.693707370265942,,okno,50,0.7
+One-Class SVM (5 cech),2.7584671128507887,,okno,50,0.7
+One-Class SVM (3 cechy),2.4174723508869644,,okno,50,0.7
+cechy okien + kNN (5 cech),3.711537017581961,,okno,100,0.7
+cechy okien + kNN (3 cechy),2.9794891189612924,,okno,100,0.7
+Isolation Forest (5 cech),0.6662532341588203,,okno,100,0.7
+Isolation Forest (3 cechy),0.6802742326279045,,okno,100,0.7
+One-Class SVM (5 cech),2.306455966921204,,okno,100,0.7
+One-Class SVM (3 cechy),1.9028584327050209,,okno,100,0.7

@@ -1,0 +1,28 @@
+metoda,prog,kara_pelt,czesc,w,phi_tla
+reszty AR + CUSUM,1.5809697813470198,,tlo,50,0.3
+PELT (koszt AR),0.0,17.0,tlo,50,0.3
+Matrix Profile (reszty AR),8.873964184688203,,tlo,50,0.3
+reszty AR + CUSUM,1.6135213698847863,,tlo,50,0.7
+PELT (koszt AR),0.0,18.0,tlo,50,0.7
+Matrix Profile (reszty AR),8.886079074831295,,tlo,50,0.7
+reszty AR + CUSUM,1.5772615895554705,,tlo,50,0.9
+PELT (koszt AR),0.0,19.0,tlo,50,0.9
+Matrix Profile (reszty AR),8.886857890705837,,tlo,50,0.9
+cechy okien + kNN (5 cech),3.4103024117744822,,tlo,50,0.3
+cechy okien + kNN (3 cechy),2.7683933650235675,,tlo,50,0.3
+Isolation Forest (5 cech),0.6549873409314663,,tlo,50,0.3
+Isolation Forest (3 cechy),0.6881707969391474,,tlo,50,0.3
+One-Class SVM (5 cech),2.0779638333067503,,tlo,50,0.3
+One-Class SVM (3 cechy),1.8070858148090263,,tlo,50,0.3
+cechy okien + kNN (5 cech),3.534318655477129,,tlo,50,0.7
+cechy okien + kNN (3 cechy),2.950312387442142,,tlo,50,0.7
+Isolation Forest (5 cech),0.6764587973378545,,tlo,50,0.7
+Isolation Forest (3 cechy),0.693707370265942,,tlo,50,0.7
+One-Class SVM (5 cech),2.7584671128507887,,tlo,50,0.7
+One-Class SVM (3 cechy),2.4174723508869644,,tlo,50,0.7
+cechy okien + kNN (5 cech),4.238696740702068,,tlo,50,0.9
+cechy okien + kNN (3 cechy),3.48225610359799,,tlo,50,0.9
+Isolation Forest (5 cech),0.6973367725666989,,tlo,50,0.9
+Isolation Forest (3 cechy),0.6952130997101303,,tlo,50,0.9
+One-Class SVM (5 cech),4.283557958034728,,tlo,50,0.9
+One-Class SVM (3 cechy),3.8868744974913616,,tlo,50,0.9
