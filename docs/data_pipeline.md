@@ -149,8 +149,17 @@ Etykiety NAB nie obejmują 4–6 lipca 2014 (ruch 0,65–0,77 normy), prawdopodo
 Dla każdego zbioru clean: kształt, zakres, pierwsze wiersze, statystyki opisowe i wykres
 (`wyniki/wykresy/<zbiór>_5min_close.png`, BTC w skali logarytmicznej; `wyniki/wykresy/nyc_taxi_30min.png` z oknami anomalii NAB).
 
+## 4a. Kontrola jakości – `python -m src.eksploracja.raport_danych`
+
+Niezależna od skryptów czyszczenia: siatka oczekiwanych świec liczona od nowa (SPY – kalendarz NYSE, BTC – pełna siatka
+5-min, NYC – siatka 30-min), spójność OHLC i VWAP, duplikaty, braki, zgodność z listami brakujących świec; właściwości
+szeregów (rozkład i autokorelacja zwrotów, profil dobowy / tygodniowy) i przykłady anomalii. Wyniki: `wyniki/dane/*.csv`,
+wykresy `wyniki/wykresy/dane_*.png`; opis – `docs/Raport_dane.pdf`. Wszystkie liczby z rozdz. 1–3 tego dokumentu
+zgadzają się z tą kontrolą.
+
 ## 5. Dalsze kroki
 
 - log-zwroty (dla SPY tylko wewnątrz sesji), usunięcie sezonowości dziennej,
-- wybór okresów do analizy rzeczywistej (np. marzec 2020),
+- wybór okresów do analizy rzeczywistej (np. marzec 2020) – zrobione w etapie 2: szeregi dzienne i studia przypadków
+  5-min ([wyniki_rzeczywiste.md](wyniki_rzeczywiste.md)),
 - generator szeregów syntetycznych z anomaliami (`src/symulacje/`).

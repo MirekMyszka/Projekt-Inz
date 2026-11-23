@@ -1,0 +1,183 @@
+zbior,szereg,metoda_a,metoda_b,jaccard
+BTC,zmiennosc,reszty AR + CUSUM,PELT (koszt AR),0.0
+BTC,zmiennosc,reszty AR + CUSUM,Matrix Profile (reszty AR),0.0
+BTC,zmiennosc,reszty AR + CUSUM,cechy okien + kNN (5 cech),0.0
+BTC,zmiennosc,reszty AR + CUSUM,cechy okien + kNN (3 cechy),0.0
+BTC,zmiennosc,reszty AR + CUSUM,Isolation Forest (5 cech),0.022900763358778626
+BTC,zmiennosc,reszty AR + CUSUM,Isolation Forest (3 cechy),0.007518796992481203
+BTC,zmiennosc,reszty AR + CUSUM,One-Class SVM (5 cech),0.03076923076923077
+BTC,zmiennosc,reszty AR + CUSUM,One-Class SVM (3 cechy),0.022900763358778626
+BTC,zmiennosc,reszty AR + CUSUM,"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",0.03076923076923077
+BTC,zmiennosc,reszty AR + CUSUM,"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",0.022900763358778626
+BTC,zmiennosc,reszty AR + CUSUM,"One-Class SVM (5 cech, uczony na okresie kalibracyjnym)",0.03875968992248062
+BTC,zmiennosc,reszty AR + CUSUM,"One-Class SVM (3 cechy, uczony na okresie kalibracyjnym)",0.022900763358778626
+BTC,zmiennosc,reszty AR + CUSUM,CUSUM z S1 (bez modelu AR),0.9705882352941176
+BTC,zmiennosc,PELT (koszt AR),Matrix Profile (reszty AR),0.03875968992248062
+BTC,zmiennosc,PELT (koszt AR),cechy okien + kNN (5 cech),0.0
+BTC,zmiennosc,PELT (koszt AR),cechy okien + kNN (3 cechy),0.015151515151515152
+BTC,zmiennosc,PELT (koszt AR),Isolation Forest (5 cech),0.0
+BTC,zmiennosc,PELT (koszt AR),Isolation Forest (3 cechy),0.0
+BTC,zmiennosc,PELT (koszt AR),One-Class SVM (5 cech),0.022900763358778626
+BTC,zmiennosc,PELT (koszt AR),One-Class SVM (3 cechy),0.015151515151515152
+BTC,zmiennosc,PELT (koszt AR),"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",0.015151515151515152
+BTC,zmiennosc,PELT (koszt AR),"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",0.0
+BTC,zmiennosc,PELT (koszt AR),"One-Class SVM (5 cech, uczony na okresie kalibracyjnym)",0.007518796992481203
+BTC,zmiennosc,PELT (koszt AR),"One-Class SVM (3 cechy, uczony na okresie kalibracyjnym)",0.015151515151515152
+BTC,zmiennosc,PELT (koszt AR),CUSUM z S1 (bez modelu AR),0.0
+BTC,zmiennosc,Matrix Profile (reszty AR),cechy okien + kNN (5 cech),0.24074074074074073
+BTC,zmiennosc,Matrix Profile (reszty AR),cechy okien + kNN (3 cechy),0.19642857142857142
+BTC,zmiennosc,Matrix Profile (reszty AR),Isolation Forest (5 cech),0.3137254901960784
+BTC,zmiennosc,Matrix Profile (reszty AR),Isolation Forest (3 cechy),0.2641509433962264
+BTC,zmiennosc,Matrix Profile (reszty AR),One-Class SVM (5 cech),0.24074074074074073
+BTC,zmiennosc,Matrix Profile (reszty AR),One-Class SVM (3 cechy),0.2072072072072072
+BTC,zmiennosc,Matrix Profile (reszty AR),"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",0.21818181818181817
+BTC,zmiennosc,Matrix Profile (reszty AR),"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",0.19642857142857142
+BTC,zmiennosc,Matrix Profile (reszty AR),"One-Class SVM (5 cech, uczony na okresie kalibracyjnym)",0.19642857142857142
+BTC,zmiennosc,Matrix Profile (reszty AR),"One-Class SVM (3 cechy, uczony na okresie kalibracyjnym)",0.2523364485981308
+BTC,zmiennosc,Matrix Profile (reszty AR),CUSUM z S1 (bez modelu AR),0.0
+BTC,zmiennosc,cechy okien + kNN (5 cech),cechy okien + kNN (3 cechy),0.5227272727272727
+BTC,zmiennosc,cechy okien + kNN (5 cech),Isolation Forest (5 cech),0.5581395348837209
+BTC,zmiennosc,cechy okien + kNN (5 cech),Isolation Forest (3 cechy),0.5227272727272727
+BTC,zmiennosc,cechy okien + kNN (5 cech),One-Class SVM (5 cech),0.2641509433962264
+BTC,zmiennosc,cechy okien + kNN (5 cech),One-Class SVM (3 cechy),0.3137254901960784
+BTC,zmiennosc,cechy okien + kNN (5 cech),"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",0.3137254901960784
+BTC,zmiennosc,cechy okien + kNN (5 cech),"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",0.3958333333333333
+BTC,zmiennosc,cechy okien + kNN (5 cech),"One-Class SVM (5 cech, uczony na okresie kalibracyjnym)",0.35353535353535354
+BTC,zmiennosc,cechy okien + kNN (5 cech),"One-Class SVM (3 cechy, uczony na okresie kalibracyjnym)",0.425531914893617
+BTC,zmiennosc,cechy okien + kNN (5 cech),CUSUM z S1 (bez modelu AR),0.0
+BTC,zmiennosc,cechy okien + kNN (3 cechy),Isolation Forest (5 cech),0.3958333333333333
+BTC,zmiennosc,cechy okien + kNN (3 cechy),Isolation Forest (3 cechy),0.4888888888888889
+BTC,zmiennosc,cechy okien + kNN (3 cechy),One-Class SVM (5 cech),0.24074074074074073
+BTC,zmiennosc,cechy okien + kNN (3 cechy),One-Class SVM (3 cechy),0.3673469387755102
+BTC,zmiennosc,cechy okien + kNN (3 cechy),"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",0.2641509433962264
+BTC,zmiennosc,cechy okien + kNN (3 cechy),"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",0.44086021505376344
+BTC,zmiennosc,cechy okien + kNN (3 cechy),"One-Class SVM (5 cech, uczony na okresie kalibracyjnym)",0.3137254901960784
+BTC,zmiennosc,cechy okien + kNN (3 cechy),"One-Class SVM (3 cechy, uczony na okresie kalibracyjnym)",0.3673469387755102
+BTC,zmiennosc,cechy okien + kNN (3 cechy),CUSUM z S1 (bez modelu AR),0.0
+BTC,zmiennosc,Isolation Forest (5 cech),Isolation Forest (3 cechy),0.5056179775280899
+BTC,zmiennosc,Isolation Forest (5 cech),One-Class SVM (5 cech),0.4888888888888889
+BTC,zmiennosc,Isolation Forest (5 cech),One-Class SVM (3 cechy),0.44086021505376344
+BTC,zmiennosc,Isolation Forest (5 cech),"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",0.5056179775280899
+BTC,zmiennosc,Isolation Forest (5 cech),"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",0.38144329896907214
+BTC,zmiennosc,Isolation Forest (5 cech),"One-Class SVM (5 cech, uczony na okresie kalibracyjnym)",0.38144329896907214
+BTC,zmiennosc,Isolation Forest (5 cech),"One-Class SVM (3 cechy, uczony na okresie kalibracyjnym)",0.4105263157894737
+BTC,zmiennosc,Isolation Forest (5 cech),CUSUM z S1 (bez modelu AR),0.022900763358778626
+BTC,zmiennosc,Isolation Forest (3 cechy),One-Class SVM (5 cech),0.28846153846153844
+BTC,zmiennosc,Isolation Forest (3 cechy),One-Class SVM (3 cechy),0.425531914893617
+BTC,zmiennosc,Isolation Forest (3 cechy),"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",0.35353535353535354
+BTC,zmiennosc,Isolation Forest (3 cechy),"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",0.5227272727272727
+BTC,zmiennosc,Isolation Forest (3 cechy),"One-Class SVM (5 cech, uczony na okresie kalibracyjnym)",0.3673469387755102
+BTC,zmiennosc,Isolation Forest (3 cechy),"One-Class SVM (3 cechy, uczony na okresie kalibracyjnym)",0.4888888888888889
+BTC,zmiennosc,Isolation Forest (3 cechy),CUSUM z S1 (bez modelu AR),0.007518796992481203
+BTC,zmiennosc,One-Class SVM (5 cech),One-Class SVM (3 cechy),0.5952380952380952
+BTC,zmiennosc,One-Class SVM (5 cech),"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",0.5056179775280899
+BTC,zmiennosc,One-Class SVM (5 cech),"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",0.2523364485981308
+BTC,zmiennosc,One-Class SVM (5 cech),"One-Class SVM (5 cech, uczony na okresie kalibracyjnym)",0.5402298850574713
+BTC,zmiennosc,One-Class SVM (5 cech),"One-Class SVM (3 cechy, uczony na okresie kalibracyjnym)",0.3958333333333333
+BTC,zmiennosc,One-Class SVM (5 cech),CUSUM z S1 (bez modelu AR),0.03076923076923077
+BTC,zmiennosc,One-Class SVM (3 cechy),"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",0.425531914893617
+BTC,zmiennosc,One-Class SVM (3 cechy),"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",0.38144329896907214
+BTC,zmiennosc,One-Class SVM (3 cechy),"One-Class SVM (5 cech, uczony na okresie kalibracyjnym)",0.5056179775280899
+BTC,zmiennosc,One-Class SVM (3 cechy),"One-Class SVM (3 cechy, uczony na okresie kalibracyjnym)",0.4888888888888889
+BTC,zmiennosc,One-Class SVM (3 cechy),CUSUM z S1 (bez modelu AR),0.022900763358778626
+BTC,zmiennosc,"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)","Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",0.32673267326732675
+BTC,zmiennosc,"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)","One-Class SVM (5 cech, uczony na okresie kalibracyjnym)",0.45652173913043476
+BTC,zmiennosc,"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)","One-Class SVM (3 cechy, uczony na okresie kalibracyjnym)",0.3958333333333333
+BTC,zmiennosc,"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",CUSUM z S1 (bez modelu AR),0.03076923076923077
+BTC,zmiennosc,"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)","One-Class SVM (5 cech, uczony na okresie kalibracyjnym)",0.35353535353535354
+BTC,zmiennosc,"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)","One-Class SVM (3 cechy, uczony na okresie kalibracyjnym)",0.4105263157894737
+BTC,zmiennosc,"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",CUSUM z S1 (bez modelu AR),0.022900763358778626
+BTC,zmiennosc,"One-Class SVM (5 cech, uczony na okresie kalibracyjnym)","One-Class SVM (3 cechy, uczony na okresie kalibracyjnym)",0.6341463414634146
+BTC,zmiennosc,"One-Class SVM (5 cech, uczony na okresie kalibracyjnym)",CUSUM z S1 (bez modelu AR),0.03875968992248062
+BTC,zmiennosc,"One-Class SVM (3 cechy, uczony na okresie kalibracyjnym)",CUSUM z S1 (bez modelu AR),0.022900763358778626
+BTC,wolumen,reszty AR + CUSUM,PELT (koszt AR),0.0
+BTC,wolumen,reszty AR + CUSUM,Matrix Profile (reszty AR),0.0
+BTC,wolumen,reszty AR + CUSUM,cechy okien + kNN (5 cech),0.0
+BTC,wolumen,reszty AR + CUSUM,cechy okien + kNN (3 cechy),0.0
+BTC,wolumen,reszty AR + CUSUM,Isolation Forest (5 cech),0.0
+BTC,wolumen,reszty AR + CUSUM,Isolation Forest (3 cechy),0.0
+BTC,wolumen,reszty AR + CUSUM,One-Class SVM (5 cech),0.0
+BTC,wolumen,reszty AR + CUSUM,One-Class SVM (3 cechy),0.0
+BTC,wolumen,reszty AR + CUSUM,"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",0.0
+BTC,wolumen,reszty AR + CUSUM,"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",0.0
+BTC,wolumen,reszty AR + CUSUM,"One-Class SVM (5 cech, uczony na okresie kalibracyjnym)",0.0
+BTC,wolumen,reszty AR + CUSUM,"One-Class SVM (3 cechy, uczony na okresie kalibracyjnym)",0.0
+BTC,wolumen,reszty AR + CUSUM,CUSUM z S1 (bez modelu AR),0.0
+BTC,wolumen,PELT (koszt AR),Matrix Profile (reszty AR),0.015151515151515152
+BTC,wolumen,PELT (koszt AR),cechy okien + kNN (5 cech),0.0
+BTC,wolumen,PELT (koszt AR),cechy okien + kNN (3 cechy),0.0
+BTC,wolumen,PELT (koszt AR),Isolation Forest (5 cech),0.015151515151515152
+BTC,wolumen,PELT (koszt AR),Isolation Forest (3 cechy),0.0
+BTC,wolumen,PELT (koszt AR),One-Class SVM (5 cech),0.0
+BTC,wolumen,PELT (koszt AR),One-Class SVM (3 cechy),0.0
+BTC,wolumen,PELT (koszt AR),"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",0.0
+BTC,wolumen,PELT (koszt AR),"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",0.0
+BTC,wolumen,PELT (koszt AR),"One-Class SVM (5 cech, uczony na okresie kalibracyjnym)",0.022900763358778626
+BTC,wolumen,PELT (koszt AR),"One-Class SVM (3 cechy, uczony na okresie kalibracyjnym)",0.022900763358778626
+BTC,wolumen,PELT (koszt AR),CUSUM z S1 (bez modelu AR),0.0
+BTC,wolumen,Matrix Profile (reszty AR),cechy okien + kNN (5 cech),0.13559322033898305
+BTC,wolumen,Matrix Profile (reszty AR),cechy okien + kNN (3 cechy),0.12605042016806722
+BTC,wolumen,Matrix Profile (reszty AR),Isolation Forest (5 cech),0.15517241379310345
+BTC,wolumen,Matrix Profile (reszty AR),Isolation Forest (3 cechy),0.09836065573770492
+BTC,wolumen,Matrix Profile (reszty AR),One-Class SVM (5 cech),0.11666666666666667
+BTC,wolumen,Matrix Profile (reszty AR),One-Class SVM (3 cechy),0.06349206349206349
+BTC,wolumen,Matrix Profile (reszty AR),"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",0.08064516129032258
+BTC,wolumen,Matrix Profile (reszty AR),"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",0.09836065573770492
+BTC,wolumen,Matrix Profile (reszty AR),"One-Class SVM (5 cech, uczony na okresie kalibracyjnym)",0.03875968992248062
+BTC,wolumen,Matrix Profile (reszty AR),"One-Class SVM (3 cechy, uczony na okresie kalibracyjnym)",0.05511811023622047
+BTC,wolumen,Matrix Profile (reszty AR),CUSUM z S1 (bez modelu AR),0.022900763358778626
+BTC,wolumen,cechy okien + kNN (5 cech),cechy okien + kNN (3 cechy),0.675
+BTC,wolumen,cechy okien + kNN (5 cech),Isolation Forest (5 cech),0.2641509433962264
+BTC,wolumen,cechy okien + kNN (5 cech),Isolation Forest (3 cechy),0.5227272727272727
+BTC,wolumen,cechy okien + kNN (5 cech),One-Class SVM (5 cech),0.5227272727272727
+BTC,wolumen,cechy okien + kNN (5 cech),One-Class SVM (3 cechy),0.3958333333333333
+BTC,wolumen,cechy okien + kNN (5 cech),"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",0.15517241379310345
+BTC,wolumen,cechy okien + kNN (5 cech),"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",0.32673267326732675
+BTC,wolumen,cechy okien + kNN (5 cech),"One-Class SVM (5 cech, uczony na okresie kalibracyjnym)",0.35353535353535354
+BTC,wolumen,cechy okien + kNN (5 cech),"One-Class SVM (3 cechy, uczony na okresie kalibracyjnym)",0.3958333333333333
+BTC,wolumen,cechy okien + kNN (5 cech),CUSUM z S1 (bez modelu AR),0.08064516129032258
+BTC,wolumen,cechy okien + kNN (3 cechy),Isolation Forest (5 cech),0.2761904761904762
+BTC,wolumen,cechy okien + kNN (3 cechy),Isolation Forest (3 cechy),0.6341463414634146
+BTC,wolumen,cechy okien + kNN (3 cechy),One-Class SVM (5 cech),0.5402298850574713
+BTC,wolumen,cechy okien + kNN (3 cechy),One-Class SVM (3 cechy),0.44086021505376344
+BTC,wolumen,cechy okien + kNN (3 cechy),"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",0.16521739130434782
+BTC,wolumen,cechy okien + kNN (3 cechy),"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",0.4105263157894737
+BTC,wolumen,cechy okien + kNN (3 cechy),"One-Class SVM (5 cech, uczony na okresie kalibracyjnym)",0.35353535353535354
+BTC,wolumen,cechy okien + kNN (3 cechy),"One-Class SVM (3 cechy, uczony na okresie kalibracyjnym)",0.3958333333333333
+BTC,wolumen,cechy okien + kNN (3 cechy),CUSUM z S1 (bez modelu AR),0.11666666666666667
+BTC,wolumen,Isolation Forest (5 cech),Isolation Forest (3 cechy),0.28846153846153844
+BTC,wolumen,Isolation Forest (5 cech),One-Class SVM (5 cech),0.30097087378640774
+BTC,wolumen,Isolation Forest (5 cech),One-Class SVM (3 cechy),0.13559322033898305
+BTC,wolumen,Isolation Forest (5 cech),"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",0.425531914893617
+BTC,wolumen,Isolation Forest (5 cech),"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",0.2761904761904762
+BTC,wolumen,Isolation Forest (5 cech),"One-Class SVM (5 cech, uczony na okresie kalibracyjnym)",0.16521739130434782
+BTC,wolumen,Isolation Forest (5 cech),"One-Class SVM (3 cechy, uczony na okresie kalibracyjnym)",0.13559322033898305
+BTC,wolumen,Isolation Forest (5 cech),CUSUM z S1 (bez modelu AR),0.015151515151515152
+BTC,wolumen,Isolation Forest (3 cechy),One-Class SVM (5 cech),0.44086021505376344
+BTC,wolumen,Isolation Forest (3 cechy),One-Class SVM (3 cechy),0.4888888888888889
+BTC,wolumen,Isolation Forest (3 cechy),"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",0.19642857142857142
+BTC,wolumen,Isolation Forest (3 cechy),"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",0.5227272727272727
+BTC,wolumen,Isolation Forest (3 cechy),"One-Class SVM (5 cech, uczony na okresie kalibracyjnym)",0.3137254901960784
+BTC,wolumen,Isolation Forest (3 cechy),"One-Class SVM (3 cechy, uczony na okresie kalibracyjnym)",0.3673469387755102
+BTC,wolumen,Isolation Forest (3 cechy),CUSUM z S1 (bez modelu AR),0.13559322033898305
+BTC,wolumen,One-Class SVM (5 cech),One-Class SVM (3 cechy),0.5764705882352941
+BTC,wolumen,One-Class SVM (5 cech),"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",0.24074074074074073
+BTC,wolumen,One-Class SVM (5 cech),"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",0.3137254901960784
+BTC,wolumen,One-Class SVM (5 cech),"One-Class SVM (5 cech, uczony na okresie kalibracyjnym)",0.45652173913043476
+BTC,wolumen,One-Class SVM (5 cech),"One-Class SVM (3 cechy, uczony na okresie kalibracyjnym)",0.425531914893617
+BTC,wolumen,One-Class SVM (5 cech),CUSUM z S1 (bez modelu AR),0.072
+BTC,wolumen,One-Class SVM (3 cechy),"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",0.15517241379310345
+BTC,wolumen,One-Class SVM (3 cechy),"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",0.3958333333333333
+BTC,wolumen,One-Class SVM (3 cechy),"One-Class SVM (5 cech, uczony na okresie kalibracyjnym)",0.45652173913043476
+BTC,wolumen,One-Class SVM (3 cechy),"One-Class SVM (3 cechy, uczony na okresie kalibracyjnym)",0.4725274725274725
+BTC,wolumen,One-Class SVM (3 cechy),CUSUM z S1 (bez modelu AR),0.16521739130434782
+BTC,wolumen,"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)","Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",0.3137254901960784
+BTC,wolumen,"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)","One-Class SVM (5 cech, uczony na okresie kalibracyjnym)",0.12605042016806722
+BTC,wolumen,"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)","One-Class SVM (3 cechy, uczony na okresie kalibracyjnym)",0.10743801652892562
+BTC,wolumen,"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",CUSUM z S1 (bez modelu AR),0.03076923076923077
+BTC,wolumen,"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)","One-Class SVM (5 cech, uczony na okresie kalibracyjnym)",0.2523364485981308
+BTC,wolumen,"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)","One-Class SVM (3 cechy, uczony na okresie kalibracyjnym)",0.2761904761904762
+BTC,wolumen,"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",CUSUM z S1 (bez modelu AR),0.13559322033898305
+BTC,wolumen,"One-Class SVM (5 cech, uczony na okresie kalibracyjnym)","One-Class SVM (3 cechy, uczony na okresie kalibracyjnym)",0.675
+BTC,wolumen,"One-Class SVM (5 cech, uczony na okresie kalibracyjnym)",CUSUM z S1 (bez modelu AR),0.06349206349206349
+BTC,wolumen,"One-Class SVM (3 cechy, uczony na okresie kalibracyjnym)",CUSUM z S1 (bez modelu AR),0.06349206349206349

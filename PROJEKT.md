@@ -1,7 +1,7 @@
 # Projekt inżynierski – podsumowanie
 
 > Plik-ściągawka: co robimy, co już jest, jak to uruchomić i co dalej.
-> Ostatnia weryfikacja stanu repozytorium: **2026-10-26**.
+> Ostatnia weryfikacja stanu repozytorium: **2026-11-23**.
 
 ## 1. Temat i cel
 
@@ -58,7 +58,8 @@ Projekt-Inz/
 │   │   └── nyc_taxi.py            # etykiety anomalii NAB + artefakt zmiany czasu
 │   ├── eksploracja/
 │   │   ├── podglad.py             # statystyki i wykresy cen
-│   │   └── przeglad_anomalii.py   # przegląd anomalii w danych (podstawa planu metod)
+│   │   ├── przeglad_anomalii.py   # przegląd anomalii w danych (podstawa planu metod)
+│   │   └── raport_danych.py       # niezależna kontrola jakości i właściwości danych → wyniki/dane/, dane_*.png
 │   ├── symulacje/
 │   │   ├── generator.py           # szeregi tła (S1: biały szum; S2: AR(1) o parametrach zmiennych w czasie; S3: szum + sinus)
 │   │   ├── anomalie.py            # anomalie S1-A/B/C, S2-A/B/C i S3-A/B/C, rozmieszczenie, szeregi testowe z etykietami
@@ -78,7 +79,16 @@ Projekt-Inz/
 │       ├── wykresy_s2.py          # wykresy + wyniki/s2/podsumowanie.md
 │       ├── wykresy_s3.py          # wykresy + wyniki/s3/podsumowanie.md
 │       ├── walidacja_progow.py    # sprawdzenie progów S1–S3 na 1 000 nowych szeregach bez anomalii
+│       ├── porownanie.py          # porównanie S1–S3: przeniesienie metod między scenariuszami (macierz 3 × 3)
+│       ├── wykresy_porownanie.py  # porównanie S1–S3: rodziny metod, tabele, wykresy por_*.png
 │       └── warianty_metod.py      # nazwy i styl wariantów metod (5 / 3 cechy, uczony na szeregach bez anomalii)
+│   └── rzeczywiste/               # etap 2: dane rzeczywiste
+│       ├── wspolne.py             # próg na dniach okresu kalibracyjnego, siatka kar PELT
+│       ├── nyc_taxi.py            # NYC Taxi: metody S3 (okres = tydzień, okno = doba), ocena na oknach NAB
+│       ├── katalog.py             # katalog znanych zdarzeń SPY / BTC (typy A–F), epizody studiów przypadków
+│       ├── rynki.py               # SPY / BTC: dzienne log RV i wolumen, metody S2, recall@N, zgodność metod
+│       ├── studia.py              # studia przypadków 5-min, dni FOMC
+│       └── wykresy_rzeczywiste.py # wykresy rz_*.png + wyniki/rzeczywiste/podsumowanie.md
 ├── dane/
 │   ├── surowe/spy/      spy_5min_sip_2016_2026_pobrano_2026-10-13.parquet
 │   ├── surowe/btcusdt/  btcusdt_5min_binance_2017_2026_pobrano_<data>.parquet
@@ -89,8 +99,11 @@ Projekt-Inz/
 │   └── cache/binance/   miesięczne ZIP-y z Binance (poza Gitem)
 ├── wyniki/s1/, s2/, s3/ wyniki eksperymentów S1–S3 (CSV) + podsumowanie.md
 ├── wyniki/walidacja_progow.csv, .md  sprawdzenie progów S1–S3 na 1 000 nowych szeregach
-├── wyniki/wykresy/      wykresy danych + s1_*.png, s2_*.png, s3_*.png
-├── tests/               test_s1.py, test_s2.py, test_s3.py, test_wspolne.py – generatory, ocena, metody (pytest)
+├── wyniki/porownanie/   przeniesienie metod między scenariuszami (CSV) + podsumowanie.md
+├── wyniki/rzeczywiste/  etap 2: NYC Taxi, SPY, BTC, studia 5-min (CSV) + podsumowanie.md
+├── wyniki/dane/         kontrola jakości i właściwości danych (CSV)
+├── wyniki/wykresy/      wykresy danych + s1_*.png, s2_*.png, s3_*.png, por_*.png, rz_*.png
+├── tests/               test_s1.py, test_s2.py, test_s3.py, test_wspolne.py, test_porownanie.py, test_rzeczywiste.py (pytest)
 └── docs/
     ├── data_pipeline.md         # pobieranie i czyszczenie danych
     ├── plan_metod.md            # anomalie w danych, dobór metod, plan eksperymentów (szeroki)
@@ -98,6 +111,12 @@ Projekt-Inz/
     ├── wyniki_s1.md             # wyniki i wnioski scenariusza S1 (biały szum)
     ├── wyniki_s2.md             # wyniki i wnioski scenariusza S2 (AR(1))
     ├── wyniki_s3.md             # wyniki i wnioski scenariusza S3 (szum + sinus)
+    ├── porownanie_s1_s3.md      # porównanie S1–S3: jak właściwości szeregu zmieniają skuteczność metod
+    ├── wyniki_rzeczywiste.md    # etap 2: wyniki na danych rzeczywistych (NYC Taxi, SPY, BTCUSDT)
+    ├── kompendium.md            # kompendium wiedzy: pojęcia i metody krok po kroku + pytania z dyskusji
+    ├── Raport_etap1_S1.pdf, _S2.pdf, _S3.pdf, _porownanie.pdf  # raporty dla promotorki
+    ├── Raport_etap2_dane_rzeczywiste.pdf  # raport z etapu 2
+    ├── Raport_dane.pdf, Raport_metody.pdf  # raporty z części danych i z metod / sposobu oceny
     ├── metody.md                # szczegółowy opis działania każdej metody
     └── plan_realizacji_projektu.pdf  # plan dla prowadzących (2026-10-20)
 ```
@@ -281,9 +300,14 @@ Uwagi (ważne przy ocenie metod):
       przeliczone, progi sprawdzone na 1 000 nowych szeregach – [docs/plan_etap_1.md](docs/plan_etap_1.md), rozdz. 12
 - [x] Konsultacja 2026-10-27 (raport z S1): w każdym scenariuszu warianty 3 i 5 cech, metody ML uczone także na szeregach
       bez anomalii, wyniki według poziomu osobno dla każdego L; raporty PDF z S1, S2 i S3 – [docs/plan_etap_1.md](docs/plan_etap_1.md), rozdz. 13
-- [ ] Etap 1: porównanie scenariuszy S1–S3
-- [ ] Analiza rzeczywista: SPY i BTCUSDT (zwroty, wolumen)
-- [ ] Wyniki, wykresy, opis w pracy
+- [x] Etap 1: porównanie scenariuszy S1–S3 – rodziny metod, rodzaje anomalii, właściwości tła, eksperyment przeniesienia
+      metod między scenariuszami; raport PDF – [docs/porownanie_s1_s3.md](docs/porownanie_s1_s3.md)
+- [x] **Etap 2 – dane rzeczywiste**: NYC Taxi (ocena na 5 oknach NAB, metody S3), SPY i BTCUSDT (dzienne log RV i wolumen,
+      metody S2, katalog 49 zdarzeń, recall@N), studia przypadków 5-min i dni FOMC; raport PDF –
+      [docs/wyniki_rzeczywiste.md](docs/wyniki_rzeczywiste.md)
+- [x] Raporty z części danych (`docs/Raport_dane.pdf`) i z metod / sposobu oceny (`docs/Raport_metody.pdf`)
+- [x] Prezentacja stanu prac (27.11.2026) i kompendium wiedzy dla grupy – [docs/kompendium.md](docs/kompendium.md)
+- [ ] Raport końcowy z całego projektu
 
 ## 5. Uwagi porządkowe
 
@@ -315,3 +339,15 @@ Uwagi (ważne przy ocenie metod):
   szeregach bez anomalii (`nauka="czyste"`, `ucz()`; silniki eksperymentu generują szeregi uczące z ziaren 9 500 000 + i),
   przeliczenie metod na cechach we wszystkich częściach S1–S3, tabele i wykresy według poziomu osobno dla każdego L
   (`src/ewaluacja/warianty_metod.py`, wykresy `s*_uczenie.png`), testy wariantów (`test_wspolne.py`).
+- 2026-10-28: porównanie S1–S3 (krok 9) – eksperyment przeniesienia metod (`src/ewaluacja/porownanie.py`, wyniki
+  `wyniki/porownanie/`), tabele i wykresy porównania (`wykresy_porownanie.py`, `por_*.png`), testy (`test_porownanie.py`),
+  dokumentacja `docs/porownanie_s1_s3.md`; raporty PDF z etapu 1 w `docs/`.
+- 2026-10-29: etap 2 – dane rzeczywiste (krok 10): moduł `src/rzeczywiste/` (NYC Taxi, SPY, BTC, katalog zdarzeń, studia
+  5-min), adaptacje metod włączane tylko w etapie 2 (`cechy_okien_rz` – cechy cykli względem profilu tygodnia, flaga
+  `korekta_zaleznosci` w PELT, `pamiec` w STL + EWMA; wyniki etapu 1 bez zmian), wyniki `wyniki/rzeczywiste/`, wykresy
+  `rz_*.png`, testy `test_rzeczywiste.py`, dokumentacja `docs/wyniki_rzeczywiste.md`, raport `docs/Raport_etap2_dane_rzeczywiste.pdf`.
+- 2026-10-29: raporty z części danych (`docs/Raport_dane.pdf`; niezależna kontrola jakości `src/eksploracja/raport_danych.py`,
+  wyniki `wyniki/dane/`, wykresy `dane_*.png`) i z metod / sposobu oceny (`docs/Raport_metody.pdf`); `docs/metody.md` poprawiony
+  (rozdz. 2 i 8 – aktualne wyniki S2) i uzupełniony o adaptacje metod w etapie 2 (rozdz. 13).
+- 2026-11-23: kompendium wiedzy `docs/kompendium.md` (pojęcia i metody chronologicznie, najważniejsze liczby, pytania
+  z dyskusji z odpowiedziami) i prezentacja na zajęcia 27.11 (podział na 3 osoby).

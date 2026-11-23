@@ -1,0 +1,391 @@
+metoda,wariant,alfa,zdarzenie,wykryte,auc,maks_w_oknie_wzgl_progu
+STL + EWMA,kalibracja,0.02,maraton nowojorski,False,0.6456301603671739,0.3689016227133977
+STL + EWMA,kalibracja,0.02,Święto Dziękczynienia,True,0.9641571224375327,1.9043790756743448
+STL + EWMA,kalibracja,0.02,Boże Narodzenie,True,0.9946311072512017,4.682797532039686
+STL + EWMA,kalibracja,0.02,Nowy Rok,True,0.9936757796715459,7.188212671595161
+STL + EWMA,kalibracja,0.02,śnieżyca (zakaz ruchu),True,0.7628170101382933,61.50094934877968
+STL + EWMA,rowny_budzet,0.02,maraton nowojorski,True,0.6456301603671739,1.0458355743827281
+STL + EWMA,rowny_budzet,0.02,Święto Dziękczynienia,True,0.9641571224375327,5.398911964119138
+STL + EWMA,rowny_budzet,0.02,Boże Narodzenie,True,0.9946311072512017,13.27572432622125
+STL + EWMA,rowny_budzet,0.02,Nowy Rok,True,0.9936757796715459,20.378572674437585
+STL + EWMA,rowny_budzet,0.02,śnieżyca (zakaz ruchu),True,0.7628170101382933,174.3551037107653
+STL + EWMA,kalibracja,0.05,maraton nowojorski,True,0.6456301603671739,1.4854983937510822
+STL + EWMA,kalibracja,0.05,Święto Dziękczynienia,True,0.9641571224375327,7.668581225529719
+STL + EWMA,kalibracja,0.05,Boże Narodzenie,True,0.9946311072512017,18.856756879898235
+STL + EWMA,kalibracja,0.05,Nowy Rok,True,0.9936757796715459,28.94559882674103
+STL + EWMA,kalibracja,0.05,śnieżyca (zakaz ruchu),True,0.7628170101382933,247.65291299018426
+STL + EWMA,rowny_budzet,0.05,maraton nowojorski,True,0.6456301603671739,1.6991055692146655
+STL + EWMA,rowny_budzet,0.05,Święto Dziękczynienia,True,0.9641571224375327,8.771284521803327
+STL + EWMA,rowny_budzet,0.05,Boże Narodzenie,True,0.9946311072512017,21.568263396810362
+STL + EWMA,rowny_budzet,0.05,Nowy Rok,True,0.9936757796715459,33.10782992270963
+STL + EWMA,rowny_budzet,0.05,śnieżyca (zakaz ruchu),True,0.7628170101382933,283.2641525995258
+STL + EWMA,kalibracja,0.1,maraton nowojorski,True,0.6456301603671739,4.6414133012056835
+STL + EWMA,kalibracja,0.1,Święto Dziękczynienia,True,0.9641571224375327,23.960345599346354
+STL + EWMA,kalibracja,0.1,Boże Narodzenie,True,0.9946311072512017,58.91760137078081
+STL + EWMA,kalibracja,0.1,Nowy Rok,True,0.9936757796715459,90.44000853245727
+STL + EWMA,kalibracja,0.1,śnieżyca (zakaz ruchu),True,0.7628170101382933,773.787120383507
+STL + EWMA,rowny_budzet,0.1,maraton nowojorski,True,0.6456301603671739,3.1355692656131158
+STL + EWMA,rowny_budzet,0.1,Święto Dziękczynienia,True,0.9641571224375327,16.186734164626714
+STL + EWMA,rowny_budzet,0.1,Boże Narodzenie,True,0.9946311072512017,39.80257910104153
+STL + EWMA,rowny_budzet,0.1,Nowy Rok,True,0.9936757796715459,61.097965799015604
+STL + EWMA,rowny_budzet,0.1,śnieżyca (zakaz ruchu),True,0.7628170101382933,522.742310444868
+PELT (reszty STL),kalibracja,0.02,maraton nowojorski,False,0.5,
+PELT (reszty STL),kalibracja,0.02,Święto Dziękczynienia,False,0.5,
+PELT (reszty STL),kalibracja,0.02,Boże Narodzenie,False,0.5,
+PELT (reszty STL),kalibracja,0.02,Nowy Rok,True,0.5362318840579711,
+PELT (reszty STL),kalibracja,0.02,śnieżyca (zakaz ruchu),True,0.572463768115942,
+PELT (reszty STL),rowny_budzet,0.02,maraton nowojorski,False,0.48801498127340825,
+PELT (reszty STL),rowny_budzet,0.02,Święto Dziękczynienia,True,0.9406665581067145,
+PELT (reszty STL),rowny_budzet,0.02,Boże Narodzenie,True,0.9880149812734083,
+PELT (reszty STL),rowny_budzet,0.02,Nowy Rok,True,0.9880149812734083,
+PELT (reszty STL),rowny_budzet,0.02,śnieżyca (zakaz ruchu),True,0.6858835875445548,
+PELT (reszty STL),kalibracja,0.05,maraton nowojorski,False,0.5,
+PELT (reszty STL),kalibracja,0.05,Święto Dziękczynienia,True,0.5483091787439613,
+PELT (reszty STL),kalibracja,0.05,Boże Narodzenie,True,0.6086956521739131,
+PELT (reszty STL),kalibracja,0.05,Nowy Rok,True,0.5603864734299517,
+PELT (reszty STL),kalibracja,0.05,śnieżyca (zakaz ruchu),True,0.6690821256038647,
+PELT (reszty STL),rowny_budzet,0.05,maraton nowojorski,False,0.4794007490636704,
+PELT (reszty STL),rowny_budzet,0.05,Święto Dziękczynienia,True,0.7434728328719535,
+PELT (reszty STL),rowny_budzet,0.05,Boże Narodzenie,True,0.985475884612833,
+PELT (reszty STL),rowny_budzet,0.05,Nowy Rok,True,0.9920069719613768,
+PELT (reszty STL),rowny_budzet,0.05,śnieżyca (zakaz ruchu),True,0.6805985272033146,
+PELT (reszty STL),kalibracja,0.1,maraton nowojorski,False,0.35218476903870166,
+PELT (reszty STL),kalibracja,0.1,Święto Dziękczynienia,True,0.9308237891041996,
+PELT (reszty STL),kalibracja,0.1,Boże Narodzenie,True,0.9880149812734083,
+PELT (reszty STL),kalibracja,0.1,Nowy Rok,True,0.9880149812734083,
+PELT (reszty STL),kalibracja,0.1,śnieżyca (zakaz ruchu),True,0.6025481433232615,
+PELT (reszty STL),rowny_budzet,0.1,maraton nowojorski,False,0.48489388264669164,
+PELT (reszty STL),rowny_budzet,0.1,Święto Dziękczynienia,True,0.6960490208495419,
+PELT (reszty STL),rowny_budzet,0.1,Boże Narodzenie,True,0.758115157984886,
+PELT (reszty STL),rowny_budzet,0.1,Nowy Rok,True,0.9043237016531269,
+PELT (reszty STL),rowny_budzet,0.1,śnieżyca (zakaz ruchu),True,0.6839687106093228,
+Matrix Profile z normalizacją,kalibracja,0.02,maraton nowojorski,True,0.8002985398686424,1.239799383262358
+Matrix Profile z normalizacją,kalibracja,0.02,Święto Dziękczynienia,False,0.8697304697630377,0.9995507316803244
+Matrix Profile z normalizacją,kalibracja,0.02,Boże Narodzenie,True,0.869083934936402,1.2620499723137106
+Matrix Profile z normalizacją,kalibracja,0.02,Nowy Rok,True,0.9538198025415091,1.6924294047498476
+Matrix Profile z normalizacją,kalibracja,0.02,śnieżyca (zakaz ruchu),True,0.8699584456627284,2.878314177140176
+Matrix Profile z normalizacją,rowny_budzet,0.02,maraton nowojorski,True,0.8002985398686424,1.3899453928953869
+Matrix Profile z normalizacją,rowny_budzet,0.02,Święto Dziękczynienia,True,0.8697304697630377,1.1206014079539846
+Matrix Profile z normalizacją,rowny_budzet,0.02,Boże Narodzenie,True,0.869083934936402,1.4148906414240285
+Matrix Profile z normalizacją,rowny_budzet,0.02,Nowy Rok,True,0.9538198025415091,1.8973912115868
+Matrix Profile z normalizacją,rowny_budzet,0.02,śnieżyca (zakaz ruchu),True,0.8699584456627284,3.226892660080363
+Matrix Profile z normalizacją,kalibracja,0.05,maraton nowojorski,True,0.8002985398686424,1.4355969730041183
+Matrix Profile z normalizacją,kalibracja,0.05,Święto Dziękczynienia,True,0.8697304697630377,1.1574066128250933
+Matrix Profile z normalizacją,kalibracja,0.05,Boże Narodzenie,True,0.869083934936402,1.4613615271093374
+Matrix Profile z normalizacją,kalibracja,0.05,Nowy Rok,True,0.9538198025415091,1.9597094201553555
+Matrix Profile z normalizacją,kalibracja,0.05,śnieżyca (zakaz ruchu),True,0.8699584456627284,3.332877218557923
+Matrix Profile z normalizacją,rowny_budzet,0.05,maraton nowojorski,True,0.8002985398686424,1.7954992404223955
+Matrix Profile z normalizacją,rowny_budzet,0.05,Święto Dziękczynienia,True,0.8697304697630377,1.4475669239108595
+Matrix Profile z normalizacją,rowny_budzet,0.05,Boże Narodzenie,True,0.869083934936402,1.8277229342554489
+Matrix Profile z normalizacją,rowny_budzet,0.05,Nowy Rok,True,0.9538198025415091,2.4510059867111886
+Matrix Profile z normalizacją,rowny_budzet,0.05,śnieżyca (zakaz ruchu),True,0.8699584456627284,4.168425140810527
+Matrix Profile z normalizacją,kalibracja,0.1,maraton nowojorski,True,0.8002985398686424,1.8193572747483207
+Matrix Profile z normalizacją,kalibracja,0.1,Święto Dziękczynienia,True,0.8697304697630377,1.4668017420506958
+Matrix Profile z normalizacją,kalibracja,0.1,Boże Narodzenie,True,0.869083934936402,1.8520091469822717
+Matrix Profile z normalizacją,kalibracja,0.1,Nowy Rok,True,0.9538198025415091,2.483574190388204
+Matrix Profile z normalizacją,kalibracja,0.1,śnieżyca (zakaz ruchu),True,0.8699584456627284,4.223813874960651
+Matrix Profile z normalizacją,rowny_budzet,0.1,maraton nowojorski,True,0.8002985398686424,2.4133789353284465
+Matrix Profile z normalizacją,rowny_budzet,0.1,Święto Dziękczynienia,True,0.8697304697630377,1.9457137285242203
+Matrix Profile z normalizacją,rowny_budzet,0.1,Boże Narodzenie,True,0.869083934936402,2.456691670953369
+Matrix Profile z normalizacją,rowny_budzet,0.1,Nowy Rok,True,0.9538198025415091,3.2944632253373327
+Matrix Profile z normalizacją,rowny_budzet,0.1,śnieżyca (zakaz ruchu),True,0.8699584456627284,5.602892611616478
+cechy cykli + kNN (5 cech),kalibracja,0.02,maraton nowojorski,False,0.6759943790069176,0.448948075992197
+cechy cykli + kNN (5 cech),kalibracja,0.02,Święto Dziękczynienia,False,0.9764750583509743,0.8321942752894912
+cechy cykli + kNN (5 cech),kalibracja,0.02,Boże Narodzenie,False,0.9903960628923989,0.954689371605012
+cechy cykli + kNN (5 cech),kalibracja,0.02,Nowy Rok,True,0.9897700338345183,13.306320464350312
+cechy cykli + kNN (5 cech),kalibracja,0.02,śnieżyca (zakaz ruchu),True,0.8604425627386056,3.883287644389963
+cechy cykli + kNN (5 cech),rowny_budzet,0.02,maraton nowojorski,True,0.6759943790069176,2.1296411005110305
+cechy cykli + kNN (5 cech),rowny_budzet,0.02,Święto Dziękczynienia,True,0.9764750583509743,3.9476171678644074
+cechy cykli + kNN (5 cech),rowny_budzet,0.02,Boże Narodzenie,True,0.9903960628923989,4.528687910061161
+cechy cykli + kNN (5 cech),rowny_budzet,0.02,Nowy Rok,True,0.9897700338345183,63.120187996849715
+cechy cykli + kNN (5 cech),rowny_budzet,0.02,śnieżyca (zakaz ruchu),True,0.8604425627386056,18.42085847973044
+cechy cykli + kNN (5 cech),kalibracja,0.05,maraton nowojorski,True,0.6759943790069176,1.8969106119181127
+cechy cykli + kNN (5 cech),kalibracja,0.05,Święto Dziękczynienia,True,0.9764750583509743,3.5162154297807393
+cechy cykli + kNN (5 cech),kalibracja,0.05,Boże Narodzenie,True,0.9903960628923989,4.033785858377211
+cechy cykli + kNN (5 cech),kalibracja,0.05,Nowy Rok,True,0.9897700338345183,56.22231577365744
+cechy cykli + kNN (5 cech),kalibracja,0.05,śnieżyca (zakaz ruchu),True,0.8604425627386056,16.407798441933497
+cechy cykli + kNN (5 cech),rowny_budzet,0.05,maraton nowojorski,True,0.6759943790069176,3.3768357942973872
+cechy cykli + kNN (5 cech),rowny_budzet,0.05,Święto Dziękczynienia,True,0.9764750583509743,6.2594842630660255
+cechy cykli + kNN (5 cech),rowny_budzet,0.05,Boże Narodzenie,True,0.9903960628923989,7.180851004531571
+cechy cykli + kNN (5 cech),rowny_budzet,0.05,Nowy Rok,True,0.9897700338345183,100.08564829040705
+cechy cykli + kNN (5 cech),rowny_budzet,0.05,śnieżyca (zakaz ruchu),True,0.8604425627386056,29.208778071156555
+cechy cykli + kNN (5 cech),kalibracja,0.1,maraton nowojorski,True,0.6759943790069176,3.2641046400183935
+cechy cykli + kNN (5 cech),kalibracja,0.1,Święto Dziękczynienia,True,0.9764750583509743,6.05051973853739
+cechy cykli + kNN (5 cech),kalibracja,0.1,Boże Narodzenie,True,0.9903960628923989,6.941127881537742
+cechy cykli + kNN (5 cech),kalibracja,0.1,Nowy Rok,True,0.9897700338345183,96.74442255547712
+cechy cykli + kNN (5 cech),kalibracja,0.1,śnieżyca (zakaz ruchu),True,0.8604425627386056,28.233682014486867
+cechy cykli + kNN (5 cech),rowny_budzet,0.1,maraton nowojorski,True,0.6759943790069176,4.52171821440916
+cechy cykli + kNN (5 cech),rowny_budzet,0.1,Święto Dziękczynienia,True,0.9764750583509743,8.38169983062568
+cechy cykli + kNN (5 cech),rowny_budzet,0.1,Boże Narodzenie,True,0.9903960628923989,9.615446755504632
+cechy cykli + kNN (5 cech),rowny_budzet,0.1,Nowy Rok,True,0.9897700338345183,134.01868685469967
+cechy cykli + kNN (5 cech),rowny_budzet,0.1,śnieżyca (zakaz ruchu),True,0.8604425627386056,39.1117222957724
+cechy cykli + kNN (3 cechy),kalibracja,0.02,maraton nowojorski,False,0.657466813825713,0.44129961407686186
+cechy cykli + kNN (3 cechy),kalibracja,0.02,Święto Dziękczynienia,False,0.9367927771445114,0.7778707034048302
+cechy cykli + kNN (3 cechy),kalibracja,0.02,Boże Narodzenie,False,0.9894310855392113,0.9851901699435106
+cechy cykli + kNN (3 cechy),kalibracja,0.02,Nowy Rok,True,0.9916432961213942,14.149099953298535
+cechy cykli + kNN (3 cechy),kalibracja,0.02,śnieżyca (zakaz ruchu),True,0.8649031705537161,3.665824904635745
+cechy cykli + kNN (3 cechy),rowny_budzet,0.02,maraton nowojorski,True,0.657466813825713,2.5733595386062924
+cechy cykli + kNN (3 cechy),rowny_budzet,0.02,Święto Dziękczynienia,True,0.9367927771445114,4.536013471474641
+cechy cykli + kNN (3 cechy),rowny_budzet,0.02,Boże Narodzenie,True,0.9894310855392113,5.744959751366832
+cechy cykli + kNN (3 cechy),rowny_budzet,0.02,Nowy Rok,True,0.9916432961213942,82.50793829421504
+cechy cykli + kNN (3 cechy),rowny_budzet,0.02,śnieżyca (zakaz ruchu),True,0.8649031705537161,21.376600351075428
+cechy cykli + kNN (3 cechy),kalibracja,0.05,maraton nowojorski,True,0.657466813825713,2.2146319350134154
+cechy cykli + kNN (3 cechy),kalibracja,0.05,Święto Dziękczynienia,True,0.9367927771445114,3.903690930424518
+cechy cykli + kNN (3 cechy),kalibracja,0.05,Boże Narodzenie,True,0.9894310855392113,4.94410949572727
+cechy cykli + kNN (3 cechy),kalibracja,0.05,Nowy Rok,True,0.9916432961213942,71.00629053080043
+cechy cykli + kNN (3 cechy),kalibracja,0.05,śnieżyca (zakaz ruchu),True,0.8649031705537161,18.396691596833858
+cechy cykli + kNN (3 cechy),rowny_budzet,0.05,maraton nowojorski,True,0.657466813825713,4.426728564996947
+cechy cykli + kNN (3 cechy),rowny_budzet,0.05,Święto Dziękczynienia,True,0.9367927771445114,7.802912925359329
+cechy cykli + kNN (3 cechy),rowny_budzet,0.05,Boże Narodzenie,True,0.9894310855392113,9.882558987426494
+cechy cykli + kNN (3 cechy),rowny_budzet,0.05,Nowy Rok,True,0.9916432961213942,141.93129324004911
+cechy cykli + kNN (3 cechy),rowny_budzet,0.05,śnieżyca (zakaz ruchu),True,0.8649031705537161,36.772322707723625
+cechy cykli + kNN (3 cechy),kalibracja,0.1,maraton nowojorski,True,0.657466813825713,4.517340134012672
+cechy cykli + kNN (3 cechy),kalibracja,0.1,Święto Dziękczynienia,True,0.9367927771445114,7.962632269493179
+cechy cykli + kNN (3 cechy),kalibracja,0.1,Boże Narodzenie,True,0.9894310855392113,10.08484701177519
+cechy cykli + kNN (3 cechy),kalibracja,0.1,Nowy Rok,True,0.9916432961213942,144.8365125197229
+cechy cykli + kNN (3 cechy),kalibracja,0.1,śnieżyca (zakaz ruchu),True,0.8649031705537161,37.52502254191861
+cechy cykli + kNN (3 cechy),rowny_budzet,0.1,maraton nowojorski,True,0.657466813825713,7.410558747509548
+cechy cykli + kNN (3 cechy),rowny_budzet,0.1,Święto Dziękczynienia,True,0.9367927771445114,13.062455442220406
+cechy cykli + kNN (3 cechy),rowny_budzet,0.1,Boże Narodzenie,True,0.9894310855392113,16.543884016548688
+cechy cykli + kNN (3 cechy),rowny_budzet,0.1,Nowy Rok,True,0.9916432961213942,237.59988244639845
+cechy cykli + kNN (3 cechy),rowny_budzet,0.1,śnieżyca (zakaz ruchu),True,0.8649031705537161,61.55865527032901
+Isolation Forest (5 cech),kalibracja,0.02,maraton nowojorski,False,0.6524332507071474,0.9037958877199579
+Isolation Forest (5 cech),kalibracja,0.02,Święto Dziękczynienia,False,0.9717816497494075,0.9988559662399056
+Isolation Forest (5 cech),kalibracja,0.02,Boże Narodzenie,True,0.9858003582478424,1.0489104714999615
+Isolation Forest (5 cech),kalibracja,0.02,Nowy Rok,True,0.9941582683481397,1.1921661294253447
+Isolation Forest (5 cech),kalibracja,0.02,śnieżyca (zakaz ruchu),True,0.8058972178496685,1.2239759057485544
+Isolation Forest (5 cech),rowny_budzet,0.02,maraton nowojorski,True,0.6524332507071474,1.1137670461675162
+Isolation Forest (5 cech),rowny_budzet,0.02,Święto Dziękczynienia,True,0.9717816497494075,1.2309116186314482
+Isolation Forest (5 cech),rowny_budzet,0.02,Boże Narodzenie,True,0.9858003582478424,1.2925948584296612
+Isolation Forest (5 cech),rowny_budzet,0.02,Nowy Rok,True,0.9941582683481397,1.4691318765133017
+Isolation Forest (5 cech),rowny_budzet,0.02,śnieżyca (zakaz ruchu),True,0.8058972178496685,1.5083317457494054
+Isolation Forest (5 cech),kalibracja,0.05,maraton nowojorski,True,0.6524332507071474,1.1036895194163947
+Isolation Forest (5 cech),kalibracja,0.05,Święto Dziękczynienia,True,0.9717816497494075,1.2197741506953041
+Isolation Forest (5 cech),kalibracja,0.05,Boże Narodzenie,True,0.9858003582478424,1.2808992715391978
+Isolation Forest (5 cech),kalibracja,0.05,Nowy Rok,True,0.9941582683481397,1.4558389569234889
+Isolation Forest (5 cech),kalibracja,0.05,śnieżyca (zakaz ruchu),True,0.8058972178496685,1.4946841400228223
+Isolation Forest (5 cech),rowny_budzet,0.05,maraton nowojorski,True,0.6524332507071474,1.237157730925848
+Isolation Forest (5 cech),rowny_budzet,0.05,Święto Dziękczynienia,True,0.9717816497494075,1.3672803754756662
+Isolation Forest (5 cech),rowny_budzet,0.05,Boże Narodzenie,True,0.9858003582478424,1.435797303901141
+Isolation Forest (5 cech),rowny_budzet,0.05,Nowy Rok,True,0.9941582683481397,1.6318922929460251
+Isolation Forest (5 cech),rowny_budzet,0.05,śnieżyca (zakaz ruchu),True,0.8058972178496685,1.6754349901766576
+Isolation Forest (5 cech),kalibracja,0.1,maraton nowojorski,True,0.6524332507071474,1.312102796991619
+Isolation Forest (5 cech),kalibracja,0.1,Święto Dziękczynienia,True,0.9717816497494075,1.4501080663261856
+Isolation Forest (5 cech),kalibracja,0.1,Boże Narodzenie,True,0.9858003582478424,1.5227756423199603
+Isolation Forest (5 cech),kalibracja,0.1,Nowy Rok,True,0.9941582683481397,1.7307497568326515
+Isolation Forest (5 cech),kalibracja,0.1,śnieżyca (zakaz ruchu),True,0.8058972178496685,1.7769302020553606
+Isolation Forest (5 cech),rowny_budzet,0.1,maraton nowojorski,True,0.6524332507071474,1.3380541917616173
+Isolation Forest (5 cech),rowny_budzet,0.1,Święto Dziękczynienia,True,0.9717816497494075,1.4787889951182533
+Isolation Forest (5 cech),rowny_budzet,0.1,Boże Narodzenie,True,0.9858003582478424,1.5528938250801754
+Isolation Forest (5 cech),rowny_budzet,0.1,Nowy Rok,True,0.9941582683481397,1.7649813507981733
+Isolation Forest (5 cech),rowny_budzet,0.1,śnieżyca (zakaz ruchu),True,0.8058972178496685,1.8120751748867583
+Isolation Forest (3 cechy),kalibracja,0.02,maraton nowojorski,False,0.6278902579505088,0.9012314870347812
+Isolation Forest (3 cechy),kalibracja,0.02,Święto Dziękczynienia,False,0.9122244537323515,0.9823694734572944
+Isolation Forest (3 cechy),kalibracja,0.02,Boże Narodzenie,True,0.9780202283377663,1.0625796536608185
+Isolation Forest (3 cechy),kalibracja,0.02,Nowy Rok,True,0.9950979150458062,1.1697564311275557
+Isolation Forest (3 cechy),kalibracja,0.02,śnieżyca (zakaz ruchu),True,0.8605294107003927,1.1566026205819764
+Isolation Forest (3 cechy),rowny_budzet,0.02,maraton nowojorski,True,0.6278902579505088,1.1675599003146613
+Isolation Forest (3 cechy),rowny_budzet,0.02,Święto Dziękczynienia,True,0.9122244537323515,1.272675467959654
+Isolation Forest (3 cechy),rowny_budzet,0.02,Boże Narodzenie,True,0.9780202283377663,1.3765890477112606
+Isolation Forest (3 cechy),rowny_budzet,0.02,Nowy Rok,True,0.9950979150458062,1.5154382883506754
+Isolation Forest (3 cechy),rowny_budzet,0.02,śnieżyca (zakaz ruchu),True,0.8605294107003927,1.4983973150266245
+Isolation Forest (3 cechy),kalibracja,0.05,maraton nowojorski,True,0.6278902579505088,1.1122142019087962
+Isolation Forest (3 cechy),kalibracja,0.05,Święto Dziękczynienia,True,0.9122244537323515,1.2123469892244256
+Isolation Forest (3 cechy),kalibracja,0.05,Boże Narodzenie,True,0.9780202283377663,1.3113347663309978
+Isolation Forest (3 cechy),kalibracja,0.05,Nowy Rok,True,0.9950979150458062,1.443602153487571
+Isolation Forest (3 cechy),kalibracja,0.05,śnieżyca (zakaz ruchu),True,0.8605294107003927,1.4273689713268523
+Isolation Forest (3 cechy),rowny_budzet,0.05,maraton nowojorski,True,0.6278902579505088,1.3118812980714978
+Isolation Forest (3 cechy),rowny_budzet,0.05,Święto Dziękczynienia,True,0.9122244537323515,1.4299901396756596
+Isolation Forest (3 cechy),rowny_budzet,0.05,Boże Narodzenie,True,0.9780202283377663,1.546748416364551
+Isolation Forest (3 cechy),rowny_budzet,0.05,Nowy Rok,True,0.9950979150458062,1.7027607305911585
+Isolation Forest (3 cechy),rowny_budzet,0.05,śnieżyca (zakaz ruchu),True,0.8605294107003927,1.6836133325015763
+Isolation Forest (3 cechy),kalibracja,0.1,maraton nowojorski,True,0.6278902579505088,1.3029134427451716
+Isolation Forest (3 cechy),kalibracja,0.1,Święto Dziękczynienia,True,0.9122244537323515,1.4202149071835615
+Isolation Forest (3 cechy),kalibracja,0.1,Boże Narodzenie,True,0.9780202283377663,1.5361750389983426
+Isolation Forest (3 cechy),kalibracja,0.1,Nowy Rok,True,0.9950979150458062,1.6911208726941533
+Isolation Forest (3 cechy),kalibracja,0.1,śnieżyca (zakaz ruchu),True,0.8605294107003927,1.6721043638063575
+Isolation Forest (3 cechy),rowny_budzet,0.1,maraton nowojorski,True,0.6278902579505088,1.3976525206136
+Isolation Forest (3 cechy),rowny_budzet,0.1,Święto Dziękczynienia,True,0.9122244537323515,1.5234833563892713
+Isolation Forest (3 cechy),rowny_budzet,0.1,Boże Narodzenie,True,0.9780202283377663,1.6478753268797566
+Isolation Forest (3 cechy),rowny_budzet,0.1,Nowy Rok,True,0.9950979150458062,1.81408777654736
+Isolation Forest (3 cechy),rowny_budzet,0.1,śnieżyca (zakaz ruchu),True,0.8605294107003927,1.793688515392836
+autoenkoder,kalibracja,0.02,maraton nowojorski,False,0.5901692932144,0.7305621108830522
+autoenkoder,kalibracja,0.02,Święto Dziękczynienia,False,0.7919364079924249,0.7595801739333521
+autoenkoder,kalibracja,0.02,Boże Narodzenie,True,0.9396044799073622,1.9346593189569672
+autoenkoder,kalibracja,0.02,Nowy Rok,True,0.816345510141309,1.5592426608660004
+autoenkoder,kalibracja,0.02,śnieżyca (zakaz ruchu),True,0.8178822365762604,23.564835781194752
+autoenkoder,rowny_budzet,0.02,maraton nowojorski,False,0.5901692932144,0.6735357986932496
+autoenkoder,rowny_budzet,0.02,Święto Dziękczynienia,False,0.7919364079924249,0.7002887660069946
+autoenkoder,rowny_budzet,0.02,Boże Narodzenie,True,0.9396044799073622,1.78364343042369
+autoenkoder,rowny_budzet,0.02,Nowy Rok,True,0.816345510141309,1.437531094616383
+autoenkoder,rowny_budzet,0.02,śnieżyca (zakaz ruchu),True,0.8178822365762604,21.72540876747304
+autoenkoder,kalibracja,0.05,maraton nowojorski,False,0.5901692932144,0.7665164576427083
+autoenkoder,kalibracja,0.05,Święto Dziękczynienia,False,0.7919364079924249,0.7969626340397885
+autoenkoder,kalibracja,0.05,Boże Narodzenie,True,0.9396044799073622,2.029872868878822
+autoenkoder,kalibracja,0.05,Nowy Rok,True,0.816345510141309,1.6359802174352314
+autoenkoder,kalibracja,0.05,śnieżyca (zakaz ruchu),True,0.8178822365762604,24.724570544865045
+autoenkoder,rowny_budzet,0.05,maraton nowojorski,False,0.5901692932144,0.829204311512087
+autoenkoder,rowny_budzet,0.05,Święto Dziękczynienia,False,0.7919364079924249,0.8621404611352229
+autoenkoder,rowny_budzet,0.05,Boże Narodzenie,True,0.9396044799073622,2.1958815338056294
+autoenkoder,rowny_budzet,0.05,Nowy Rok,True,0.816345510141309,1.769775242683832
+autoenkoder,rowny_budzet,0.05,śnieżyca (zakaz ruchu),True,0.8178822365762604,26.746614885656097
+autoenkoder,kalibracja,0.1,maraton nowojorski,False,0.5901692932144,0.8789621037115976
+autoenkoder,kalibracja,0.1,Święto Dziękczynienia,False,0.7919364079924249,0.9138746421041207
+autoenkoder,kalibracja,0.1,Boże Narodzenie,True,0.9396044799073622,2.327649079556325
+autoenkoder,kalibracja,0.1,Nowy Rok,True,0.816345510141309,1.875973567442563
+autoenkoder,kalibracja,0.1,śnieżyca (zakaz ruchu),True,0.8178822365762604,28.351590266324283
+autoenkoder,rowny_budzet,0.1,maraton nowojorski,False,0.5901692932144,0.9065503943211257
+autoenkoder,rowny_budzet,0.1,Święto Dziękczynienia,False,0.7919364079924249,0.9425587447526687
+autoenkoder,rowny_budzet,0.1,Boże Narodzenie,True,0.9396044799073622,2.400707814367116
+autoenkoder,rowny_budzet,0.1,Nowy Rok,True,0.816345510141309,1.9348554051644091
+autoenkoder,rowny_budzet,0.1,śnieżyca (zakaz ruchu),True,0.8178822365762604,29.241471534477647
+"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",kalibracja,0.02,maraton nowojorski,False,0.6316765878400792,0.8641645227653362
+"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",kalibracja,0.02,Święto Dziękczynienia,False,0.9614129680894051,0.9808602971879694
+"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",kalibracja,0.02,Boże Narodzenie,True,0.984661684971081,1.047723482620079
+"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",kalibracja,0.02,Nowy Rok,True,0.9944658548794683,1.1057164651243954
+"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",kalibracja,0.02,śnieżyca (zakaz ruchu),True,0.8166036415832865,1.0900938346540434
+"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",rowny_budzet,0.02,maraton nowojorski,True,0.6316765878400792,1.0455570986140479
+"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",rowny_budzet,0.02,Święto Dziękczynienia,True,0.9614129680894051,1.186747916000774
+"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",rowny_budzet,0.02,Boże Narodzenie,True,0.984661684971081,1.2676460277871486
+"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",rowny_budzet,0.02,Nowy Rok,True,0.9944658548794683,1.3378120354510084
+"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",rowny_budzet,0.02,śnieżyca (zakaz ruchu),True,0.8166036415832865,1.3189101345316898
+"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",kalibracja,0.05,maraton nowojorski,True,0.6316765878400792,1.0360790911109785
+"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",kalibracja,0.05,Święto Dziękczynienia,True,0.9614129680894051,1.1759900093622773
+"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",kalibracja,0.05,Boże Narodzenie,True,0.984661684971081,1.2561547772580968
+"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",kalibracja,0.05,Nowy Rok,True,0.9944658548794683,1.3256847278878834
+"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",kalibracja,0.05,śnieżyca (zakaz ruchu),True,0.8166036415832865,1.3069541732862102
+"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",rowny_budzet,0.05,maraton nowojorski,True,0.6316765878400792,1.110206727542084
+"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",rowny_budzet,0.05,Święto Dziękczynienia,True,0.9614129680894051,1.2601277558031827
+"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",rowny_budzet,0.05,Boże Narodzenie,True,0.984661684971081,1.3460280170799113
+"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",rowny_budzet,0.05,Nowy Rok,True,0.9944658548794683,1.4205325791516012
+"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",rowny_budzet,0.05,śnieżyca (zakaz ruchu),True,0.8166036415832865,1.4004619224731871
+"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",kalibracja,0.1,maraton nowojorski,True,0.6316765878400792,1.2805525671619067
+"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",kalibracja,0.1,Święto Dziękczynienia,True,0.9614129680894051,1.4534768999448078
+"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",kalibracja,0.1,Boże Narodzenie,True,0.984661684971081,1.552557366103867
+"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",kalibracja,0.1,Nowy Rok,True,0.9944658548794683,1.6384936209105734
+"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",kalibracja,0.1,śnieżyca (zakaz ruchu),True,0.8166036415832865,1.6153434000583995
+"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",rowny_budzet,0.1,maraton nowojorski,True,0.6316765878400792,1.2965163442159209
+"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",rowny_budzet,0.1,Święto Dziękczynienia,True,0.9614129680894051,1.4715964069286587
+"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",rowny_budzet,0.1,Boże Narodzenie,True,0.984661684971081,1.5719120418052948
+"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",rowny_budzet,0.1,Nowy Rok,True,0.9944658548794683,1.6589196053952335
+"Isolation Forest (5 cech, uczony na okresie kalibracyjnym)",rowny_budzet,0.1,śnieżyca (zakaz ruchu),True,0.8166036415832865,1.6354807865003769
+"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",kalibracja,0.02,maraton nowojorski,False,0.6401840694301205,0.8927929928797131
+"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",kalibracja,0.02,Święto Dziękczynienia,False,0.8948403867146743,0.9698239552017723
+"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",kalibracja,0.02,Boże Narodzenie,True,0.9835362801329256,1.054735348255983
+"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",kalibracja,0.02,Nowy Rok,True,0.9965465872972794,1.0666454047101086
+"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",kalibracja,0.02,śnieżyca (zakaz ruchu),True,0.8603979325360208,1.0858284574680361
+"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",rowny_budzet,0.02,maraton nowojorski,True,0.6401840694301205,1.0970448103549424
+"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",rowny_budzet,0.02,Święto Dziękczynienia,True,0.8948403867146743,1.1916987985986065
+"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",rowny_budzet,0.02,Boże Narodzenie,True,0.9835362801329256,1.2960360904826624
+"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",rowny_budzet,0.02,Nowy Rok,True,0.9965465872972794,1.3106709114638273
+"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",rowny_budzet,0.02,śnieżyca (zakaz ruchu),True,0.8603979325360208,1.3342426337361646
+"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",kalibracja,0.05,maraton nowojorski,True,0.6401840694301205,1.0421366477160607
+"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",kalibracja,0.05,Święto Dziękczynienia,True,0.8948403867146743,1.1320531115378918
+"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",kalibracja,0.05,Boże Narodzenie,True,0.9835362801329256,1.2311682202093799
+"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",kalibracja,0.05,Nowy Rok,True,0.9965465872972794,1.2450705541279927
+"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",kalibracja,0.05,śnieżyca (zakaz ruchu),True,0.8603979325360208,1.2674624887125425
+"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",rowny_budzet,0.05,maraton nowojorski,True,0.6401840694301205,1.3112340039274004
+"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",rowny_budzet,0.05,Święto Dziękczynienia,True,0.8948403867146743,1.4243684236164929
+"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",rowny_budzet,0.05,Boże Narodzenie,True,0.9835362801329256,1.5490767342567922
+"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",rowny_budzet,0.05,Nowy Rok,True,0.9965465872972794,1.566568886565215
+"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",rowny_budzet,0.05,śnieżyca (zakaz ruchu),True,0.8603979325360208,1.5947427984080882
+"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",kalibracja,0.1,maraton nowojorski,True,0.6401840694301205,1.2424214676567193
+"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",kalibracja,0.1,Święto Dziękczynienia,True,0.8948403867146743,1.3496186813741848
+"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",kalibracja,0.1,Boże Narodzenie,True,0.9835362801329256,1.4677823972865502
+"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",kalibracja,0.1,Nowy Rok,True,0.9965465872972794,1.4843565751056216
+"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",kalibracja,0.1,śnieżyca (zakaz ruchu),True,0.8603979325360208,1.5110519420627093
+"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",rowny_budzet,0.1,maraton nowojorski,True,0.6401840694301205,1.4009383149453616
+"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",rowny_budzet,0.1,Święto Dziękczynienia,True,0.8948403867146743,1.5218125012514192
+"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",rowny_budzet,0.1,Boże Narodzenie,True,0.9835362801329256,1.655052373039992
+"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",rowny_budzet,0.1,Nowy Rok,True,0.9965465872972794,1.6737412007445291
+"Isolation Forest (3 cechy, uczony na okresie kalibracyjnym)",rowny_budzet,0.1,śnieżyca (zakaz ruchu),True,0.8603979325360208,1.7038425499044454
+autoenkoder (uczony na okresie kalibracyjnym),kalibracja,0.02,maraton nowojorski,False,0.6015608508687812,0.7211262697980946
+autoenkoder (uczony na okresie kalibracyjnym),kalibracja,0.02,Święto Dziękczynienia,True,0.7084948162622808,1.0218196234215635
+autoenkoder (uczony na okresie kalibracyjnym),kalibracja,0.02,Boże Narodzenie,True,0.9093174594558734,3.842386672270412
+autoenkoder (uczony na okresie kalibracyjnym),kalibracja,0.02,Nowy Rok,True,0.6783670170740681,2.23899069665144
+autoenkoder (uczony na okresie kalibracyjnym),kalibracja,0.02,śnieżyca (zakaz ruchu),True,0.8021687866012894,44.80209994382201
+autoenkoder (uczony na okresie kalibracyjnym),rowny_budzet,0.02,maraton nowojorski,False,0.6015608508687812,0.6300949766284648
+autoenkoder (uczony na okresie kalibracyjnym),rowny_budzet,0.02,Święto Dziękczynienia,False,0.7084948162622808,0.8928303387402375
+autoenkoder (uczony na okresie kalibracyjnym),rowny_budzet,0.02,Boże Narodzenie,True,0.9093174594558734,3.357343424945004
+autoenkoder (uczony na okresie kalibracyjnym),rowny_budzet,0.02,Nowy Rok,True,0.6783670170740681,1.9563519590999465
+autoenkoder (uczony na okresie kalibracyjnym),rowny_budzet,0.02,śnieżyca (zakaz ruchu),True,0.8021687866012894,39.14651192073833
+autoenkoder (uczony na okresie kalibracyjnym),kalibracja,0.05,maraton nowojorski,False,0.6015608508687812,0.7605184570586025
+autoenkoder (uczony na okresie kalibracyjnym),kalibracja,0.05,Święto Dziękczynienia,True,0.7084948162622808,1.0776374623189786
+autoenkoder (uczony na okresie kalibracyjnym),kalibracja,0.05,Boże Narodzenie,True,0.9093174594558734,4.052280586360846
+autoenkoder (uczony na okresie kalibracyjnym),kalibracja,0.05,Nowy Rok,True,0.6783670170740681,2.36129762747747
+autoenkoder (uczony na okresie kalibracyjnym),kalibracja,0.05,śnieżyca (zakaz ruchu),True,0.8021687866012894,47.249455954226626
+autoenkoder (uczony na okresie kalibracyjnym),rowny_budzet,0.05,maraton nowojorski,False,0.6015608508687812,0.7391163353402702
+autoenkoder (uczony na okresie kalibracyjnym),rowny_budzet,0.05,Święto Dziękczynienia,True,0.7084948162622808,1.0473111396338102
+autoenkoder (uczony na okresie kalibracyjnym),rowny_budzet,0.05,Boże Narodzenie,True,0.9093174594558734,3.93824337721597
+autoenkoder (uczony na okresie kalibracyjnym),rowny_budzet,0.05,Nowy Rok,True,0.6783670170740681,2.294847196501818
+autoenkoder (uczony na okresie kalibracyjnym),rowny_budzet,0.05,śnieżyca (zakaz ruchu),True,0.8021687866012894,45.91978591391172
+autoenkoder (uczony na okresie kalibracyjnym),kalibracja,0.1,maraton nowojorski,False,0.6015608508687812,0.8798889112824657
+autoenkoder (uczony na okresie kalibracyjnym),kalibracja,0.1,Święto Dziękczynienia,True,0.7084948162622808,1.246782697614373
+autoenkoder (uczony na okresie kalibracyjnym),kalibracja,0.1,Boże Narodzenie,True,0.9093174594558734,4.688323761574886
+autoenkoder (uczony na okresie kalibracyjnym),kalibracja,0.1,Nowy Rok,True,0.6783670170740681,2.7319252798816986
+autoenkoder (uczony na okresie kalibracyjnym),kalibracja,0.1,śnieżyca (zakaz ruchu),True,0.8021687866012894,54.66569808055261
+autoenkoder (uczony na okresie kalibracyjnym),rowny_budzet,0.1,maraton nowojorski,False,0.6015608508687812,0.8006097182382262
+autoenkoder (uczony na okresie kalibracyjnym),rowny_budzet,0.1,Święto Dziękczynienia,True,0.7084948162622808,1.1344458731573863
+autoenkoder (uczony na okresie kalibracyjnym),rowny_budzet,0.1,Boże Narodzenie,True,0.9093174594558734,4.265899385290788
+autoenkoder (uczony na okresie kalibracyjnym),rowny_budzet,0.1,Nowy Rok,True,0.6783670170740681,2.4857750797041556
+autoenkoder (uczony na okresie kalibracyjnym),rowny_budzet,0.1,śnieżyca (zakaz ruchu),True,0.8021687866012894,49.74024399713938
+Matrix Profile bez normalizacji,kalibracja,0.02,maraton nowojorski,True,0.7842467447092101,1.6441153408869194
+Matrix Profile bez normalizacji,kalibracja,0.02,Święto Dziękczynienia,True,0.9606705386382963,1.6276397238450893
+Matrix Profile bez normalizacji,kalibracja,0.02,Boże Narodzenie,True,0.9843082620154758,2.917225813787393
+Matrix Profile bez normalizacji,kalibracja,0.02,Nowy Rok,True,0.9748611337277678,1.6027211829238217
+Matrix Profile bez normalizacji,kalibracja,0.02,śnieżyca (zakaz ruchu),True,0.9242547057723739,20.38604910596343
+Matrix Profile bez normalizacji,rowny_budzet,0.02,maraton nowojorski,True,0.7842467447092101,1.4445110931185816
+Matrix Profile bez normalizacji,rowny_budzet,0.02,Święto Dziękczynienia,True,0.9606705386382963,1.4300357026206993
+Matrix Profile bez normalizacji,rowny_budzet,0.02,Boże Narodzenie,True,0.9843082620154758,2.5630592601091746
+Matrix Profile bez normalizacji,rowny_budzet,0.02,Nowy Rok,True,0.9748611337277678,1.4081424035984524
+Matrix Profile bez normalizacji,rowny_budzet,0.02,śnieżyca (zakaz ruchu),True,0.9242547057723739,17.91107554688872
+Matrix Profile bez normalizacji,kalibracja,0.05,maraton nowojorski,True,0.7842467447092101,1.738097022004773
+Matrix Profile bez normalizacji,kalibracja,0.05,Święto Dziękczynienia,True,0.9606705386382963,1.7206796181256458
+Matrix Profile bez normalizacji,kalibracja,0.05,Boże Narodzenie,True,0.9843082620154758,3.0839816242600566
+Matrix Profile bez normalizacji,kalibracja,0.05,Nowy Rok,True,0.9748611337277678,1.6943366720494932
+Matrix Profile bez normalizacji,kalibracja,0.05,śnieżyca (zakaz ruchu),True,0.9242547057723739,21.551365868530716
+Matrix Profile bez normalizacji,rowny_budzet,0.05,maraton nowojorski,True,0.7842467447092101,1.9247647722818284
+Matrix Profile bez normalizacji,rowny_budzet,0.05,Święto Dziękczynienia,True,0.9606705386382963,1.9054767780060655
+Matrix Profile bez normalizacji,rowny_budzet,0.05,Boże Narodzenie,True,0.9843082620154758,3.415194384197012
+Matrix Profile bez normalizacji,rowny_budzet,0.05,Nowy Rok,True,0.9748611337277678,1.876304658174104
+Matrix Profile bez normalizacji,rowny_budzet,0.05,śnieżyca (zakaz ruchu),True,0.9242547057723739,23.86593457853067
+Matrix Profile bez normalizacji,kalibracja,0.1,maraton nowojorski,True,0.7842467447092101,1.960288201744012
+Matrix Profile bez normalizacji,kalibracja,0.1,Święto Dziękczynienia,True,0.9606705386382963,1.9406442285382577
+Matrix Profile bez normalizacji,kalibracja,0.1,Boże Narodzenie,True,0.9843082620154758,3.4782251599851843
+Matrix Profile bez normalizacji,kalibracja,0.1,Nowy Rok,True,0.9748611337277678,1.9109337085048606
+Matrix Profile bez normalizacji,kalibracja,0.1,śnieżyca (zakaz ruchu),True,0.9242547057723739,24.306403905358824
+Matrix Profile bez normalizacji,rowny_budzet,0.1,maraton nowojorski,True,0.7842467447092101,2.536837356377066
+Matrix Profile bez normalizacji,rowny_budzet,0.1,Święto Dziękczynienia,True,0.9606705386382963,2.5114158061112977
+Matrix Profile bez normalizacji,rowny_budzet,0.1,Boże Narodzenie,True,0.9843082620154758,4.5012215611412785
+Matrix Profile bez normalizacji,rowny_budzet,0.1,Nowy Rok,True,0.9748611337277678,2.4729669917833554
+Matrix Profile bez normalizacji,rowny_budzet,0.1,śnieżyca (zakaz ruchu),True,0.9242547057723739,31.455269368782254
+CUSUM z S1 (bez modelu cyklu),kalibracja,0.02,maraton nowojorski,False,0.5,1.0
+CUSUM z S1 (bez modelu cyklu),kalibracja,0.02,Święto Dziękczynienia,False,0.5,1.0
+CUSUM z S1 (bez modelu cyklu),kalibracja,0.02,Boże Narodzenie,False,0.5,1.0
+CUSUM z S1 (bez modelu cyklu),kalibracja,0.02,Nowy Rok,False,0.5,1.0
+CUSUM z S1 (bez modelu cyklu),kalibracja,0.02,śnieżyca (zakaz ruchu),False,0.5,1.0
+CUSUM z S1 (bez modelu cyklu),rowny_budzet,0.02,maraton nowojorski,False,0.5,1.0
+CUSUM z S1 (bez modelu cyklu),rowny_budzet,0.02,Święto Dziękczynienia,False,0.5,1.0
+CUSUM z S1 (bez modelu cyklu),rowny_budzet,0.02,Boże Narodzenie,False,0.5,1.0
+CUSUM z S1 (bez modelu cyklu),rowny_budzet,0.02,Nowy Rok,False,0.5,1.0
+CUSUM z S1 (bez modelu cyklu),rowny_budzet,0.02,śnieżyca (zakaz ruchu),False,0.5,1.0
+CUSUM z S1 (bez modelu cyklu),kalibracja,0.05,maraton nowojorski,False,0.5,1.0
+CUSUM z S1 (bez modelu cyklu),kalibracja,0.05,Święto Dziękczynienia,False,0.5,1.0
+CUSUM z S1 (bez modelu cyklu),kalibracja,0.05,Boże Narodzenie,False,0.5,1.0
+CUSUM z S1 (bez modelu cyklu),kalibracja,0.05,Nowy Rok,False,0.5,1.0
+CUSUM z S1 (bez modelu cyklu),kalibracja,0.05,śnieżyca (zakaz ruchu),False,0.5,1.0
+CUSUM z S1 (bez modelu cyklu),rowny_budzet,0.05,maraton nowojorski,False,0.5,1.0
+CUSUM z S1 (bez modelu cyklu),rowny_budzet,0.05,Święto Dziękczynienia,False,0.5,1.0
+CUSUM z S1 (bez modelu cyklu),rowny_budzet,0.05,Boże Narodzenie,False,0.5,1.0
+CUSUM z S1 (bez modelu cyklu),rowny_budzet,0.05,Nowy Rok,False,0.5,1.0
+CUSUM z S1 (bez modelu cyklu),rowny_budzet,0.05,śnieżyca (zakaz ruchu),False,0.5,1.0
+CUSUM z S1 (bez modelu cyklu),kalibracja,0.1,maraton nowojorski,False,0.5,1.0
+CUSUM z S1 (bez modelu cyklu),kalibracja,0.1,Święto Dziękczynienia,False,0.5,1.0
+CUSUM z S1 (bez modelu cyklu),kalibracja,0.1,Boże Narodzenie,False,0.5,1.0
+CUSUM z S1 (bez modelu cyklu),kalibracja,0.1,Nowy Rok,False,0.5,1.0
+CUSUM z S1 (bez modelu cyklu),kalibracja,0.1,śnieżyca (zakaz ruchu),False,0.5,1.0
+CUSUM z S1 (bez modelu cyklu),rowny_budzet,0.1,maraton nowojorski,False,0.5,1.0
+CUSUM z S1 (bez modelu cyklu),rowny_budzet,0.1,Święto Dziękczynienia,False,0.5,1.0
+CUSUM z S1 (bez modelu cyklu),rowny_budzet,0.1,Boże Narodzenie,False,0.5,1.0
+CUSUM z S1 (bez modelu cyklu),rowny_budzet,0.1,Nowy Rok,False,0.5,1.0
+CUSUM z S1 (bez modelu cyklu),rowny_budzet,0.1,śnieżyca (zakaz ruchu),False,0.5,1.0

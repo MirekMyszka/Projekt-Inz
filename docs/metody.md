@@ -1,6 +1,7 @@
 # Metody wykrywania anomalii – szczegółowy opis działania
 
-> Stan na **2026-10-26** (po scenariuszach S1, S2 i S3). Dokument opisuje każdą metodę użytą w projekcie: intuicję,
+> Stan na **2026-10-29** (po scenariuszach S1–S3 i etapie 2 – dane rzeczywiste; adaptacje metod do danych
+> rzeczywistych – rozdz. 13). Dokument opisuje każdą metodę użytą w projekcie: intuicję,
 > działanie krok po kroku (ze wzorami), parametry przyjęte w projekcie, sposób kalibracji, mocne i słabe strony
 > potwierdzone w eksperymentach oraz miejsce w kodzie. Wyniki liczbowe: [wyniki_s1.md](wyniki_s1.md),
 > [wyniki_s2.md](wyniki_s2.md), [wyniki_s3.md](wyniki_s3.md). Dobór metod do scenariuszy:
@@ -21,6 +22,7 @@
 10. [Autoenkoder](#10-autoenkoder) (uczenie maszynowe; S3)
 11. [Zestawienie metod](#11-zestawienie-metod)
 12. [Literatura](#12-literatura)
+13. [Adaptacje metod do danych rzeczywistych (etap 2)](#13-adaptacje-metod-do-danych-rzeczywistych-etap-2)
 
 ---
 
@@ -269,15 +271,15 @@ Reszty są białym szumem, a anomalie S2 zostawiają w nich ślady, które już 
 
 ### Mocne i słabe strony (wyniki S2)
 
-- ✘ **Uczony na tym samym szeregu – najsłabszy w S2** (4 / 17 / 0%, 5 cech; AUC 0,75–0,81); przy
-  najsilniejszej zmianie φ (φ' = −0,5) wykrywa rzadziej niż przy słabszej (31% vs
-  64%, L = 50). Wrażliwy na inne anomalie w szeregu (szok: 11% /
-  0% / 0% przy L = 20 / 50 / 100).
-- ✔ **Uczony na szeregach bez anomalii – jedna z lepszych metod S2** (41 / 60 / 38%, F1 0,04 →
-  0,44); wynik rośnie monotonicznie z intensywnością (φ' = 0 / −0,5: 96% /
-  100%). Słabość wersji głównej brała się więc głównie z anomalii w danych uczących (granica
-  modelu obejmowała także ich okna), a nie tylko z nasycenia jądra. To standardowy sposób użycia One-Class SVM.
-- Zestaw cech: 5 cech lepsze dla zmiany φ (uczony na szeregach bez anomalii: 48% → 60%).
+- ✔ **Najlepsza metoda S2 ogólnie** (31 / 66 / 45% szoków / zmian φ / przesunięć równowagi; AUC 0,61 / 0,79 / 0,82),
+  najwyższe F1 (0,52) i precyzja 0,93. Przy Δ = 2σ_x i L = 50 wykrywa 93% przesunięć równowagi, przy φ' = 0 – 98% zmian φ.
+  Działa z tego samego powodu co CUSUM w S1: każda karta patrzy na to, co zmienia dana anomalia.
+- ✘ **Szok wykrywa słabo** (impuls 5σ_ε: 26%, L = 50) – w resztach to jedna wartość ≈ 5, niewiele ponad typowe
+  maksimum 3 000 punktów szumu (≈ 3,7); lepiej radzi sobie kNN, który łączy maksimum reszty z innymi cechami okna.
+- ✘ Wzrost zależności (φ' = 0,95) – 66% wobec 98% PELT z kosztem AR.
+- ✘ **Działa tylko przy trafnym modelu zależności.** Na danych rzeczywistych (dzienna zmienność SPY i BTC) zależność
+  ma długą pamięć, a nie postać AR(1): reszty są dodatnie przez miesiące po kryzysie, CUSUM je sumuje i wskazuje długi
+  okres po zdarzeniu zamiast samego zdarzenia – recall bliski 0 ([wyniki_rzeczywiste.md](wyniki_rzeczywiste.md), rozdz. 6.3).
 
 ---
 
@@ -557,9 +559,14 @@ prawie identycznym AUC.
 
 ### Mocne i słabe strony (wyniki S2)
 
-- ✔ Dobry ranking (AUC 0,76–0,82); dobry dla wzrostu zależności (φ' = 0,95: 91%).
-- ✘ **Najsłabsze wykrywanie w S2** (6% / 28% / 3%), a przy najsilniejszej zmianie φ (φ' = −0,5) wykrywa rzadziej
-  (53%) niż przy słabszej (79%) – nawet przy γ = 0,01 najsilniejsze anomalie wchodzą w strefę nasycenia.
+- ✔ Dobry ranking (AUC 0,75–0,81, 5 cech); dobry dla wzrostu zależności (φ' = 0,95: 85%).
+- ✘ **Uczony na tym samym szeregu – najsłabsze wykrywanie w S2** (4% / 17% / 0%, 5 cech), a przy najsilniejszej
+  zmianie φ (φ' = −0,5) wykrywa rzadziej (31%) niż przy słabszej (64%, L = 50).
+- ✔ **Uczony na szeregach bez anomalii – jedna z lepszych metod S2** (41% / 60% / 38%, F1 0,04 → 0,44); wynik rośnie
+  z intensywnością (φ' = 0 / −0,5: 96% / 100%). Słabość wersji głównej brała się więc głównie z anomalii w danych
+  uczących (granica modelu obejmowała także ich okna), a nie tylko z nasycenia jądra. To standardowy sposób użycia
+  One-Class SVM.
+- Zestaw cech: 5 cech lepsze dla zmiany φ (uczony na szeregach bez anomalii: 48% → 60%).
 - ✘ Wrażliwy na parametry (γ, ν) i na inne anomalie w szeregu (szok: 18% / 1% / 0% przy L = 20 / 50 / 100).
 
 ---
@@ -736,3 +743,20 @@ Matrix Profile: S1 i S3 – na szeregu (S1 bez normalizacji, S3 z normalizacją,
   wykrywanie nienadzorowane i półnadzorowane (model uczony na danych bez anomalii).
 - R. Wu, E. J. Keogh (2021). *Current time series anomaly detection benchmarks are flawed and are creating the illusion
   of progress*. IEEE TKDE – kontekst oceny metod.
+
+---
+
+## 13. Adaptacje metod do danych rzeczywistych (etap 2)
+
+Na danych rzeczywistych część założeń z symulacji nie jest spełniona. Zmiany są **włączane tylko w etapie 2**
+(parametry domyślnie wyłączone – wyniki S1–S3 bez zmian); szczegóły i wyniki: [wyniki_rzeczywiste.md](wyniki_rzeczywiste.md).
+
+| Zmiana | Gdzie | Dlaczego |
+|---|---|---|
+| **cechy cykli względem profilu okresu** (`cechy_okien_rz`, `profil_okresowy`): poziom (średnia różnica od profilu), kształt (korelacja z profilem), faza 1. harmonicznej względem profilu; w wariancie 5 cech – odch. std różnic i stosunek amplitud | `src/metody/baza.py`, `CechyKNN(zestaw="rz")` | cykl NYC Taxi nie jest sinusem (doby robocze i weekend mają inny przebieg) – profil = mediana każdego punktu tygodnia |
+| **poprawka PELT na zależność reszt** (`korekta_zaleznosci=True`): statystyki istotności liczone z efektywnej liczby obserwacji n_eff = n·(1 − ρ)/(1 + ρ), ρ – autokorelacja reszt (przesunięcie 1) | `PELTSTL`, `PELTAR` w `statystyczne.py` | reszty STL w NYC Taxi mają autokorelację 0,98 – bez poprawki każdy dłuższy odcinek był „istotny” |
+| **kara PELT z siatki** 31 kar (3 … 3000): największy odsetek dni z alarmem ≤ α | `src/rzeczywiste/wspolne.py` | odsetek alarmów nie maleje monotonicznie z karą – bisekcja nie działa |
+| **pamięć karty STL + EWMA** (`pamiec`): λ = 2/(pamięć + 1), pamięć = doba (48) przy okresie STL = tydzień (336) | `STLEWMA` | domyślna pamięć = okres (tydzień) rozmywałaby alarm na wiele dni |
+| **próg na dniach okresu kalibracyjnego**: kwantyl (1 − α) dziennych maksimów wyniku w dniach „historii” | `src/rzeczywiste/wspolne.py` | nie ma szeregów bez anomalii; jednostką oceny jest dzień |
+| **skala kart CUSUM**: zerowa skala karty (gładki szereg) zastępowana 1 | `CUSUM.kalibruj` | ochrona przed dzieleniem przez 0 |
+

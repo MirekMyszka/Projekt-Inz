@@ -2,7 +2,7 @@
 import numpy as np
 import stumpy
 
-from src.metody.baza import (KOLUMNY_3, Detektor, cechy_okien_s1, cechy_okien_s2, cechy_okien_s3, do_punktow,
+from src.metody.baza import (KOLUMNY_3, Detektor, cechy_okien_rz, cechy_okien_s1, cechy_okien_s2, cechy_okien_s3, do_punktow,
                              dopasuj_ar1, odleglosci_bez_trywialnych, okna, standaryzuj_odpornie)
 
 
@@ -13,7 +13,8 @@ def opis_cech(liczba: int) -> str:
 def cechy_okien(x: np.ndarray, w: int, krok: int, zestaw: str = "s1", P: int = 50,
                 liczba: int = 5) -> tuple[np.ndarray, np.ndarray]:
     """Okna szeregu i ich cechy (standaryzowane odpornie) - zestaw cech zależny od scenariusza
-    (s1, s2, s3 = cechy cykli; P - okres cyklu, tylko dla s3); liczba = 5 (pełny zestaw) albo 3 (po jednej cesze
+    (s1, s2, s3 = cechy cykli; rz = cechy cykli względem profilu okresu dla danych rzeczywistych; P - okres cyklu,
+    tylko dla s3 i rz); liczba = 5 (pełny zestaw) albo 3 (po jednej cesze
     na rodzaj anomalii - baza.KOLUMNY_3)."""
     starty, m = okna(x, w, krok)
     if zestaw == "s1":
@@ -23,6 +24,8 @@ def cechy_okien(x: np.ndarray, w: int, krok: int, zestaw: str = "s1", P: int = 5
         F = cechy_okien_s2(m, okna(r, w, krok)[1])
     elif zestaw == "s3":
         F = cechy_okien_s3(m, starty, P)
+    elif zestaw == "rz":
+        F = cechy_okien_rz(m, starty, x, P)
     else:
         raise ValueError(f"Nieznany zestaw cech: {zestaw}")
     if liczba == 3:
@@ -78,7 +81,7 @@ class CechyKNN(Detektor):
         if nazwa:
             self.nazwa = nazwa
         else:
-            self.nazwa = ("cechy cykli + kNN" if zestaw == "s3" else "cechy okien + kNN") + f" ({opis_cech(cechy)})"
+            self.nazwa = ("cechy cykli + kNN" if zestaw in ("s3", "rz") else "cechy okien + kNN") + f" ({opis_cech(cechy)})"
 
     def cechy(self, x):
         starty, F = cechy_okien(x, self.w, self.krok, self.zestaw, self.P, 5 if self.kolumny else self.liczba_cech)

@@ -57,7 +57,7 @@ def autokorelacja(m: np.ndarray, lag: int = 1) -> np.ndarray:
 #   3 cechy: po jednej cesze na każdy rodzaj anomalii scenariusza,
 #   5 cech:  te 3 + 2 cechy pomocnicze z planu (plan_etap_1.md, rozdz. 4.3–4.5).
 # Funkcje cechy_okien_s* zwracają zawsze 5 kolumn; KOLUMNY_3[zestaw] - indeksy wariantu 3-cechowego.
-KOLUMNY_3 = {"s1": [0, 1, 2], "s2": [0, 1, 3], "s3": [0, 1, 2]}
+KOLUMNY_3 = {"s1": [0, 1, 2], "s2": [0, 1, 3], "s3": [0, 1, 2], "rz": [0, 1, 2]}
 
 
 def cechy_okien_s1(m: np.ndarray) -> np.ndarray:
@@ -199,3 +199,36 @@ def cechy_okien_s3(m: np.ndarray, starty: np.ndarray, P: int) -> np.ndarray:
     mc, wc = m - m.mean(1, keepdims=True), wzor - wzor.mean(1, keepdims=True)
     korel = (mc * wc).sum(1) / np.sqrt((mc ** 2).sum(1) * (wc ** 2).sum(1) + 1e-12)
     return np.column_stack([amp, dfaza, czest, res, korel])
+
+
+# ============================================================================================ dane rzeczywiste
+def profil_okresowy(x: np.ndarray, P: int) -> np.ndarray:
+    """Typowy przebieg jednego okresu P (np. tygodnia): mediana wartości w tym samym miejscu okresu ze wszystkich
+    okresów szeregu (indeks t mod P liczony od początku szeregu). Mediana - kilka dni z anomaliami go nie zmienia."""
+    k = int(np.ceil(len(x) / P))
+    pad = np.full(k * P, np.nan)
+    pad[:len(x)] = x
+    return np.nanmedian(pad.reshape(k, P), axis=0)
+
+
+def cechy_okien_rz(m: np.ndarray, starty: np.ndarray, x: np.ndarray, P: int) -> np.ndarray:
+    """Cechy cykli dla szeregu rzeczywistego o NIEsinusoidalnym cyklu (NYC Taxi: cykl dobowy i tygodniowy) - wzorcem
+    zamiast sinusa jest typowy przebieg okresu P (profil_okresowy, tydzień = 336 punktów), a okno (doba) jest
+    porównywane z profilem w tym samym miejscu tygodnia. Kolumny:
+        0 poziom       średnia różnica okna od profilu (log-szereg: ile razy mniej/więcej ruchu niż zwykle),
+        1 kształt      korelacja okna z profilem (czy przebieg doby jest typowy dla tego dnia tygodnia),
+        2 faza         przesunięcie fazy pierwszej harmonicznej okna (okres = długość okna) względem profilu,
+        3 odch. std różnic od profilu - pomocnicza (ile w oknie „nie-profilu”),
+        4 amplituda    log-stosunek amplitud pierwszej harmonicznej okna i profilu - pomocnicza.
+    Wariant 3-cechowy - kolumny 0–2 (poziom, kształt, faza)."""
+    prof = profil_okresowy(x, P)
+    w = m.shape[1]
+    pm = prof[(starty[:, None] + np.arange(w)[None, :]) % P]
+    d = m - pm
+    mc, pc = m - m.mean(1, keepdims=True), pm - pm.mean(1, keepdims=True)
+    korel = (mc * pc).sum(1) / np.sqrt((mc ** 2).sum(1) * (pc ** 2).sum(1) + 1e-12)
+    e = np.exp(-2j * np.pi * np.arange(w) / w)
+    hm, hp = (mc * e).sum(1), (pc * e).sum(1)
+    faza = np.angle(hm * np.conj(hp))
+    amp = np.log((np.abs(hm) + 1e-9) / (np.abs(hp) + 1e-9))
+    return np.column_stack([d.mean(1), korel, faza, d.std(1), amp])

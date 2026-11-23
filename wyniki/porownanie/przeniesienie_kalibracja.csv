@@ -1,0 +1,53 @@
+metoda,prog,kara_pelt,czesc,metody_z,szereg,w
+"CUSUM (poziom, zmienność, zależność)",1.5421942005936455,,przeniesienie,S1,S2,50
+PELT,0.4614729668089878,261.0,przeniesienie,S1,S2,50
+Matrix Profile,8.735173475262206,,przeniesienie,S1,S2,50
+cechy okien + kNN (5 cech),5.01679730195399,,przeniesienie,S1,S2,50
+cechy okien + kNN (3 cechy),2.7481849541569736,,przeniesienie,S1,S2,50
+Isolation Forest (5 cech),0.6907845075988074,,przeniesienie,S1,S2,50
+Isolation Forest (3 cechy),0.717076084097732,,przeniesienie,S1,S2,50
+LOF (5 cech),3.066784813784744,,przeniesienie,S1,S2,50
+LOF (3 cechy),3.430818383544005,,przeniesienie,S1,S2,50
+"CUSUM (poziom, zmienność, zależność)",1.9977563350468135,,przeniesienie,S1,S3,50
+PELT,0.0,54.0,przeniesienie,S1,S3,50
+Matrix Profile,9.75570563598575,,przeniesienie,S1,S3,50
+cechy okien + kNN (5 cech),4.055099757921762,,przeniesienie,S1,S3,50
+cechy okien + kNN (3 cechy),2.628324849036112,,przeniesienie,S1,S3,50
+Isolation Forest (5 cech),0.6723102210275397,,przeniesienie,S1,S3,50
+Isolation Forest (3 cechy),0.6875821492384337,,przeniesienie,S1,S3,50
+LOF (5 cech),2.633968880939434,,przeniesienie,S1,S3,50
+LOF (3 cechy),2.9706609768313306,,przeniesienie,S1,S3,50
+reszty AR + CUSUM,1.5914252371899476,,przeniesienie,S2,S1,50
+PELT (koszt AR),0.0,17.0,przeniesienie,S2,S1,50
+Matrix Profile (reszty AR),8.879251734012707,,przeniesienie,S2,S1,50
+cechy okien + kNN (5 cech),3.3877623403677646,,przeniesienie,S2,S1,50
+cechy okien + kNN (3 cechy),2.6760247206191696,,przeniesienie,S2,S1,50
+Isolation Forest (5 cech),0.6520020249591699,,przeniesienie,S2,S1,50
+Isolation Forest (3 cechy),0.6807942577092201,,przeniesienie,S2,S1,50
+One-Class SVM (5 cech),2.077503287882501,,przeniesienie,S2,S1,50
+One-Class SVM (3 cechy),1.828829482745804,,przeniesienie,S2,S1,50
+reszty AR + CUSUM,1.5393634417773476,,przeniesienie,S2,S3,50
+PELT (koszt AR),0.0,20.0,przeniesienie,S2,S3,50
+Matrix Profile (reszty AR),8.387324190639644,,przeniesienie,S2,S3,50
+cechy okien + kNN (5 cech),3.595605207025949,,przeniesienie,S2,S3,50
+cechy okien + kNN (3 cechy),2.748773300375705,,przeniesienie,S2,S3,50
+Isolation Forest (5 cech),0.6986935761563015,,przeniesienie,S2,S3,50
+Isolation Forest (3 cechy),0.7007100185872343,,przeniesienie,S2,S3,50
+One-Class SVM (5 cech),3.1411628457916048,,przeniesienie,S2,S3,50
+One-Class SVM (3 cechy),2.328768214957045,,przeniesienie,S2,S3,50
+STL + EWMA,0.723621063228813,,przeniesienie,S3,S1,50
+PELT (reszty STL),0.0,13.0,przeniesienie,S3,S1,50
+Matrix Profile z normalizacją,7.860835484661208,,przeniesienie,S3,S1,50
+cechy cykli + kNN (5 cech),3.0518031323809187,,przeniesienie,S3,S1,50
+cechy cykli + kNN (3 cechy),1.9189797587996744,,przeniesienie,S3,S1,50
+Isolation Forest (5 cech),0.667910429786529,,przeniesienie,S3,S1,50
+Isolation Forest (3 cechy),0.6716878279551717,,przeniesienie,S3,S1,50
+autoenkoder,1.8227612933155009,,przeniesienie,S3,S1,50
+STL + EWMA,1.5020740293474448,,przeniesienie,S3,S2,50
+PELT (reszty STL),0.0,37.0,przeniesienie,S3,S2,50
+Matrix Profile z normalizacją,7.523434470512895,,przeniesienie,S3,S2,50
+cechy cykli + kNN (5 cech),3.147063356541556,,przeniesienie,S3,S2,50
+cechy cykli + kNN (3 cechy),1.914758009861734,,przeniesienie,S3,S2,50
+Isolation Forest (5 cech),0.6491945155886171,,przeniesienie,S3,S2,50
+Isolation Forest (3 cechy),0.6632283685073824,,przeniesienie,S3,S2,50
+autoenkoder,2.8003258820943824,,przeniesienie,S3,S2,50

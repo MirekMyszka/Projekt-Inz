@@ -1,0 +1,59 @@
+zbior,miara,wartosc
+SPY,świece,209908
+SPY,pierwsza,2016-01-04 09:30:00-05:00
+SPY,ostatnia,2026-09-30 15:55:00-04:00
+SPY,dni sesji w kalendarzu NYSE,2701
+SPY,dni w danych,2701
+SPY,dni z 78 świecami,2674
+SPY,sesje skrócone w kalendarzu (42 świece),21
+SPY,sesje skrócone w danych z 42 świecami,21
+SPY,świece poza godzinami sesji,0
+SPY,brakujące świece,14
+SPY,dni z brakami,6
+SPY,duplikaty,0
+SPY,wartości NaN,0
+SPY,świece z niespójnym OHLC,0
+SPY,"świece z VWAP poza [l, h]",0
+SPY,świece z zerowym wolumenem,0
+SPY,dni ze wstrzymaniem handlu,4
+SPY,brakujące świece w dniach wstrzymania handlu,8
+SPY,zgodność z listą brakujących świec ze skryptu czyszczenia,True
+BTC,świece,957865
+BTC,pierwsza,2017-08-17 04:00:00+00:00
+BTC,ostatnia,2026-09-30 23:55:00+00:00
+BTC,świece w pełnej siatce 5-min,959568
+BTC,dni (UTC),3332
+BTC,dni z 288 świecami,3298
+BTC,świece pierwszego dnia,240
+BTC,brakujące świece,1703
+BTC,przerwy (ciągłe bloki braków),33
+BTC,dni z przerwą,33
+BTC,najdłuższa przerwa [świece],402
+BTC,świece poza siatką 5-min,0
+BTC,duplikaty,0
+BTC,wartości NaN,0
+BTC,świece z niespójnym OHLC,0
+BTC,"świece z VWAP poza [l, h]",0
+BTC,świece z zerowym wolumenem,932
+BTC,  w tym płaskie (o = h = l = c),932
+BTC,  w tym w 2017 r.,874
+BTC,świece ze skorygowanym czasem,241
+BTC,zgodność z listą brakujących świec ze skryptu czyszczenia,True
+NYC,punkty,10320
+NYC,pierwszy,2014-07-01 00:00:00
+NYC,ostatni,2015-01-31 23:30:00
+NYC,punkty w siatce 30-min,10320
+NYC,dni,215
+NYC,brakujące punkty,0
+NYC,duplikaty,0
+NYC,wartości NaN,0
+NYC,okna NAB,5
+NYC,punkty w oknie NAB (każde okno),207
+NYC,punkty w oknach NAB,1035
+NYC,odsetek punktów w oknach,0.1002906976744186
+NYC,punkty anomalii NAB (środki okien),5
+NYC,punkty zmiany czasu,2
+NYC,maksimum,39197
+NYC,czas maksimum,2014-11-02 01:00:00
+NYC,minimum,8
+NYC,czas minimum,2015-01-27 03:00:00

@@ -1,0 +1,53 @@
+zbior,miara,wartosc
+SPY,zwroty 5-min,2.072e+05
+SPY,kurtoza (nadwyżkowa),48.195
+SPY,autokorelacja r (1),-0.0085038
+SPY,autokorelacja |r| (1),0.38722
+SPY,autokorelacja |r| (1 dzień),0.30312
+SPY,mediana dziennej RV [%],0.53695
+SPY,|robust z| > 10,576
+SPY,|robust z| > 10 przy rozkładzie normalnym (oczekiwane),3.1577e-18
+SPY,początek sesji / środek dnia,1.7459
+SPY,koniec sesji / środek dnia,1.6619
+BTC,zwroty 5-min,9.569e+05
+BTC,kurtoza (nadwyżkowa),107.99
+BTC,autokorelacja r (1),-0.052742
+BTC,autokorelacja |r| (1),0.4159
+BTC,autokorelacja |r| (1 dzień),0.20953
+BTC,mediana dziennej RV [%],2.5832
+BTC,|robust z| > 10,5118
+BTC,|robust z| > 10 przy rozkładzie normalnym (oczekiwane),1.4583e-17
+BTC,godzina maks. / średnia,1.2505
+BTC,godzina maks. (UTC),14
+BTC,godzina min. / średnia,0.84251
+BTC,weekend / dni robocze,0.77344
+NYC,średnia liczba pasażerów / 30 min,15138
+NYC,autokorelacja (1 doba = 48),0.80399
+NYC,autokorelacja (1 tydzień = 336),0.92137
+NYC,autokorelacja (pół doby = 24),-0.14438
+NYC,godzina maks. / godzina min. (średnio),6.3882
+NYC,godzina maks.,19
+NYC,godzina min.,5
+NYC,dzień tygodnia maks. / min.,1.2728
+SPY,autokorelacja |r| (1),0.38722
+SPY,autokorelacja |r| (2),0.3951
+SPY,autokorelacja |r| (3),0.38226
+SPY,autokorelacja |r| (6),0.36735
+SPY,autokorelacja |r| (12),0.34019
+SPY,autokorelacja |r| (24),0.29394
+SPY,autokorelacja |r| (48),0.26693
+SPY,autokorelacja |r| (78),0.30312
+SPY,autokorelacja |r| (144),0.2737
+SPY,autokorelacja |r| (288),0.22374
+SPY,autokorelacja |r| (576),0.16219
+BTC,autokorelacja |r| (1),0.4159
+BTC,autokorelacja |r| (2),0.37894
+BTC,autokorelacja |r| (3),0.35936
+BTC,autokorelacja |r| (6),0.33264
+BTC,autokorelacja |r| (12),0.30445
+BTC,autokorelacja |r| (24),0.26795
+BTC,autokorelacja |r| (48),0.24483
+BTC,autokorelacja |r| (78),0.22639
+BTC,autokorelacja |r| (144),0.21988
+BTC,autokorelacja |r| (288),0.20953
+BTC,autokorelacja |r| (576),0.1776

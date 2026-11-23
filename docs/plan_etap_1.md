@@ -192,7 +192,7 @@ Najpierw **jeden scenariusz – S1 (biały szum)** (ustalone na konsultacji): na
 | 7 ✅ | S2 (AR(1)) – generator, anomalie S2-A/B/C, metody z rozdz. 4.4, eksperyment | wyniki S2 | jw. |
 | 8 ✅ | S3 (sinus) – generator, anomalie okresowości S3-A/B/C, metody z rozdz. 4.5, eksperyment | wyniki S3 | jw. |
 | 8a | **Dopracowanie S1–S3** (ustalone 2026-10-26: najpierw wszystkie trzy scenariusze „idealnie”, potem porównanie) | poprawione wyniki S1–S3 | jw. |
-| 9 | Porównanie scenariuszy: jak zależność w szeregu zmienia skuteczność metod | wnioski do pracy | `wyniki/` |
+| 9 ✅ | Porównanie scenariuszy: jak zależność w szeregu zmienia skuteczność metod | wnioski do pracy | `wyniki/porownanie/`, [porownanie_s1_s3.md](porownanie_s1_s3.md) |
 | 10 | (dalej) dane rzeczywiste: NYC Taxi (z etykietami), SPY, BTC; ewentualnie więcej scenariuszy | – | – |
 
 ## 6. Jak oceniamy (dla wszystkich scenariuszy tak samo)
@@ -390,3 +390,24 @@ dały wyniki identyczne co do bitu z wcześniejszymi). Najważniejsze skutki:
 Szczegóły: wyniki_s1.md, wyniki_s2.md, wyniki_s3.md (rozdz. 2, 3 i 7).
 
 Następny krok: porównanie S1–S3 (krok 9).
+
+## 14. Porównanie S1–S3 (krok 9, 2026-10-28)
+
+Pełny opis: [porownanie_s1_s3.md](porownanie_s1_s3.md); raport PDF: `docs/Raport_etap1_porownanie.pdf`.
+Porównanie opiera się na kolejności rodzin metod (ta sama rola w każdym scenariuszu), rodzajach anomalii (wartości /
+struktury / dynamiki), częściach ze zmienianą właściwością tła (σ, φ, A) i **nowym eksperymencie przeniesienia
+metod** (`src/ewaluacja/porownanie.py`): zestaw metod scenariusza X na szeregach scenariusza Y, na tych samych szeregach
+co części główne (poziomy 2–3, 50 szeregów na (poziom, L), 1 800 szeregów). Najważniejsze wyniki:
+- nie ma jednej najlepszej metody: S1 – kNN na 3 cechach (69%), S2 – reszty AR + CUSUM (47%),
+  S3 – kNN na cechach cykli (91%); najbardziej uniwersalne są cechy okien + kNN;
+- o skuteczności decyduje, czy model normy metody obejmuje strukturę szeregu: model ogólniejszy nic nie kosztuje (metody
+  S2 na białym szumie), brak modelu cyklu wyłącza statystyki z surowych wartości (CUSUM z S1 na szeregu okresowym:
+  4 / 0 / 14%), a zły model tła jest gorszy niż brak modelu (na szeregu okresowym: bez modelu
+  55%, model AR 34%; na szeregu AR: bez modelu 18%, model cyklu
+  5%);
+- zależność w czasie utrudnia wykrywanie najbardziej, okresowość pomaga przy wyraźnym cyklu; anomalie wartości są
+  najłatwiejsze (84%), dynamiki – najtrudniejsze (41%);
+- zestaw cech i długość okna trzeba dobierać do szeregu; maskowanie w Isolation Forest i zysk z uczenia na szeregach
+  bez anomalii – we wszystkich scenariuszach.
+
+Następny krok (po akceptacji): część empiryczna na danych rzeczywistych (NYC Taxi, SPY, BTCUSDT).

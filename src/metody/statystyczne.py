@@ -92,6 +92,7 @@ class CUSUM(Detektor):
     def kalibruj(self, szeregi_czyste):
         maks = np.array([self.karty(x).max(axis=1) for x in szeregi_czyste])
         self.skale = np.median(maks, axis=0)
+        self.skale = np.where(self.skale > 0, self.skale, 1.0)   # karta, która na danych kalibracyjnych nie rośnie
 
     def wynik(self, x):
         return (self.karty(x) / self.skale[:, None])[self.karty_uzyte].max(axis=0)
@@ -318,8 +319,9 @@ class PELTAR(_PELTBaza, Detektor):
     nazwa = "PELT (koszt AR)"
     grupa = "statystyczne"
 
-    def __init__(self, kara: float = 40.0, min_dl: int = 10, skok: int = 5):
+    def __init__(self, kara: float = 40.0, min_dl: int = 10, skok: int = 5, korekta_zaleznosci: bool = False):
         self.kara, self.min_dl, self.skok = kara, min_dl, skok
+        self.korekta_zaleznosci = korekta_zaleznosci       # jak w PELTSTL - tylko dane rzeczywiste (etap 2)
 
     def granice(self, x, kara=None):
         return pelt_ogolny(_koszt_ar1(x), len(x), self.kara if kara is None else kara, self.min_dl, self.skok)
@@ -334,13 +336,17 @@ class PELTAR(_PELTBaza, Detektor):
         c = float(y.mean() - phi * z.mean())
         r = np.r_[0.0, x[1:] - c - phi * x[:-1]]
         s_e = float(r[pary].std())
+        f = 1.0                                   # efektywna liczba obserwacji przy zależnych resztach (PELTSTL._z)
+        if self.korekta_zaleznosci:
+            rho = float(np.clip(np.corrcoef(r[pary][1:], r[pary][:-1])[0, 1], 0.0, 0.99))
+            f = (1 - rho) / (1 + rho)
         out = np.zeros(len(x))
         start = 0
         for koniec in gr:
             seg, rs = x[start:koniec], r[max(start, 1):koniec]
-            n = len(seg)
-            out[start:koniec] = max(abs(rs.mean()) * np.sqrt(len(rs)) / s_e,
-                                    abs(np.log(rs.var() / s_e ** 2 + 1e-12)) * np.sqrt(len(rs) / 2),
+            n = len(seg) * f
+            out[start:koniec] = max(abs(rs.mean()) * np.sqrt(len(rs) * f) / s_e,
+                                    abs(np.log(rs.var() / s_e ** 2 + 1e-12)) * np.sqrt(len(rs) * f / 2),
                                     abs(_ac1(seg) - phi) * np.sqrt(n) / np.sqrt(1 - phi ** 2))
             start = koniec
         return out
@@ -426,9 +432,9 @@ class STLEWMA(_ResztyCyklu, Detektor):
     nazwa = "STL + EWMA"
     grupa = "statystyczne"
 
-    def __init__(self, P: int = 50, model: str = "stl", sezon: int | None = None, nazwa=None):
+    def __init__(self, P: int = 50, model: str = "stl", sezon: int | None = None, nazwa=None, pamiec: int | None = None):
         super().__init__(P, model, sezon)
-        self.lam = 2 / (P + 1)
+        self.lam = 2 / ((pamiec or P) + 1)          # pamiec - efektywna pamięć karty (domyślnie jeden cykl P)
         self.nazwa = nazwa or (self.nazwa + self._opis())
 
     def wynik(self, x):
@@ -448,9 +454,10 @@ class PELTSTL(_PELTBaza, _ResztyCyklu, Detektor):
     grupa = "statystyczne"
 
     def __init__(self, P: int = 50, kara: float = 40.0, min_dl: int = 10, skok: int = 5, model: str = "stl",
-                 sezon: int | None = None, nazwa=None):
+                 sezon: int | None = None, nazwa=None, korekta_zaleznosci: bool = False):
         super().__init__(P, model, sezon)
         self.kara, self.min_dl, self.skok = kara, min_dl, skok
+        self.korekta_zaleznosci = korekta_zaleznosci
         self.nazwa = nazwa or (self.nazwa + self._opis())
 
     def granice(self, r, kara=None):
@@ -463,11 +470,18 @@ class PELTSTL(_PELTBaza, _ResztyCyklu, Detektor):
         gr = self.granice(r, kara)
         tlo = maska_tla(gr, len(r))
         mu, s = float(r[tlo].mean()), float(r[tlo].std())
+        # korekta_zaleznosci (dane rzeczywiste, etap 2): statystyki z zakładają niezależne reszty; przy reszt
+        # autokorelacji ρ efektywna liczba obserwacji odcinka to n·(1 − ρ)/(1 + ρ) (wariancja średniej procesu AR(1)).
+        # Na szeregach syntetycznych reszty są prawie niezależne (ρ ≈ 0), więc etap 1 liczono bez korekty.
+        f = 1.0
+        if self.korekta_zaleznosci:
+            rho = float(np.clip(np.corrcoef(r[1:], r[:-1])[0, 1], 0.0, 0.99))
+            f = (1 - rho) / (1 + rho)
         out = np.zeros(len(r))
         start = 0
         for koniec in gr:
             seg = r[start:koniec]
-            n = len(seg)
+            n = len(seg) * f
             out[start:koniec] = max(abs(seg.mean() - mu) * np.sqrt(n) / s,
                                     abs(np.log(seg.var() / s ** 2 + 1e-12)) * np.sqrt(n / 2))
             start = koniec

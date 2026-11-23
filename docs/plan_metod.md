@@ -338,7 +338,7 @@ Na SPY i BTC nie wiemy, gdzie są „wszystkie” anomalie. Dlatego:
 | 7 | Pierwszy pełny eksperyment na małej siatce (S1 × 2 typy anomalii) – sprawdzenie całego łańcucha | pierwszy wykres F1 vs amplituda | `wyniki/` |
 | 8 | Pozostałe metody: S2, S3, F1, F2, M1, M2 (+ opcjonalnie S4, M3) | kolejne klasy w `src/metody` | `src/metody` |
 | 9 | Pełna siatka eksperymentów symulacyjnych + półsyntetycznych | tabele i wykresy wyników | `src/ewaluacja`, `wyniki/` |
-| 10 | Dane rzeczywiste: recall@N na katalogu zdarzeń, alarmy na miesiąc, studia przypadków | wykresy z alarmami na tle ceny | `wyniki/` |
+| 10 | ✅ Dane rzeczywiste: recall@N na katalogu zdarzeń, alarmy na rok, studia przypadków – [wyniki_rzeczywiste.md](wyniki_rzeczywiste.md) | wykresy `rz_*.png`, raport `Raport_etap2_dane_rzeczywiste.pdf` | `src/rzeczywiste`, `wyniki/rzeczywiste/` |
 | 11 | Wnioski: która metoda do którego typu anomalii, zależność od intensywności, czasu trwania, szumu i szeregu | rozdział pracy | – |
 
 Kolejność ma znaczenie: kroki 3–7 budują **łańcuch end-to-end z jedną prostą metodą**, zanim powstaną kolejne metody.
